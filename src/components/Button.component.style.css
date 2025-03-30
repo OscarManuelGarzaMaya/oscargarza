@@ -1,0 +1,26 @@
+@import '../assets/globals.css';
+
+.buttonStyle {
+	background-color: var(--primary-red);
+	color: var(--primary-white);
+	font-size: 24px;
+	padding: 12px 24px;
+	border: none;
+	border-radius: 12px;
+	position: relative;
+	box-shadow: -6px 6px 0px var(--primary-blue);
+	outline: 3px solid var(--primary-light-blue);
+	cursor: pointer;
+	font-weight: bold;
+	text-align: center;
+}
+
+.buttonStyle:hover {
+	transform: translateY(-2px);
+	box-shadow: -8px 8px 0px var(--primary-blue);
+}
+
+.buttonStyle:active {
+	transform: translateY(2px);
+	box-shadow: -4px 4px 0px var(--primary-blue);
+}
