@@ -1,6 +1,13 @@
 @import '../assets/globals.css';
 
+.buttonContainer {
+	display: flex;
+	justify-content: center;
+}
+
 .buttonStyle {
+	width: 100%;
+	max-width: 75%;
 	background-color: var(--primary-red);
 	color: var(--primary-white);
 	font-size: 24px;
