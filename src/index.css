@@ -1,9 +1,8 @@
-body {
-	margin: 0;
-	font-family: 'Poppins-Regular';
-	src: local('Poppins-Regular'), url(./assets/fonts/Poppins-Regular.ttf);
+.appContainer {
+	height: 100vh;
+	padding: 5rem 10rem;
 }
 
-code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+body {
+	margin: 0;
 }
