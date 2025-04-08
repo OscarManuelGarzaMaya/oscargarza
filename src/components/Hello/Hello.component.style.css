@@ -1,7 +1,18 @@
 @import '../../assets/globals.css';
 
 .helloContainer {
-	grid-column: 2 / 4;
+	grid-column: 1 / 4;
+	display: grid;
+	grid-template: 1 / 3;
+}
+
+.profilePicContainer {
+	display: flex;
+	justify-content: center;
+}
+
+.titleContainer {
+	grid-column-start: 2;
 }
 
 .helloMessage {
