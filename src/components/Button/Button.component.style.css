@@ -1,0 +1,25 @@
+@import '../../assets/globals.css';
+
+.buttonContainer {
+	display: flex;
+	justify-content: center;
+}
+
+.buttonStyle {
+	width: 100%;
+	background-color: var(--primary-red);
+	border: none;
+	cursor: pointer;
+	text-align: center;
+	font-family: poppins-bold;
+}
+
+.buttonStyle:hover {
+	transform: translateY(-2px);
+	box-shadow: -8px 8px 0px var(--primary-blue);
+}
+
+.buttonStyle:active {
+	transform: translateY(2px);
+	box-shadow: -4px 4px 0px var(--primary-blue);
+}

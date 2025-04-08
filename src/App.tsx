@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import ButtonComponent from './components/Button/Button.component'
+import HelloComponent from './components/Hello/Hello.component'
+import dictionary from './dictionary.json'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<header className="header">
+				<ButtonComponent text={dictionary.header.buttons.aboutMe} />
+				<ButtonComponent text={dictionary.header.buttons.projects} />
+				<ButtonComponent text={dictionary.header.buttons.studies} />
+				<ButtonComponent text={dictionary.header.buttons.contactMe} />
+			</header>
+			<HelloComponent />
+		</div>
+	)
 }
 
-export default App;
+export default App
