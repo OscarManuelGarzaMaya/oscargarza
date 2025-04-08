@@ -6,7 +6,7 @@
 }
 
 .buttonStyle {
-	max-width: 75%;
+	width: 100%;
 	background-color: var(--primary-red);
 	border: none;
 	cursor: pointer;
