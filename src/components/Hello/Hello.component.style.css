@@ -1,0 +1,9 @@
+@import '../../assets/globals.css';
+
+.helloContainer {
+	grid-column: 2 / 4;
+}
+
+.helloMessage {
+	background-color: var(--primary-orange);
+}
