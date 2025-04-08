@@ -1,16 +1,32 @@
+@import './assets/globals.css';
+
 @font-face {
-	font-family: 'poppins';
-	src: local('./assets/fonts/Poppins-Regular.ttf');
+	font-family: poppins;
+	src: url('./assets/fonts/Poppins-Regular.ttf');
 }
+
+@font-face {
+	font-family: poppins-bold;
+	src: url('./assets/fonts/Poppins-Bold.ttf');
+}
+
+* {
+	font-family: poppins;
+	color: var(--primary-white);
+}
+
 .App {
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	font-family: 'poppins';
+	display: grid;
+	grid-template-columns: repeat(4, auto);
+	background-color: greenyellow;
 }
 
 .header {
+	grid-column: 1 / -1;
 	display: grid;
 	grid-template-columns: repeat(4, auto);
 	gap: 16px;
