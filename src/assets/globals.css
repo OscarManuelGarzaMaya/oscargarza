@@ -1,6 +1,16 @@
 :root {
 	--primary-red: #c0392b;
+	--primary-orange: #f6733b;
 	--primary-white: #fff;
 	--primary-blue: #58b4b0;
 	--primary-light-blue: #6de4d0;
+}
+
+.genericStyles {
+	width: 100%;
+	font-size: 24px;
+	padding: 12px 24px;
+	border-radius: 12px;
+	box-shadow: -6px 6px 0px var(--primary-blue);
+	outline: 3px solid var(--primary-light-blue);
 }
