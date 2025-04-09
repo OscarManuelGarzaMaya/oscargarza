@@ -21,13 +21,26 @@
 	bottom: 0;
 	left: 0;
 	display: grid;
-	grid-template-columns: repeat(4, auto);
+	grid-template: auto / 12;
 }
 
 .header {
-	grid-column: 1 / -1;
+	grid-column: 1 / span 11;
 	display: grid;
 	grid-template-columns: repeat(4, auto);
 	gap: 16px;
 	padding: 20px 0;
+}
+
+.typingContainer {
+	grid-area: 3 / 6 / 5 / 12;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.typing {
+	border-radius: 1rem;
 }
