@@ -3,12 +3,32 @@
 .helloContainer {
 	grid-column: 1 / 4;
 	display: grid;
-	grid-template: 1 / 3;
+	grid-template: 3 / 3;
+	margin-top: 5rem;
 }
 
 .profilePicContainer {
+	grid-row: 1 / 3;
 	display: flex;
 	justify-content: center;
+	position: relative;
+	z-index: 1;
+}
+
+.profilePic {
+	align-self: center;
+	margin-bottom: 1rem;
+}
+
+.profilePicBackground {
+	width: 12rem;
+	height: 8rem;
+	border-radius: 1rem;
+	position: absolute;
+	z-index: -1;
+	background-color: var(--primary-red);
+	justify-content: center;
+	bottom: 0;
 }
 
 .titleContainer {

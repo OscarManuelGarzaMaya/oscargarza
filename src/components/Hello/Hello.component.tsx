@@ -11,7 +11,9 @@ const HelloComponent = () => {
 				<img
 					src={profilePic}
 					alt="imagenDePerfil"
+					className="profilePic"
 				/>
+				<div className="profilePicBackground"></div>
 			</div>
 			<div className="titleContainer">
 				<div className="genericStyles helloMessage">{dictionary.hello.title}</div>
