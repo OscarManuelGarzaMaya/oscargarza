@@ -1,7 +1,7 @@
 @import '../../assets/globals.css';
 
 .helloContainer {
-	grid-column: 1 / 4;
+	grid-column: 1 / 8;
 	display: grid;
 	grid-template: 3 / 3;
 	margin-top: 5rem;

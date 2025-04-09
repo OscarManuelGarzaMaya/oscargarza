@@ -1,7 +1,13 @@
 import './App.css'
+
+// Components
 import ButtonComponent from './components/Button/Button.component'
 import HelloComponent from './components/Hello/Hello.component'
+
 import dictionary from './dictionary.json'
+
+// Assets
+import typing from './assets/gifs/typing.gif'
 
 function App() {
 	return (
@@ -13,6 +19,13 @@ function App() {
 				<ButtonComponent text={dictionary.header.buttons.contactMe} />
 			</header>
 			<HelloComponent />
+			<div className="typingContainer">
+				<img
+					src={typing}
+					alt="Typing"
+					className="typing"
+				/>
+			</div>
 		</div>
 	)
 }
