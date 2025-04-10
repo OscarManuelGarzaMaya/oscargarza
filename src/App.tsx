@@ -23,7 +23,7 @@ function App() {
 				<img
 					src={typing}
 					alt="Typing"
-					className="typing"
+					className="typing genericShadow"
 				/>
 			</div>
 		</div>

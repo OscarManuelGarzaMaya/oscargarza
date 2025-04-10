@@ -1,6 +1,9 @@
+@import './assets/globals.css';
+
 .appContainer {
 	height: 100%;
-	padding: 5rem 6rem;
+	padding: 5rem 25rem;
+	background-color: var(--seconday-light-blue);
 }
 
 body {
