@@ -36,7 +36,27 @@ function App() {
 			<div className="softwareDeveloperContainer genericStyles genericShadow">
 				<p>{dictionary.experience.description}</p>
 			</div>
-			<div style={{ backgroundColor: 'lightgray' }}>2</div>
+			<div className="technologiesContainer">
+				<div className="techsRow">
+					<div className="frontEndTechsContainer">
+						<div className="frontEndTechsTitle genericShadow">
+							<p>{dictionary.techs.frontend}</p>
+						</div>
+					</div>
+					<div className="BackEndTechsContainer">
+						<div className="BackEndTechsTitle">
+							<p>{dictionary.techs.backend}</p>
+						</div>
+					</div>
+				</div>
+				<div className="techsRow">
+					<div className="dbTechsContainer">
+						<div className="dbTechsTitle">
+							<p>{dictionary.techs.databases}</p>
+						</div>
+					</div>
+				</div>
+			</div>
 			{/* <div style={{ backgroundColor: 'lightblue' }}>3</div>
 			<div style={{ backgroundColor: 'lightgreen' }}>4</div>
 			<div style={{ backgroundColor: 'lightyellow' }}>5</div>
