@@ -12,5 +12,10 @@
 	},
 	"experience": {
 		"description": "Soy desarrollador de software con experiencia en..."
+	},
+	"techs": {
+		"frontend": "Front-End",
+		"backend": "Back-End",
+		"databases": "Bases de datos"
 	}
 }
