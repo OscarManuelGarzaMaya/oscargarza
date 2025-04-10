@@ -11,11 +11,11 @@
 
 .genericStyles {
 	font-size: 24px;
-	padding: 12px 24px;
-	border-radius: 12px;
-	outline: 3px solid var(--primary-light-blue);
+	padding: 1vh 2vh;
+	border-radius: 1.5vh;
+	outline: .4vh solid var(--primary-light-blue);
 }
 
 .genericShadow {
-	box-shadow: -6px 6px 0px var(--primary-blue);
+	box-shadow: -.8vh .8vh 0 var(--primary-blue);
 }

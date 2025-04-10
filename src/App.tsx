@@ -43,15 +43,15 @@ function App() {
 							<p>{dictionary.techs.frontend}</p>
 						</div>
 					</div>
-					<div className="BackEndTechsContainer">
-						<div className="BackEndTechsTitle">
+					<div className="backEndTechsContainer">
+						<div className="backEndTechsTitle genericShadow">
 							<p>{dictionary.techs.backend}</p>
 						</div>
 					</div>
 				</div>
 				<div className="techsRow">
 					<div className="dbTechsContainer">
-						<div className="dbTechsTitle">
+						<div className="dbTechsTitle genericShadow">
 							<p>{dictionary.techs.databases}</p>
 						</div>
 					</div>
