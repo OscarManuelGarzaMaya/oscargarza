@@ -1,15 +1,20 @@
 :root {
 	--primary-red: #c0392b;
+	--primary-dark-red: #88291f;
 	--primary-orange: #f6733b;
 	--primary-white: #fff;
 	--primary-blue: #58b4b0;
 	--primary-light-blue: #6de4d0;
+	--seconday-light-blue: #6de4d017;
 }
 
 .genericStyles {
 	font-size: 24px;
 	padding: 12px 24px;
 	border-radius: 12px;
-	box-shadow: -6px 6px 0px var(--primary-blue);
 	outline: 3px solid var(--primary-light-blue);
+}
+
+.genericShadow {
+	box-shadow: -6px 6px 0px var(--primary-blue);
 }
