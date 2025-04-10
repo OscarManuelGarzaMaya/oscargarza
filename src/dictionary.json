@@ -9,5 +9,8 @@
 	},
 	"hello": {
 		"title": "Hola! Soy Oscar Garza"
+	},
+	"experience": {
+		"description": "Soy desarrollador de software con experiencia en..."
 	}
 }
