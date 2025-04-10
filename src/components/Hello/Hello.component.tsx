@@ -16,7 +16,7 @@ const HelloComponent = () => {
 				<div className="profilePicBackground"></div>
 			</div>
 			<div className="titleContainer">
-				<div className="genericStyles helloMessage">{dictionary.hello.title}</div>
+				<div className="genericStyles helloMessage genericShadow">{dictionary.hello.title}</div>
 			</div>
 		</div>
 	)
