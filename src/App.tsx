@@ -37,23 +37,34 @@ function App() {
 				<p>{dictionary.experience.description}</p>
 			</div>
 			<div className="technologiesContainer">
-				<div className="techsRow">
-					<div className="frontEndTechsContainer">
-						<div className="frontEndTechsTitle genericShadow">
-							<p>{dictionary.techs.frontend}</p>
-						</div>
+				<div className="frontEndTechsContainer">
+					<div className="frontEndTechsTitle genericShadow">
+						<p>{dictionary.techs.frontend}</p>
 					</div>
-					<div className="backEndTechsContainer">
-						<div className="backEndTechsTitle genericShadow">
-							<p>{dictionary.techs.backend}</p>
-						</div>
+					<div className="techsList frontEndTechsListContainer">
+						<p>React</p>
+						<p>React Native</p>
+						<p>JavaScript</p>
+						<p>TypeScript</p>
 					</div>
 				</div>
-				<div className="techsRow">
-					<div className="dbTechsContainer">
-						<div className="dbTechsTitle genericShadow">
-							<p>{dictionary.techs.databases}</p>
-						</div>
+				<div className="backEndTechsContainer">
+					<div className="backEndTechsTitle genericShadow">
+						<p>{dictionary.techs.backend}</p>
+					</div>
+					<div className="techsList backEndTechsListContainer">
+						<p>C#</p>
+						<p>.NET</p>
+					</div>
+				</div>
+				<div className="dbTechsContainer">
+					<div className="dbTechsTitle genericShadow">
+						<p>{dictionary.techs.databases}</p>
+					</div>
+					<div className="techsList dbTechsListContainer">
+						<p>MySQL</p>
+						<p>SQL Server</p>
+						<p>MSSQL</p>
 					</div>
 				</div>
 			</div>
