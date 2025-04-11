@@ -12,6 +12,7 @@
 	cursor: pointer;
 	text-align: center;
 	font-family: poppins-bold;
+	font-size: 20px;
 }
 
 .buttonStyle:hover {
