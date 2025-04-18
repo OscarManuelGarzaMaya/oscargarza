@@ -17,5 +17,15 @@
 		"frontend": "Front-End",
 		"backend": "Back-End",
 		"databases": "Bases de datos"
+	},
+	"contactMe": {
+		"title": {
+			"first": "Contactame - Estoy aquí ",
+			"second": "para ayudarte"
+		},
+		"sendAMail": "Te enviaré un correo a ",
+		"keepInContact": "Y no mantendremos en contacto",
+		"placeholderMail": "correo@correo.com",
+		"send": "Enviar"
 	}
 }
