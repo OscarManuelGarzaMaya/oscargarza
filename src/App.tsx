@@ -120,7 +120,7 @@ function App() {
 					</div>
 				</div>
 			</div>
-			<div className="studiesContainer">
+			<section className="studiesContainer">
 				<div className="studiesTitle genericStyles">
 					<p>Constantemente me estoy capacitando</p>
 				</div>
@@ -195,7 +195,7 @@ function App() {
 						),
 					)}
 				</div>
-			</div>
+			</section>
 			{/* <div style={{ backgroundColor: 'lightgreen' }}>4</div>
 			<div style={{ backgroundColor: 'lightyellow' }}>5</div>
 			<div style={{ backgroundColor: 'lightcoral' }}>6</div>
