@@ -5,12 +5,14 @@ import './assets/globals.css'
 
 // Assets
 import typing from './assets/gifs/typing.gif'
+import letsDoThis from './assets/gifs/lestDoThis.gif'
 import HeaderComponent from './components/Header/Header.component'
 import profilePic from './assets/images/perfil.png'
 import placeholder from './assets/images/placeholder.jpg'
 
 // Misc
 import dictionary from './dictionary.json'
+import ButtonComponent from './components/Button/Button.component'
 
 function App() {
 	const [titles, setTitles] = useState([
@@ -196,22 +198,35 @@ function App() {
 					)}
 				</div>
 			</section>
-			{/* <div style={{ backgroundColor: 'lightgreen' }}>4</div>
-			<div style={{ backgroundColor: 'lightyellow' }}>5</div>
-			<div style={{ backgroundColor: 'lightcoral' }}>6</div>
-			<div style={{ backgroundColor: 'lightpink' }}>7</div>
-			<div style={{ backgroundColor: 'lightgray' }}>8</div>
-			<div style={{ backgroundColor: 'lightpink' }}>9</div>
-			<div style={{ backgroundColor: 'lightgray' }}>10</div>
-			<div style={{ backgroundColor: 'lightblue' }}>11</div>
-			<div style={{ backgroundColor: 'lightgreen' }}>12</div>
-			<div style={{ backgroundColor: 'lightyellow' }}>13</div>
-			<div style={{ backgroundColor: 'lightcoral' }}>14</div>
-			<div style={{ backgroundColor: 'lightpink' }}>15</div>
-			<div style={{ backgroundColor: 'lightgray' }}>16</div> */}
-			{/* <div className="softwareDeveloperContainer">
-				<p>Soy desarrallodaro web con experiencia en...</p>
-			</div> */}
+			<section className="contactMeContainer">
+				<div className="contactMeColumn">
+					<div className="contactMeTitleContainer genericStyles">
+						<p>
+							{dictionary.contactMe.title.first}
+							<br /> {dictionary.contactMe.title.second}
+						</p>
+					</div>
+					<div className="contactMeFormContainer genericStyles">
+						<p>{dictionary.contactMe.sendAMail}</p>{' '}
+						<input
+							maxLength={50}
+							type="email"
+							className="genericStyles emailInput"
+							placeholder={dictionary.contactMe.placeholderMail}
+						/>{' '}
+						<p>{dictionary.contactMe.keepInContact}</p>
+						<div className="sendButtonContainer">
+							<ButtonComponent text={dictionary.contactMe.send} />
+						</div>
+					</div>
+				</div>
+				<div className="contactMeGif">
+					<img
+						src={letsDoThis}
+						alt="Lets do this!"
+					/>
+				</div>
+			</section>
 		</div>
 	)
 }

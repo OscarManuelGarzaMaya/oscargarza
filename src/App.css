@@ -218,3 +218,67 @@
 	color: var(--secondary-dark-blue);
 	font-size: smaller;
 }
+
+.contactMeContainer {
+	grid-row: 10;
+	grid-column: 1 / 16;
+	margin-top: 5vh;
+	display: grid;
+	grid-template: 2 / 2;
+}
+
+.contactMeColumn {
+	grid-column: 1;
+	display: grid;
+	grid-template: 1 / 2;
+	text-align: center;
+}
+
+.contactMeTitleContainer {
+	background-color: var(--primary-orange);
+	grid-row: 1;
+	margin: 0vh 5vh;
+}
+
+.contactMeFormContainer {
+	margin: 5vh 5vh 0 5vh;
+	grid-row: 2;
+	background-color: var(--secondary-dark-blue);
+}
+
+.contactMeFormContainer > p {
+	font-size: large;
+}
+
+.emailInput {
+	background-color: var(--primary-blue);
+	max-width: 15vw;
+	max-height: 2vh;
+	font-size: 1rem;
+	text-align: center;
+}
+
+::placeholder {
+	color: var(--primary-white);
+	opacity: 1;
+}
+
+::-ms-input-placeholder {
+	color: var(--primary-white);
+}
+
+.sendButtonContainer {
+	margin: 0 6vw 1vh 6vw;
+}
+
+.contactMeGif {
+	grid-column: 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contactMeGif > img {
+	max-width: 40vw;
+	max-height: 40vw;
+}
