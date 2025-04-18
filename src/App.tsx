@@ -1,3 +1,5 @@
+import { useState } from 'react'
+
 import './App.css'
 import './assets/globals.css'
 
@@ -11,6 +13,55 @@ import placeholder from './assets/images/placeholder.jpg'
 import dictionary from './dictionary.json'
 
 function App() {
+	const [titles, setTitles] = useState([
+		{
+			id: 1,
+			title: 'GIT+GitHub: Todo un sistema de control de versiones de cero',
+			description:
+				'Aprendí la gestion de proyectos y manejo de historicos del proyecto.',
+			image: placeholder,
+		},
+		{
+			id: 2,
+			title: 'GIT+GitHub: Todo un sistema de control de versiones de cero',
+			description:
+				'Aprendí la gestion de proyectos y manejo de historicos del proyecto.',
+			image: placeholder,
+		},
+		{
+			id: 1,
+			title: 'GIT+GitHub: Todo un sistema de control de versiones de cero',
+			description:
+				'Aprendí la gestion de proyectos y manejo de historicos del proyecto.',
+			image: placeholder,
+		},
+		{
+			id: 2,
+			title: 'GIT+GitHub: Todo un sistema de control de versiones de cero',
+			description:
+				'Aprendí la gestion de proyectos y manejo de historicos del proyecto.',
+			image: placeholder,
+		},
+		{
+			id: 1,
+			title: 'GIT+GitHub: Todo un sistema de control de versiones de cero',
+			description:
+				'Aprendí la gestion de proyectos y manejo de historicos del proyecto.',
+			image: placeholder,
+		},
+		{
+			id: 2,
+			title: 'GIT+GitHub: Todo un sistema de control de versiones de cero',
+			description:
+				'Aprendí la gestion de proyectos y manejo de historicos del proyecto.',
+			image: placeholder,
+		},
+	])
+
+	const titleOrganizer = () => {
+		return 0
+	}
+
 	return (
 		<div className="App">
 			<HeaderComponent />
@@ -74,78 +125,75 @@ function App() {
 					<p>Constantemente me estoy capacitando</p>
 				</div>
 				<div className="studiesTitlesContainer">
-					<div className="titleListItemContainer">
-						<img
-							src={placeholder}
-							alt="fristTitle"
-							className="titleImage"
-						/>
-						<p className="titleDescription">
-							{/* Break the line when text reach 30 chars */}
-							GIT+GitHub: Todo un sistema <br />
-							de control de versiones de cero
-						</p>
-					</div>
-					<div className="titleListItemContainer">
-						<p className="titleDescription">
-							{/* Break the line when text reach 30 chars */}
-							GIT+GitHub: Todo un sistema <br />
-							de control de versiones de cero
-						</p>
-						<img
-							src={placeholder}
-							alt="fristTitle"
-							className="titleImage"
-						/>
-					</div>
-					<div className="titleListItemContainer">
-						<img
-							src={placeholder}
-							alt="fristTitle"
-							className="titleImage"
-						/>
-						<p className="titleDescription">
-							{/* Break the line when text reach 30 chars */}
-							GIT+GitHub: Todo un sistema <br />
-							de control de versiones de cero
-						</p>
-					</div>
-					<div className="titleListItemContainer">
-						<p className="titleDescription">
-							{/* Break the line when text reach 30 chars */}
-							GIT+GitHub: Todo un sistema <br />
-							de control de versiones de cero
-						</p>
-						<img
-							src={placeholder}
-							alt="fristTitle"
-							className="titleImage"
-						/>
-					</div>
-					<div className="titleListItemContainer">
-						<img
-							src={placeholder}
-							alt="fristTitle"
-							className="titleImage"
-						/>
-						<p className="titleDescription">
-							{/* Break the line when text reach 30 chars */}
-							GIT+GitHub: Todo un sistema <br />
-							de control de versiones de cero
-						</p>
-					</div>
-					<div className="titleListItemContainer">
-						<p className="titleDescription">
-							{/* Break the line when text reach 30 chars */}
-							GIT+GitHub: Todo un sistema <br />
-							de control de versiones de cero
-						</p>
-						<img
-							src={placeholder}
-							alt="fristTitle"
-							className="titleImage"
-						/>
-					</div>
+					{titles.map((title) =>
+						title.id % 2 ? (
+							<div
+								key={title.id}
+								className="titleListItemContainer"
+							>
+								<img
+									src={title.image}
+									alt={title.image}
+									className="titleImage"
+								/>
+								<div>
+									<p className="titleTitleDescription">
+										{title.title.length > 30 ? (
+											<>
+												{title.title.slice(0, 30)} <br />
+												{title.title.slice(30)}
+											</>
+										) : (
+											title.title
+										)}
+									</p>
+									<p className="titleDescription">
+										{title.description.length > 30 ? (
+											<>
+												{title.description.slice(0, 31)} <br />
+												{title.description.slice(31)}
+											</>
+										) : (
+											title.description
+										)}
+									</p>
+								</div>
+							</div>
+						) : (
+							<div
+								key={title.id}
+								className="titleListItemContainer"
+							>
+								<div>
+									<p className="titleTitleDescription">
+										{title.title.length > 30 ? (
+											<>
+												{title.title.slice(0, 30)} <br />
+												{title.title.slice(30)}
+											</>
+										) : (
+											title.title
+										)}
+									</p>
+									<p className="titleDescription">
+										{title.description.length > 30 ? (
+											<>
+												{title.description.slice(0, 31)} <br />
+												{title.description.slice(31)}
+											</>
+										) : (
+											title.description
+										)}
+									</p>
+								</div>
+								<img
+									src={title.image}
+									alt={title.image}
+									className="titleImage"
+								/>
+							</div>
+						),
+					)}
 				</div>
 			</div>
 			{/* <div style={{ backgroundColor: 'lightgreen' }}>4</div>

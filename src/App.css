@@ -179,8 +179,6 @@
 }
 
 .studiesTitlesContainer {
-	border: 2px var(--primary-blue) dashed;
-	border-radius: 2vh;
 	margin-top: 2vh;
 	padding: 1vh;
 	overflow-y: scroll;
@@ -198,6 +196,17 @@
 
 .titleImage {
 	max-width: 10vw;
+	margin-right: 1vw;
+	margin-left: 1vw;
+}
+
+.titleTitleDescription {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	color: var(--secondary-dark-blue);
+	font-weight: bold;
+	font-size: larg;
 }
 
 .titleDescription {
@@ -207,4 +216,5 @@
 	display: flex;
 	align-items: center;
 	color: var(--secondary-dark-blue);
+	font-size: smaller;
 }
