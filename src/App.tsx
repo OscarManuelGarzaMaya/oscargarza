@@ -5,6 +5,7 @@ import './assets/globals.css'
 import typing from './assets/gifs/typing.gif'
 import HeaderComponent from './components/Header/Header.component'
 import profilePic from './assets/images/perfil.png'
+import placeholder from './assets/images/placeholder.jpg'
 
 // Misc
 import dictionary from './dictionary.json'
@@ -68,8 +69,86 @@ function App() {
 					</div>
 				</div>
 			</div>
-			{/* <div style={{ backgroundColor: 'lightblue' }}>3</div>
-			<div style={{ backgroundColor: 'lightgreen' }}>4</div>
+			<div className="studiesContainer">
+				<div className="studiesTitle genericStyles">
+					<p>Constantemente me estoy capacitando</p>
+				</div>
+				<div className="studiesTitlesContainer">
+					<div className="titleListItemContainer">
+						<img
+							src={placeholder}
+							alt="fristTitle"
+							className="titleImage"
+						/>
+						<p className="titleDescription">
+							{/* Break the line when text reach 30 chars */}
+							GIT+GitHub: Todo un sistema <br />
+							de control de versiones de cero
+						</p>
+					</div>
+					<div className="titleListItemContainer">
+						<p className="titleDescription">
+							{/* Break the line when text reach 30 chars */}
+							GIT+GitHub: Todo un sistema <br />
+							de control de versiones de cero
+						</p>
+						<img
+							src={placeholder}
+							alt="fristTitle"
+							className="titleImage"
+						/>
+					</div>
+					<div className="titleListItemContainer">
+						<img
+							src={placeholder}
+							alt="fristTitle"
+							className="titleImage"
+						/>
+						<p className="titleDescription">
+							{/* Break the line when text reach 30 chars */}
+							GIT+GitHub: Todo un sistema <br />
+							de control de versiones de cero
+						</p>
+					</div>
+					<div className="titleListItemContainer">
+						<p className="titleDescription">
+							{/* Break the line when text reach 30 chars */}
+							GIT+GitHub: Todo un sistema <br />
+							de control de versiones de cero
+						</p>
+						<img
+							src={placeholder}
+							alt="fristTitle"
+							className="titleImage"
+						/>
+					</div>
+					<div className="titleListItemContainer">
+						<img
+							src={placeholder}
+							alt="fristTitle"
+							className="titleImage"
+						/>
+						<p className="titleDescription">
+							{/* Break the line when text reach 30 chars */}
+							GIT+GitHub: Todo un sistema <br />
+							de control de versiones de cero
+						</p>
+					</div>
+					<div className="titleListItemContainer">
+						<p className="titleDescription">
+							{/* Break the line when text reach 30 chars */}
+							GIT+GitHub: Todo un sistema <br />
+							de control de versiones de cero
+						</p>
+						<img
+							src={placeholder}
+							alt="fristTitle"
+							className="titleImage"
+						/>
+					</div>
+				</div>
+			</div>
+			{/* <div style={{ backgroundColor: 'lightgreen' }}>4</div>
 			<div style={{ backgroundColor: 'lightyellow' }}>5</div>
 			<div style={{ backgroundColor: 'lightcoral' }}>6</div>
 			<div style={{ backgroundColor: 'lightpink' }}>7</div>

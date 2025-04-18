@@ -164,3 +164,47 @@
 .dbTechsListContainer {
 	margin-top: 2vh;
 }
+
+.studiesContainer {
+	grid-row: 9;
+	grid-column: 1 / 16;
+	justify-self: center;
+	margin-top: 2vh;
+	text-align: center;
+}
+
+.studiesTitle {
+	background-color: var(--secondary-dark-blue);
+	width: 25vw;
+}
+
+.studiesTitlesContainer {
+	border: 2px var(--primary-blue) dashed;
+	border-radius: 2vh;
+	margin-top: 2vh;
+	padding: 1vh;
+	overflow-y: scroll;
+	&:hover {
+		overflow-y: scroll;
+	}
+	max-height: 50vh;
+}
+
+.titleListItemContainer {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 2vh;
+}
+
+.titleImage {
+	max-width: 10vw;
+}
+
+.titleDescription {
+	margin-left: 1vw;
+	margin-right: 1vw;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	color: var(--secondary-dark-blue);
+}
