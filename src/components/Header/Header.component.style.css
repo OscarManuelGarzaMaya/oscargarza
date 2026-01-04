@@ -1,6 +1,7 @@
 .headerSiteContainer {
 	width: 100%;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	/* Fix header container shadow -> It doesn't render on screen */
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
 }
 
 .headerInnerContainer {
