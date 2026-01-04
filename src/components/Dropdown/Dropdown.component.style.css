@@ -3,7 +3,7 @@
 }
 
 .langDropdown * {
-	font-size: 15px;
+	font-size: 23px;
 }
 
 .langTrigger {
@@ -18,7 +18,7 @@
 .langLabel {
 	display: flex;
 	align-items: center;
-	gap: 6px;
+	gap: 5px;
 }
 
 .langLabel span {
@@ -36,7 +36,7 @@
 	top: 100%;
 	left: 0;
 	margin-top: 6px;
-	padding: 4px 10px 4px 4px;
+	padding: 4px 4px;
 	width: 100%;
 	list-style: none;
 	background: white;
@@ -51,7 +51,7 @@
 
 .langLabel img,
 .languageMenu img {
-	width: 25px;
+	width: 35px;
 	height: auto;
 }
 

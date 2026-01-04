@@ -20,13 +20,13 @@ const DropdownComponent = () => {
 				className="langTrigger"
 				onClick={() => setOpen(!open)}
 			>
-				<span className="langLabel">
+				<div className="langLabel">
 					<span>SP</span>
 					<img
 						src={mexicanFlag}
 						alt="Spanish"
 					/>
-				</span>
+				</div>
 				<img
 					src={downsideChevron}
 					alt="chevron"
