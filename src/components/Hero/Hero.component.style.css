@@ -1,26 +1,35 @@
+@import '../../assets/globals.css';
+
 .heroContainer {
-	background-color: #f9f7fc;
 	display: flex;
-	flex: 1;
+	justify-content: center;
+	background-color: #f9f7fc;
 }
 
-.heroRightContainer {
-	padding-top: 90px;
-	padding-left: 50px;
+.heroInnerContainer {
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+	padding: 0 3vw;
+	max-width: var(--default-max-width);
+}
+
+.heroDescriptionContainer {
 	font-size: 50px;
+	padding-top: 90px;
 }
 
 .title {
 	margin: 0;
+	font-size: 1.9em;
 }
 
-.subtitleContainer h3 {
+.subtitle {
 	color: #2c569e;
-	font-size: 50px;
 	margin: 0;
 }
 
-.descriptionContainer p {
+.desription {
 	font-size: 30px;
 	font-family: Montserrat-Regular;
 }
@@ -29,6 +38,7 @@
 	display: flex;
 	direction: row;
 	gap: 32px;
+	/* margin-top: 31px; */
 }
 
 .buttonsContainer * {
@@ -63,4 +73,14 @@
 }
 .connectNowButton:hover {
 	background-color: #e3e3e3;
+}
+
+.heroImgContainer {
+	display: flex;
+	align-items: end;
+}
+
+.heroImg {
+	height: 732px;
+	width: auto;
 }
