@@ -2,12 +2,22 @@
 
 @font-face {
 	font-family: Istok-Web-Regular;
-	src: url('./assets/fonts/IstokWeb-Regular.ttf');
+	src: url('./assets/fonts/IstokWeb/IstokWeb-Regular.ttf');
 }
 
 @font-face {
 	font-family: Istok-Web-Bold;
-	src: url('./assets/fonts/IstokWeb-Bold.ttf');
+	src: url('./assets/fonts/IstokWeb/IstokWeb-Bold.ttf');
+}
+
+@font-face {
+	font-family: Montserrat-Regular;
+	src: url('./assets/fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+	font-family: Montserrat-ExtraBold;
+	src: url('./assets/fonts/Montserrat/Montserrat-ExtraBold.ttf');
 }
 
 * {
