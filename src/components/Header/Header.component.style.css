@@ -1,3 +1,5 @@
+@import '../../assets/globals.css';
+
 .headerSiteContainer {
 	width: 100%;
 	/* Fix header container shadow -> It doesn't render on screen */
@@ -5,8 +7,8 @@
 }
 
 .headerInnerContainer {
-	max-width: 2170px;
-	padding: 0 50px;
+	max-width: var(--default-max-width);
+	padding: 0 3rem;
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
@@ -14,7 +16,7 @@
 }
 
 .leftContainer {
-	display: inherit;
+display: inherit;
 }
 
 .headerName {
@@ -26,5 +28,6 @@
 .rightContainer {
 	display: flex;
 	align-items: center;
-	gap: 28px;
+	justify-content: space-between;
+	gap: 1rem;
 }

@@ -9,7 +9,7 @@
 .langTrigger {
 	display: flex;
 	align-items: center;
-	gap: 6px;
+	gap: .8rem;
 	background: transparent;
 	border: none;
 	cursor: pointer;
