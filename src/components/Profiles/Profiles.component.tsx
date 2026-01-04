@@ -8,14 +8,26 @@ import linkedinLogo from '../../assets/images/profiles/linkedin-logo.svg'
 const ProfilesComponent = () => {
 	return (
 		<div className="profilesContainer">
-			<img
-				src={githubLogo}
-				alt="githubLogo"
-			/>
-			<img
-				src={linkedinLogo}
-				alt="linkedinLogo"
-			/>
+			<a
+				href="https://github.com/OscarManuelGarzaMaya"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<img
+					src={githubLogo}
+					alt="githubLogo"
+				/>
+			</a>
+			<a
+				href="https://www.linkedin.com/in/oscar-manuel-garza-maya-83145a1a0/"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<img
+					src={linkedinLogo}
+					alt="linkedinLogo"
+				/>
+			</a>
 		</div>
 	)
 }
