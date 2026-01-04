@@ -3,6 +3,7 @@ import './Header.component.style.css'
 
 // Components
 import DropdownComponent from '../Dropdown/Dropdown.component'
+import ProfilesComponent from '../Profiles/Profiles.component'
 
 // Misc
 import dictionary from '../../dictionary.json'
@@ -14,8 +15,9 @@ const HeaderComponent = () => {
 				<div className="leftContainer">
 					<h1 className="headerName">{dictionary.header.name}</h1>
 				</div>
-				<div id="rightContainer">
+				<div className="rightContainer">
 					<DropdownComponent />
+					<ProfilesComponent />
 				</div>
 			</div>
 		</div>
