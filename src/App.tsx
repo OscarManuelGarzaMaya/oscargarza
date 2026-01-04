@@ -4,15 +4,11 @@ import './App.css'
 import './assets/globals.css'
 
 // Assets
-import typing from './assets/gifs/typing.gif'
-import letsDoThis from './assets/gifs/lestDoThis.gif'
-import HeaderComponent from './components/Header/Header.component'
-import profilePic from './assets/images/perfil.png'
 import placeholder from './assets/images/placeholder.jpg'
 
-// Misc
-import dictionary from './dictionary.json'
-import ButtonComponent from './components/Button/Button.component'
+// Components
+import HeaderComponent from './components/Header/Header.component'
+import HeroComponent from './components/Hero/Hero.component'
 
 function App() {
 	const [titles, setTitles] = useState([
@@ -67,6 +63,7 @@ function App() {
 	return (
 		<div className="App">
 			<HeaderComponent />
+			<HeroComponent />
 			{/* <div className="profilePicContainer">
 				<img
 					src={profilePic}
