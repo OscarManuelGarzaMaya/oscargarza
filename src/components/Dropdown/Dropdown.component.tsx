@@ -33,7 +33,7 @@ const DropdownComponent = () => {
 					className="downsideChevronImg"
 				/>
 			</button>
-			<ul className={`langMenu ${open ? 'open' : ''}`}>
+			<ul className={`languageMenu ${open ? 'open' : ''}`}>
 				<li>
 					{/* 
 						Todo: Add an algorithm to split the text on max of 3 chars and display full world on a tooltip
@@ -48,7 +48,7 @@ const DropdownComponent = () => {
 				{/* 
 					Todo: Add algorithm to display this divider between all items but above the first one and be need the last one
 				*/}
-				<hr className="lang-divider" />
+				<hr className="langDivider" />
 				<li>
 					<span>FR</span>
 					<img

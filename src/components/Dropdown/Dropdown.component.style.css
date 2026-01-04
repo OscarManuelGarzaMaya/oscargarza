@@ -2,6 +2,10 @@
 	position: relative;
 }
 
+.langDropdown * {
+	font-size: 15px;
+}
+
 .langTrigger {
 	display: flex;
 	align-items: center;
@@ -19,16 +23,15 @@
 
 .langLabel span {
 	opacity: 70%;
-	font-size: large;
 }
 
 .downsideChevronImg {
-	width: 30px;
+	width: 25px;
 	height: auto;
 }
 
 /* Dropdown menu */
-.langMenu {
+.languageMenu {
 	position: absolute;
 	top: 100%;
 	left: 0;
@@ -47,43 +50,42 @@
 }
 
 .langLabel img,
-.langMenu img {
-	width: 30px;
+.languageMenu img {
+	width: 25px;
 	height: auto;
 }
 
-.langMenu span {
+.languageMenu span {
 	opacity: 70%;
 }
 
-.langMenu.open {
+.languageMenu.open {
 	opacity: 1;
 	visibility: visible;
 	transform: translateY(0);
 }
 
 /* Show on hover */
-.langDropdown:hover .langMenu {
+.langDropdown:hover .languageMenu {
 	opacity: 1;
 	visibility: visible;
 	transform: translateY(0);
 }
 
-.langMenu li {
+.languageMenu li {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding: 8px 12px;
 	cursor: pointer;
-	font-size: large;
 	border-radius: 7px;
 }
 
-.langMenu li:hover {
+.languageMenu li:hover {
 	background: #f2f2f2;
 }
 
-.lang-divider {
+.langDivider {
 	border-top: 1px solid #2c569e;
 	opacity: 30%;
 }
