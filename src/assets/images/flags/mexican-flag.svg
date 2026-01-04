@@ -1,0 +1,18 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 3 2"
+  width="38"
+  height="26"
+>
+  <!-- Green -->
+  <rect x="0" y="0" width="1" height="2" fill="#006847"/>
+
+  <!-- White -->
+  <rect x="1" y="0" width="1" height="2" fill="#FFFFFF"/>
+
+  <!-- Red -->
+  <rect x="2" y="0" width="1" height="2" fill="#CE1126"/>
+
+  <!-- Simplified coat of arms -->
+  <circle cx="1.5" cy="1" r="0.25" fill="#8C6239"/>
+</svg>

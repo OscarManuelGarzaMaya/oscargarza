@@ -1,11 +1,6 @@
 {
 	"header": {
-		"buttons": {
-			"aboutMe": "Sobre mi",
-			"projects": "Proyectos",
-			"studies": "Estudios",
-			"contactMe": "Contáctame"
-		}
+		"name": "Oscar Garza"
 	},
 	"hello": {
 		"title": "Hola! Soy Oscar Garza"

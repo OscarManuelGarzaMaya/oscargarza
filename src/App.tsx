@@ -67,7 +67,7 @@ function App() {
 	return (
 		<div className="App">
 			<HeaderComponent />
-			<div className="profilePicContainer">
+			{/* <div className="profilePicContainer">
 				<img
 					src={profilePic}
 					alt="imagenDePerfil"
@@ -226,7 +226,7 @@ function App() {
 						alt="Lets do this!"
 					/>
 				</div>
-			</section>
+			</section> */}
 		</div>
 	)
 }

@@ -1,8 +1,22 @@
-.headerContainer {
-	grid-column: 1 / 16;
-	grid-row-start: 1;
-	display: grid;
-	grid-template-columns: repeat(4, auto);
-	gap: 16px;
-	padding: 1rem 0;
+.headerSiteContainer {
+	width: 100%;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.headerInnerContainer {
+	max-width: 2170px;
+	padding: 0 50px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.leftContainer {
+	display: inherit;
+}
+
+.headerName {
+	font-family: Istok-Web-Bold;
+	margin: 18px 0;
 }
