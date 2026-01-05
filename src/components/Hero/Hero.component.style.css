@@ -3,7 +3,7 @@
 .heroContainer {
 	display: flex;
 	justify-content: center;
-	background-color: #f9f7fc;
+	background-color: var(--gray-background);
 }
 
 .heroInnerContainer {
