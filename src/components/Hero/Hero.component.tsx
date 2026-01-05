@@ -1,6 +1,7 @@
 // Styles
 import './Hero.component.style.css'
 
+// Assets
 import heroImage from '../../assets/images/HeroImage.svg'
 
 const HeroComponent = () => {
@@ -16,24 +17,25 @@ const HeroComponent = () => {
 						<h4 className="subtitle">Software Engineer</h4>
 					</div>
 					<div className="descriptionContainer">
-						<p className="desription">
+						<p className="description">
 							I build modern, scalable web and mobile applications using Cutting-Edge
 							technologies.
 						</p>
 					</div>
 					<div className="buttonsContainer">
-						<button
+						<a
+							href="/files/CV-Oscar-Manuel-Garza-Maya-Eng.pdf"
+							download
 							className="downloadButton"
-							title="Download resume"
 						>
-							Download resume
-						</button>
-						<button
+							<span title="Download resume">Download resume</span>
+						</a>
+						<a
+							href="/"
 							className="connectNowButton"
-							title="Connect Now"
 						>
-							Connect Now
-						</button>
+							<span title="Connect Now">Connect Now</span>
+						</a>
 					</div>
 				</div>
 				<div className="heroImgContainer">
