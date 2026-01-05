@@ -10,7 +10,7 @@
 	display: flex;
 	flex: 1;
 	justify-content: space-between;
-	padding: 0 3vw;
+	padding: 3vh 3vw 0 3vw;
 }
 
 .heroDescriptionContainer {

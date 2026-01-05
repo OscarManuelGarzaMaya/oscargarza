@@ -1,8 +1,9 @@
 @import '../../assets/globals.css';
 
 .headerSiteContainer {
+	position: absolute;
+	z-index: 50;
 	width: 100%;
-	/* Fix header container shadow -> It doesn't render on screen */
 	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
 }
 
@@ -15,7 +16,7 @@
 }
 
 .leftContainer {
-display: inherit;
+	display: inherit;
 }
 
 .headerName {
