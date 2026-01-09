@@ -10,6 +10,7 @@ import placeholder from './assets/images/HeroImage.svg'
 import HeaderComponent from './components/Header/Header.component'
 import HeroComponent from './components/Hero/Hero.component'
 import AboutMeComponent from './components/AboutMe/AboutMe.component'
+import ProfessionalExperienceComponent from './components/ProfessionalExperience/ProfessionalExperience.component'
 
 function App() {
 	const [titles, setTitles] = useState([
@@ -66,6 +67,7 @@ function App() {
 			<HeaderComponent />
 			<HeroComponent />
 			<AboutMeComponent />
+			<ProfessionalExperienceComponent />
 		</div>
 	)
 }
