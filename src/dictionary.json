@@ -22,5 +22,8 @@
 		"keepInContact": "Y no mantendremos en contacto",
 		"placeholderMail": "correo@correo.com",
 		"send": "Enviar"
+	},
+	"proffesionalExperience": {
+		"title": "Professional Experience"
 	}
 }
