@@ -11,6 +11,7 @@ import HeaderComponent from './components/Header/Header.component'
 import HeroComponent from './components/Hero/Hero.component'
 import AboutMeComponent from './components/AboutMe/AboutMe.component'
 import ProfessionalExperienceComponent from './components/ProfessionalExperience/ProfessionalExperience.component'
+import CoursesComponent from './components/Courses/Courses.component'
 
 function App() {
 	const [titles, setTitles] = useState([
@@ -68,6 +69,7 @@ function App() {
 			<HeroComponent />
 			<AboutMeComponent />
 			<ProfessionalExperienceComponent />
+			<CoursesComponent />
 		</div>
 	)
 }
