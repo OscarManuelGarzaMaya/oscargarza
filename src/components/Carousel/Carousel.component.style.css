@@ -3,30 +3,37 @@
 .carouselContainer {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 2.5em;
+	padding-top: 1em;
 }
 
-.coursesListContainer {
+.itemsListContainer {
 	display: flex;
-	flex: 1;
-	justify-content: space-around;
+	flex: 1 0 20%;
+	overflow-x: auto;
+	overflow: hidden;
+	padding: 1em 0;
+	scroll-snap-type: x mandatory;
 }
 
-.courseContainer {
-	background-color: white;
+.itemContainer {
+	border-radius: 1em;
 	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+	display: flex;
 	gap: 1em;
 	justify-content: center;
-	min-width: 11em;
-	padding: 0.2em 2rem;
+	margin: 0.2em 1em;
+	min-width: 20%;
+	scroll-margin-left: 1em;
+	scroll-snap-align: start;
+	max-width: 25%;
 }
 
-.courseContainer img {
-	width: 2.43rem;
+.itemContainer img {
 	height: auto;
+	width: 2.43rem;
 }
 
-.courseContainer p {
+.itemContainer p {
 	font-family: Montserrat-Bold;
 	font-size: 1.5rem;
 }

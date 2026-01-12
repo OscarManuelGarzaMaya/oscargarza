@@ -20,13 +20,16 @@ const CarouselComponent = ({
 				className="carouselLeftsideChevron"
 				src={leftsideChevron}
 			/>
-			<div className="coursesListContainer">
-				{itemsList.map((item) => {
+			<div className="itemsListContainer">
+				{itemsList.map((item, id) => {
 					return (
-						<div className="courseContainer">
+						<div
+							className="itemContainer"
+							id={item.title + id.toString()}
+						>
 							<img
-								src={item.image}
 								alt={item.image}
+								src={item.image}
 							/>
 							<p>{item.title}</p>
 						</div>
