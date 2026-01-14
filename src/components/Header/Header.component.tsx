@@ -10,7 +10,7 @@ import dictionary from '../../dictionary.json'
 
 const HeaderComponent = () => {
 	return (
-		<div className="headerSiteContainer">
+		<section className="headerSiteContainer">
 			<div className="headerInnerContainer">
 				<div className="leftContainer">
 					<h1 className="headerName">{dictionary.header.name}</h1>
@@ -20,7 +20,7 @@ const HeaderComponent = () => {
 					<ProfilesComponent />
 				</div>
 			</div>
-		</div>
+		</section>
 	)
 }
 

@@ -6,7 +6,7 @@ import heroImage from '../../assets/images/HeroImage.svg'
 
 const HeroComponent = () => {
 	return (
-		<div className="heroContainer">
+		<section className="heroContainer">
 			<div className="heroInnerContainer">
 				<div className="heroDescriptionContainer">
 					<div className="titleContainer">
@@ -46,7 +46,7 @@ const HeroComponent = () => {
 					/>
 				</div>
 			</div>
-		</div>
+		</section>
 	)
 }
 

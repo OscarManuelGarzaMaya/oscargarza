@@ -6,7 +6,7 @@ import aboutMe from '../../assets/images/softwareDev.svg'
 
 const AboutMeComponent = () => {
 	return (
-		<div className="AboutMeContainer">
+		<section className="AboutMeContainer">
 			<div className="aboutMeTitleContainer">
 				<h1 className="aboutMeTitle">About Me</h1>
 			</div>
@@ -28,7 +28,7 @@ const AboutMeComponent = () => {
 					alt="About me"
 				/>
 			</div>
-		</div>
+		</section>
 	)
 }
 

@@ -66,10 +66,10 @@ const CoursesComponent = () => {
 	])
 
 	return (
-		<div className="coursesContainer">
+		<section className="coursesContainer">
 			<h1 className="coursesTitle">Courses & Training</h1>
 			<CarouselComponent itemsList={titles} />
-		</div>
+		</section>
 	)
 }
 

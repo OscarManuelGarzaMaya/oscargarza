@@ -12,7 +12,7 @@ import CardsComponent from '../Cards/Cards.component'
 
 const ProfessionalExperienceComponent = () => {
 	return (
-		<div className="proffesionalExperienceContainer">
+		<section className="proffesionalExperienceContainer">
 			<h1 className="sectionTitle">{dictionary.proffesionalExperience.title}</h1>
 			<div className="cardsContainer">
 				<CardsComponent
@@ -52,7 +52,7 @@ const ProfessionalExperienceComponent = () => {
 					</p>
 				</CardsComponent>
 			</div>
-		</div>
+		</section>
 	)
 }
 
