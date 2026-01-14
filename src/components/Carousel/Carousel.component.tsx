@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useRef } from 'react'
 
 // Styles
 import './Carousel.component.style.css'
@@ -15,39 +15,39 @@ const CarouselComponent = ({
 		image: string
 	}[]
 }) => {
-	const [currentIndex, setCurrentIndex] = useState(0)
-	const aux = 4
+	// TODO: Add animation to carousel section
+	const sliderRef = useRef<HTMLDivElement | null>(null)
 
 	const onLeftClick = () => {
-		if (currentIndex === 0) {
-			return
-		}
-		console.log('currentIndex (left): ' + currentIndex)
+		const target = sliderRef.current
 
-		if (currentIndex <= aux) {
-			setCurrentIndex(0)
+		if (!target) {
 			return
 		}
 
-		if (currentIndex - aux >= 0) {
-			setCurrentIndex((value) => Math.max(0, value - aux))
-		}
+		const currentPlace = target.scrollLeft
+		const clientWidth = target.clientWidth
+
+		target.scrollTo({
+			left: currentPlace - clientWidth / 2,
+			behavior: 'smooth',
+		})
 	}
 
 	const onRightClick = () => {
-		if (currentIndex === itemsList.length) {
-			return
-		}
-		console.log('currentIndex (right): ' + currentIndex)
+		const target = sliderRef.current
 
-		if (currentIndex + aux >= itemsList.length) {
-			setCurrentIndex(itemsList.length)
+		if (!target) {
 			return
 		}
 
-		setCurrentIndex((value) =>
-			Math.min(value + aux, Math.max(0, itemsList.length - aux)),
-		)
+		const currentPlace = target.scrollLeft
+		const clientWidth = target.clientWidth
+
+		target.scrollTo({
+			left: currentPlace + clientWidth / 2,
+			behavior: 'smooth',
+		})
 	}
 
 	return (
@@ -58,7 +58,11 @@ const CarouselComponent = ({
 				onClick={onLeftClick}
 				src={leftsideChevron}
 			/>
-			<div className="itemsListContainer">
+			<div
+				className="itemsListContainer"
+				id={'mainSlider'}
+				ref={sliderRef}
+			>
 				{itemsList.map((item, id) => {
 					return (
 						<div
