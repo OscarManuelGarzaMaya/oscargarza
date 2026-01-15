@@ -1,0 +1,44 @@
+@import '../../assets/globals.css';
+
+.educationContainer {
+	padding: 2em 3.125em;
+	background-color: var(--gray-background);
+}
+
+.contentContainer {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3vh;
+}
+
+.collageContainer {
+	font-family: Montserrat-Bold;
+	font-size: 2rem;
+	width: 40vw;
+}
+
+.collegeTitle {
+	margin: 0;
+	font-size: 2.5rem;
+}
+
+.careerTitle {
+	color: #2c569e;
+	font-family: Montserrat-SemiBold;
+	font-size: 1.5rem;
+	margin: 0;
+}
+
+.educationDate {
+	color: rgba(0, 0, 0, 0.7);
+	font-family: Montserrat-Medium;
+	font-size: 1.5rem;
+	margin-top: 1vh;
+}
+
+.educationDescription {
+	margin: 0;
+	font-family: Montserrat-Medium;
+	font-size: 1.4rem;
+	margin-top: 3vh;
+}
