@@ -43,7 +43,7 @@ const CoursesComponent = () => {
 
 	return (
 		<section className="coursesContainer">
-			<h1 className="coursesTitle">Courses & Training</h1>
+			<h1 className="sectionTitle">Courses & Training</h1>
 			<CarouselComponent itemsList={titles} />
 		</section>
 	)

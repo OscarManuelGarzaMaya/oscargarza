@@ -7,9 +7,7 @@ import aboutMe from '../../assets/images/softwareDev.svg'
 const AboutMeComponent = () => {
 	return (
 		<section className="AboutMeContainer">
-			<div className="aboutMeTitleContainer">
-				<h1 className="aboutMeTitle">About Me</h1>
-			</div>
+			<h1 className="sectionTitle">About Me</h1>
 			<div className="aboutMeContentContainer">
 				<p>
 					I am seeking an opportunity to apply my technical knowledge and

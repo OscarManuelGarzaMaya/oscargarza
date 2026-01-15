@@ -4,14 +4,6 @@
 	padding: 2em 3.125em;
 }
 
-.coursesTitle {
-	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-	font-family: Montserrat-Bold;
-	font-size: 4.5rem;
-	margin: 0;
-	padding-bottom: 0.2em;
-}
-
 .coursesContentContainer {
 	display: flex;
 	justify-content: space-between;
