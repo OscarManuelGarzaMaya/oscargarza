@@ -39,30 +39,6 @@ const CoursesComponent = () => {
 			title: 'MY SQL',
 			image: mySQLLogo,
 		},
-		{
-			title: 'React Native',
-			image: ReactLogo,
-		},
-		{
-			title: 'HTML',
-			image: HTMLLogo,
-		},
-		{
-			title: 'CSS',
-			image: CSSLogo,
-		},
-		{
-			title: 'Java Script',
-			image: JSLogo,
-		},
-		{
-			title: 'Type Script',
-			image: TSLogo,
-		},
-		{
-			title: 'MY SQL',
-			image: mySQLLogo,
-		},
 	])
 
 	return (
