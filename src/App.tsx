@@ -22,7 +22,7 @@ import fr from './locales/fr/translation.json'
 
 function App() {
 	i18next.use(initReactI18next).init({
-		fallbackLng: 'fr',
+		fallbackLng: 'en',
 		resources: {
 			en: { translation: en },
 			es: { translation: es },
