@@ -1,1 +1,10 @@
-{ "bachelorsDegree": "Ingénieur logiciel" }
+{
+	"hero": {
+		"bachelorsDegree": "Ingénieur logiciel",
+		"description": "Je développe des applications web et mobiles modernes et évolutives à l'aide de technologies de pointe.",
+		"button": {
+			"download": "Télécharger le CV",
+			"connectNow": "Connectez-vous maintenant"
+		}
+	}
+}

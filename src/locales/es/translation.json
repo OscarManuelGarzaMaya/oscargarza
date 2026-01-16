@@ -1,1 +1,10 @@
-{ "bachelorsDegree": "Ingeniero en sistemas computacionales" }
+{
+	"hero": {
+		"bachelorsDegree": "Ingeniero en sistemas computacionales",
+		"description": "Creo aplicaciones web y móviles modernas y escalables utilizando tecnologías de vanguardia.",
+		"button": {
+			"download": "Descargar CV",
+			"connectNow": "Contactar ahora"
+		}
+	}
+}
