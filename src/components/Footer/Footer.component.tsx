@@ -7,7 +7,7 @@ import emailIcon from '../../assets/images/footer/emailIcon.svg'
 
 const FooterComponent = () => {
 	return (
-		<div className="footerContainer">
+		<section className="footerContainer">
 			<div className="contactInfoContainer">
 				<div className="phoneNumberContainer">
 					<img
@@ -30,7 +30,7 @@ const FooterComponent = () => {
 			<div className="footerDescriptionContainer">
 				<p className="footerDescription">All Rigts Reserver @ 2025. OSCAR GARZA</p>
 			</div>
-		</div>
+		</section>
 	)
 }
 
