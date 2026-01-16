@@ -1,3 +1,10 @@
 {
-	"bachelorsDegree": "Software Engineer"
+	"hero": {
+		"bachelorsDegree": "Software Engineer",
+		"description": "I build modern, scalable web and mobile applications using Cutting-Edge technologies.",
+		"button": {
+			"download": "Download resume",
+			"connectNow": "Connect Now"
+		}
+	}
 }
