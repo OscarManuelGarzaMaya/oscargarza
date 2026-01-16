@@ -1,27 +1,35 @@
 // Styles
 import './Education.component.style.css'
 
+// Libraries
+import { useTranslation } from 'react-i18next'
+
 const EducationComponent = () => {
+	const { t } = useTranslation()
+
 	return (
 		<section className="educationContainer">
-			<h1 className="sectionTitle">Education</h1>
+			<h1 className="sectionTitle">{t(['education.title'])}</h1>
 			<div className="contentContainer">
 				<div className="collageContainer">
-					<h3 className="collegeTitle">Universidad del Noreste</h3>
-					<h4 className="careerTitle">Computer Systems and Electronics Engineer</h4>
-					<p className="educationDate">Tampico, México 2018-2020</p>
+					<h3 className="collegeTitle">{t(['education.collage.UNE.name'])}</h3>
+					<h4 className="careerTitle">
+						{t(['education.collage.UNE.bachelorsDegree'])}
+					</h4>
+					<p className="educationDate">
+						{t(['education.collage.UNE.dateAndLocation'])}
+					</p>
 					<p className="educationDescription">
-						I represented the University of the Northeast at the State Contest of
-						Creativity and Innovation in Technology, ExpoCiencias Tamaulipas.
+						{t(['education.collage.UNE.extra'])}
 					</p>
 				</div>
 				<hr />
 				<div className="collageContainer">
 					<h3 className="collegeTitle">
-						Science and Advance Studies Institute of Tamaulipas
+						{t(['education.collage.ICEST.name'])}
 					</h3>
-					<h4 className="careerTitle">Computer Systems and Electronics Engineer</h4>
-					<p className="educationDate">Tampico, México 2018-2020</p>
+					<h4 className="careerTitle">{t(['education.collage.ICEST.bachelorsDegree'])}</h4>
+					<p className="educationDate">{t(['education.collage.ICEST.dateAndLocation'])}</p>
 				</div>
 			</div>
 		</section>
