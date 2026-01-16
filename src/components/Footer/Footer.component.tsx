@@ -5,7 +5,12 @@ import './Footer.component.style.css'
 import phoneIcon from '../../assets/images/footer/phoneIcon.svg'
 import emailIcon from '../../assets/images/footer/emailIcon.svg'
 
+// Libraries
+import { useTranslation } from 'react-i18next'
+
 const FooterComponent = () => {
+	const { t } = useTranslation()
+
 	return (
 		<section className="footerContainer">
 			<div className="contactInfoContainer">
@@ -28,7 +33,7 @@ const FooterComponent = () => {
 			</div>
 			<hr />
 			<div className="footerDescriptionContainer">
-				<p className="footerDescription">All Rigts Reserver @ 2025. OSCAR GARZA</p>
+				<p className="footerDescription">{t(['footer.description'])}</p>
 			</div>
 		</section>
 	)
