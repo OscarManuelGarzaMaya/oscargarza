@@ -3,7 +3,7 @@ import './Education.component.style.css'
 
 const EducationComponent = () => {
 	return (
-		<div className="educationContainer">
+		<section className="educationContainer">
 			<h1 className="sectionTitle">Education</h1>
 			<div className="contentContainer">
 				<div className="collageContainer">
@@ -24,7 +24,7 @@ const EducationComponent = () => {
 					<p className="educationDate">Tampico, México 2018-2020</p>
 				</div>
 			</div>
-		</div>
+		</section>
 	)
 }
 

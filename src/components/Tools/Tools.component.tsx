@@ -43,10 +43,10 @@ const ToolsComponent = () => {
 	])
 
 	return (
-		<div className="toolsContainer">
+		<section className="toolsContainer">
 			<h1 className="sectionTitle">Tools & Technologies</h1>
 			<CarouselComponent itemsList={titles} />
-		</div>
+		</section>
 	)
 }
 
