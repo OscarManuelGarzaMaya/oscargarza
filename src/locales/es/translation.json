@@ -6,5 +6,12 @@
 			"download": "Descargar CV",
 			"connectNow": "Contactar ahora"
 		}
+	},
+	"aboutMe": {
+		"title": "Acerca de mí",
+		"description": {
+			"firstParagraph": "Busco una oportunidad para aplicar mis conocimientos técnicos y mi experiencia profesional en un entorno de trabajo dinámico, al tiempo que sigo aprendiendo y mejorando a través de nuevos retos. Me centro en ofrecer resultados de calidad y contribuir a soluciones fiables, escalables y orientadas al usuario.",
+			"secondParagraph": "Me motivan el crecimiento, la responsabilidad y la innovación, y disfruto trabajando en proyectos que me permiten desarrollarme tanto técnica como profesionalmente. Mi objetivo es aportar valor a un equipo colaborativo mientras amplío mis habilidades y asumo nuevos retos."
+		}
 	}
 }

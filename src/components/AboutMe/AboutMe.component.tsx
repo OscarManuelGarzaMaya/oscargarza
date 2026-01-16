@@ -4,22 +4,20 @@ import './AboutMe.component.style.css'
 // Assets
 import aboutMe from '../../assets/images/softwareDev.svg'
 
+// Libraries
+import { useTranslation } from 'react-i18next'
+
 const AboutMeComponent = () => {
+	const { t } = useTranslation()
 	return (
 		<section className="AboutMeContainer">
-			<h1 className="sectionTitle">About Me</h1>
+			<h1 className="sectionTitle">{t(['aboutMe.title'])}</h1>
 			<div className="aboutMeContentContainer">
 				<p>
-					I am seeking an opportunity to apply my technical knowledge and
-					professional experience in a dynamic work environment, while continuously
-					learning and improving through new challenges. I am focused on delivering
-					quality results and contributing to solutions that are reliable, scalable,
-					and user-oriented.
+					{t(['aboutMe.description.firstParagraph'])}
 					<br />
-					<br />I am motivated by growth, responsibility, and innovation, and I enjoy
-					working on projects that allow me to develop both technically and
-					professionally. My goal is to contribute value to a collaborative team
-					while expanding my skills and taking on new challenges.
+					<br />
+					{t(['aboutMe.description.secondParagraph'])}
 				</p>
 				<img
 					src={aboutMe}
