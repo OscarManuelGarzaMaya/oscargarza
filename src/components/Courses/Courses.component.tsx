@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useState } from 'react'
 
 // Styles
@@ -13,8 +12,12 @@ import TSLogo from '../../assets/images/courses/TSLogo.svg'
 import mySQLLogo from '../../assets/images/courses/mySQLLogo.svg'
 import CarouselComponent from '../Carousel/Carousel.component'
 
+// Libraries
+import { useTranslation } from 'react-i18next'
+
 const CoursesComponent = () => {
-	const [titles, setTitles] = useState([
+	const { t } = useTranslation()
+	const [titles, _] = useState([
 		{
 			title: 'React Native',
 			image: ReactLogo,
@@ -43,7 +46,7 @@ const CoursesComponent = () => {
 
 	return (
 		<section className="coursesContainer">
-			<h1 className="sectionTitle">Courses & Training</h1>
+			<h1 className="sectionTitle">{t(['coursesAndTraining.title'])}</h1>
 			<CarouselComponent itemsList={titles} />
 		</section>
 	)
