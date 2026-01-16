@@ -13,5 +13,37 @@
 			"firstParagraph": "I am seeking an opportunity to apply my technical knowledge and professional experience in a dynamic work environment, while continuously learning and improving through new challenges. I am focused on delivering quality results and contributing to solutions that are reliable, scalable, and user-oriented.",
 			"secondParagraph": "I am motivated by growth, responsibility, and innovation, and I enjoy working on projects that allow me to develop both technically and professionally. My goal is to contribute value to a collaborative team while expanding my skills and taking on new challenges."
 		}
+	},
+	"professionalExperience": {
+		"title": "Professional Experience",
+		"jobs": {
+			"SOLEMTI": {
+				"position": "Web Developer",
+				"date": "April 2025 - December 2025",
+				"description": {
+					"firstParagraph": "Developed custom client-side solutions using ",
+					"secondParagraph": "Implemented mono-repo structures to improve scalability and maintenance."
+				}
+			},
+			"RESSER": {
+				"position": "Web Developer (Full-Stack)",
+				"date": "April 2025 - December 2025",
+				"description": {
+					"firstParagraph": "Developed internal systems using ",
+					"secondParagraph": " and ",
+					"thirdParagraph": "proposed and implemented Smart Components standards for large-scale projects."
+				}
+			},
+			"ioConnectServices": {
+				"position": "Web & Mobile App Developer",
+				"date": "Oct 2021 - April 2023",
+				"description": {
+					"firstParagraph": "Maintained and updated enterprise websites using ",
+					"secondParagraph": " and ",
+					"thirdParagraph": "Developed mobile solutions with ",
+					"forthParagraph": " for a banking startup."
+				}
+			}
+		}
 	}
 }

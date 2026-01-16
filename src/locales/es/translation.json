@@ -13,5 +13,37 @@
 			"firstParagraph": "Busco una oportunidad para aplicar mis conocimientos técnicos y mi experiencia profesional en un entorno de trabajo dinámico, al tiempo que sigo aprendiendo y mejorando a través de nuevos retos. Me centro en ofrecer resultados de calidad y contribuir a soluciones fiables, escalables y orientadas al usuario.",
 			"secondParagraph": "Me motivan el crecimiento, la responsabilidad y la innovación, y disfruto trabajando en proyectos que me permiten desarrollarme tanto técnica como profesionalmente. Mi objetivo es aportar valor a un equipo colaborativo mientras amplío mis habilidades y asumo nuevos retos."
 		}
+	},
+	"professionalExperience": {
+		"title": "Experiencia profesional",
+		"jobs": {
+			"SOLEMTI": {
+				"position": "Desarrollador web",
+				"date": "Abril de 2025 - Diciembre de 2025",
+				"description": {
+					"firstParagraph": "Desarrolló soluciones personalizadas del lado del cliente utilizando ",
+					"secondParagraph": "Implementación de estructuras mono-repo para mejorar la escalabilidad y el mantenimiento."
+				}
+			},
+			"RESSER": {
+				"position": "Desarrollador web (Full-Stack)",
+				"date": "Abril de 2025 - Diciembre de 2025",
+				"description": {
+					"firstParagraph": "Desarrolló sistemas internos utilizando ",
+					"secondParagraph": " y ",
+					"thirdParagraph": "Propuso e implementó estándares de componentes inteligentes para proyectos a gran escala."
+				}
+			},
+			"ioConnectServices": {
+				"position": "Desarrollador web y de móviles",
+				"date": "Octubre de 2021 - Abril de 2023",
+				"description": {
+					"firstParagraph": "Di mantenimiento y actualización de sitios web corporativos utilizando ",
+					"secondParagraph": " y ",
+					"thirdParagraph": "Soluciones móviles desarrolladas con ",
+					"forthParagraph": " para una startup bancaria."
+				}
+			}
+		}
 	}
 }
