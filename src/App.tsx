@@ -8,6 +8,7 @@ import AboutMeComponent from './components/AboutMe/AboutMe.component'
 import ProfessionalExperienceComponent from './components/ProfessionalExperience/ProfessionalExperience.component'
 import CoursesComponent from './components/Courses/Courses.component'
 import EducationComponent from './components/Education/Education.component'
+import ToolsComponent from './components/Tools/Tools.component'
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 			<ProfessionalExperienceComponent />
 			<CoursesComponent />
 			<EducationComponent />
+			<ToolsComponent />
 		</div>
 	)
 }
