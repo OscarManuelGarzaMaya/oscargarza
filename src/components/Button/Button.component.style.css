@@ -1,6 +1,6 @@
 @import '../../assets/globals.css';
 
-.buttonContainer {
+/* .buttonContainer {
 	display: flex;
 	justify-content: center;
 }
@@ -23,4 +23,4 @@
 .buttonStyle:active {
 	transform: translateY(2px);
 	box-shadow: -4px 4px 0px var(--primary-blue);
-}
+} */

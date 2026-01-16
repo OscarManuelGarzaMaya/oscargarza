@@ -1,0 +1,91 @@
+.langDropdown {
+	position: relative;
+}
+
+.langDropdown * {
+	font-size: 1.4rem;
+}
+
+.langTrigger {
+	display: flex;
+	align-items: center;
+	gap: .8rem;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.langLabel {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.langLabel span {
+	opacity: 70%;
+}
+
+.downsideChevronImg {
+	width: 1.5rem;
+	height: auto;
+}
+
+/* Dropdown menu */
+.languageMenu {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	margin-top: 6px;
+	padding: 4px 4px;
+	width: 100%;
+	list-style: none;
+	background: white;
+	border-radius: 4px;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(-5px);
+	transition: all 0.15s ease;
+	z-index: 100;
+}
+
+.langLabel img,
+.languageMenu img {
+	width: 2.1rem;
+	height: auto;
+}
+
+.languageMenu span {
+	opacity: 70%;
+}
+
+.languageMenu.open {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);
+}
+
+/* Show on hover */
+.langDropdown:hover .languageMenu {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);
+}
+
+.languageMenu li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 8px 12px;
+	cursor: pointer;
+	border-radius: 7px;
+}
+
+.languageMenu li:hover {
+	background: #f2f2f2;
+}
+
+.langDivider {
+	border-top: 1px solid #2c569e;
+	opacity: 30%;
+}

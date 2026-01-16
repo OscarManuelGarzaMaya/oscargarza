@@ -1,0 +1,5 @@
+@import '../../assets/globals.css';
+
+.[FTName | camelcase]Container{
+    background-color: orange;
+}

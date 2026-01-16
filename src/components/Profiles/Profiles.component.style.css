@@ -1,0 +1,13 @@
+.profilesContainer {
+	display: flex;
+	gap: 1rem;
+}
+
+.profilesContainer a {
+	display: flex;
+}
+
+.profilesContainer img {
+	width: 35px;
+	height: auto;
+}

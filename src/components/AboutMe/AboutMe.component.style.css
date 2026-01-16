@@ -1,0 +1,22 @@
+@import '../../assets/globals.css';
+
+.AboutMeContainer {
+	background-color: #fff;
+	padding: 2em 3.125em;
+}
+
+.aboutMeContentContainer {
+	display: flex;
+	padding: 2em 0;
+}
+
+.aboutMeContentContainer p {
+	font-size: 1.5rem;
+	text-align: justify;
+	font-family: Montserrat-Regular;
+	padding: 4em 2em 0 2em;
+}
+
+.aboutMeContentContainer img {
+	padding: 0 3.65em 0 0;
+}

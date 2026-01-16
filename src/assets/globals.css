@@ -1,21 +1,4 @@
 :root {
-	--primary-red: #c0392b;
-	--primary-light-red: #af2e2c;
-	--primary-dark-red: #88291f;
-	--primary-orange: #f6733b;
-	--primary-white: #fff;
-	--primary-blue: #58b4b0;
-	--primary-light-blue: #61cebc;
-	--secondary-dark-blue: #1d313c;
-}
-
-.genericStyles {
-	font-size: 24px;
-	padding: 1vh 2vh;
-	border-radius: 1.5vh;
-	outline: .4vh solid var(--primary-light-blue);
-}
-
-.genericShadow {
-	box-shadow: -.8vh .8vh 0 var(--primary-blue);
+	--default-max-width: 2170px;
+	--gray-background: #f9f7fc;
 }
