@@ -11,7 +11,26 @@ import EducationComponent from './components/Education/Education.component'
 import ToolsComponent from './components/Tools/Tools.component'
 import FooterComponent from './components/Footer/Footer.component'
 
+// Libraries
+import i18next from 'i18next'
+import { initReactI18next } from 'react-i18next'
+
+// Assets
+import en from './locales/en/translation.json'
+import es from './locales/es/translation.json'
+import fr from './locales/fr/translation.json'
+
 function App() {
+	i18next.use(initReactI18next).init({
+		fallbackLng: 'fr',
+		resources: {
+			en: { translation: en },
+			es: { translation: es },
+			fr: { translation: fr },
+		},
+		interpolation: { escapeValue: false },
+	})
+
 	return (
 		<div className="App">
 			<HeaderComponent />

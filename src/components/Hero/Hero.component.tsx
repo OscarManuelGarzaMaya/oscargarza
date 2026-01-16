@@ -3,24 +3,11 @@ import './Hero.component.style.css'
 
 // Assets
 import heroImage from '../../assets/images/HeroImage.svg'
-import en from '../../locales/en/translation.json'
-import es from '../../locales/es/translation.json'
-import fr from '../../locales/fr/translation.json'
 
 // Libraries
-import i18next from 'i18next'
-import { initReactI18next, useTranslation } from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 
 const HeroComponent = () => {
-	i18next.use(initReactI18next).init({
-		fallbackLng: 'en',
-		resources: {
-			en: { translation: en },
-			es: { translation: es },
-			fr: { translation: fr },
-		},
-		interpolation: { escapeValue: false },
-	})
 	const { t } = useTranslation()
 
 	return (
