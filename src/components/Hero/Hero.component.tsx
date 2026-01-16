@@ -13,7 +13,7 @@ import { initReactI18next, useTranslation } from 'react-i18next'
 
 const HeroComponent = () => {
 	i18next.use(initReactI18next).init({
-		fallbackLng: 'fr',
+		fallbackLng: 'en',
 		resources: {
 			en: { translation: en },
 			es: { translation: es },
@@ -32,13 +32,10 @@ const HeroComponent = () => {
 						<h1 className="title">Garza Maya</h1>
 					</div>
 					<div className="subtitleContainer">
-						<h4 className="subtitle">{t(['bachelorsDegree'])}</h4>
+						<h4 className="subtitle">{t(['hero.bachelorsDegree'])}</h4>
 					</div>
 					<div className="descriptionContainer">
-						<p className="description">
-							I build modern, scalable web and mobile applications using Cutting-Edge
-							technologies.
-						</p>
+						<p className="description">{t(['hero.description'])}</p>
 					</div>
 					<div className="buttonsContainer">
 						<a
@@ -46,13 +43,14 @@ const HeroComponent = () => {
 							download
 							className="downloadButton"
 						>
-							<span title="Download resume">Download resume</span>
+							<span title="Download resume">{t(['hero.button.download'])}</span>
 						</a>
 						<a
+							// TODO: Sent me an email with this
 							href="/"
 							className="connectNowButton"
 						>
-							<span title="Connect Now">Connect Now</span>
+							<span title="Connect Now">{t(['hero.button.connectNow'])}</span>
 						</a>
 					</div>
 				</div>
