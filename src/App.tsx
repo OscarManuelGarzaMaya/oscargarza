@@ -9,6 +9,7 @@ import ProfessionalExperienceComponent from './components/ProfessionalExperience
 import CoursesComponent from './components/Courses/Courses.component'
 import EducationComponent from './components/Education/Education.component'
 import ToolsComponent from './components/Tools/Tools.component'
+import FooterComponent from './components/Footer/Footer.component'
 
 function App() {
 	return (
@@ -20,6 +21,7 @@ function App() {
 			<CoursesComponent />
 			<EducationComponent />
 			<ToolsComponent />
+			<FooterComponent />
 		</div>
 	)
 }
