@@ -13,9 +13,11 @@ import GitLogo from '../../assets/images/tools/gitLogo.svg'
 import GitHubLogo from '../../assets/images/tools/githubLogo.svg'
 import CicdLogo from '../../assets/images/tools/cicdLogo.svg'
 import FigmaLogo from '../../assets/images/tools/figmaLogo.svg'
+import { useTranslation } from 'react-i18next'
 
 const ToolsComponent = () => {
-	const [titles, setTitles] = useState([
+	const { t } = useTranslation()
+	const [titles, _] = useState([
 		{
 			title: 'React Native',
 			image: ReactLogo,
@@ -44,7 +46,7 @@ const ToolsComponent = () => {
 
 	return (
 		<section className="toolsContainer">
-			<h1 className="sectionTitle">Tools & Technologies</h1>
+			<h1 className="sectionTitle">{t(['tools.title'])}</h1>
 			<CarouselComponent itemsList={titles} />
 		</section>
 	)
