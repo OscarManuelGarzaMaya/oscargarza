@@ -5,13 +5,14 @@
 	border-radius: 20px;
 	box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.25);
 	display: flex;
+	flex: 1 1 320px;
 	flex-direction: column;
-	padding: 4.375vh 2.18vw 2.18vw 4.375vh;
+	padding: 2rem;
 }
 
 .enterpriseContainer {
 	display: flex;
-	gap: 10px;
+	gap: 1em;
 }
 
 .enterpriseContainer img {
@@ -43,12 +44,12 @@
 
 .jobDescription {
 	border-top: 1px solid rgba(0, 0, 0, 0.3);
-	padding-top: 0.5em;
 	margin-top: 1em;
+	padding-top: 0.5em;
 }
 
 .jobDescription p {
 	font-family: Montserrat-Regular;
 	font-size: 1.1rem;
-	width: 25vw;
+	line-height: 1.5;
 }
