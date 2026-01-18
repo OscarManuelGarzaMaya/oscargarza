@@ -5,7 +5,7 @@ import './Hero.component.style.css'
 import heroImage from '../../assets/images/HeroImage.svg'
 import englishCV from '/files/CV-Oscar-Manuel-Garza-Maya-Eng.pdf'
 import spanishCV from '/files/CV-Oscar-Manuel-Garza-Maya-Esp.pdf'
-import frenchCV from '/files/CV-Oscar-Manuel-Garza-Maya-Eng.pdf'
+import frenchCV from '/files/CV-Oscar-Manuel-Garza-Maya-Fr.pdf'
 
 // Libraries
 import { useTranslation } from 'react-i18next'
