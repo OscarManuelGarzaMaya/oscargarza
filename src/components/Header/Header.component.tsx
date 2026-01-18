@@ -7,7 +7,7 @@ import ProfilesComponent from '../Profiles/Profiles.component'
 
 const HeaderComponent = () => {
 	return (
-		<section className="headerSiteContainer">
+		<section className="headerSiteContainer sticky">
 			<div className="headerInnerContainer">
 				<div className="leftContainer">
 					<h1 className="headerName">Oscar Garza</h1>
