@@ -23,13 +23,15 @@ const EducationComponent = () => {
 						{t(['education.collage.UNE.extra'])}
 					</p>
 				</div>
-				<hr />
+				<div className="verticalDivider" />
 				<div className="collageContainer">
-					<h3 className="collegeTitle">
-						{t(['education.collage.ICEST.name'])}
-					</h3>
-					<h4 className="careerTitle">{t(['education.collage.ICEST.bachelorsDegree'])}</h4>
-					<p className="educationDate">{t(['education.collage.ICEST.dateAndLocation'])}</p>
+					<h3 className="collegeTitle">{t(['education.collage.ICEST.name'])}</h3>
+					<h4 className="careerTitle">
+						{t(['education.collage.ICEST.bachelorsDegree'])}
+					</h4>
+					<p className="educationDate">
+						{t(['education.collage.ICEST.dateAndLocation'])}
+					</p>
 				</div>
 			</div>
 		</section>
