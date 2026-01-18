@@ -16,40 +16,33 @@ import { useTranslation } from 'react-i18next'
 
 const DropdownComponent = () => {
 	const { i18n } = useTranslation()
-
 	const [open, setOpen] = useState(false)
 
-	const [languageList, setLangugeList] = useState<
-		Array<{
-			acronim: string
-			flag: string
-			isSelected: boolean
-			language: string
-			name: string
-		}>
-	>([
+	const LANGUAGES = [
 		{
 			acronim: 'EN',
 			flag: americanFlag,
-			isSelected: true,
 			language: 'en',
 			name: 'English',
 		},
 		{
 			acronim: 'SP',
 			flag: mexicanFlag,
-			isSelected: false,
 			language: 'es',
 			name: 'Spanish',
 		},
 		{
 			acronim: 'FR',
 			flag: franceFlag,
-			isSelected: false,
 			language: 'fr',
 			name: 'French',
 		},
-	])
+	]
+
+	// Normalize language like "en-US" -> "en"
+	const selectedLang = i18n.language.split('-')[0]
+
+	const activeLang = LANGUAGES.find((lang) => lang.language === selectedLang)
 
 	return (
 		<div className="langDropdown">
@@ -57,48 +50,40 @@ const DropdownComponent = () => {
 				className="langTrigger"
 				onClick={() => setOpen(!open)}
 			>
-				{languageList
-					.filter((lang) => lang.isSelected)
-					.map((lang) => (
-						<>
-							<div className="langLabel">
-								<span>{lang.acronim}</span>
-								<img
-									src={lang.flag}
-									alt={lang.name}
-								/>
-							</div>
+				{activeLang && (
+					<>
+						<div className="langLabel">
+							<span>{activeLang.acronim}</span>
 							<img
-								alt="chevron"
-								className="downsideChevronImg"
-								src={downsideChevron}
+								src={activeLang.flag}
+								alt={activeLang.name}
 							/>
-						</>
-					))}
+						</div>
+						<img
+							alt="chevron"
+							className="downsideChevronImg"
+							src={downsideChevron}
+						/>
+					</>
+				)}
 			</button>
 			<ul className={`languageMenu ${open ? 'open' : ''}`}>
-				{languageList
-					.filter((lang) => !lang.isSelected)
-					.map((lang) => (
-						<li
-							title={lang.name}
-							onClick={() => {
-								i18n.changeLanguage(lang.language)
-								setLangugeList((currentLangs) =>
-									currentLangs.map((currentLang) => ({
-										...currentLang,
-										isSelected: currentLang.language === lang.language,
-									})),
-								)
-							}}
-						>
-							<span>{lang.acronim}</span>
-							<img
-								alt={lang.name}
-								src={lang.flag}
-							/>
-						</li>
-					))}
+				{LANGUAGES.filter((lang) => lang.language !== selectedLang).map((lang) => (
+					<li
+						key={lang.language}
+						title={lang.name}
+						onClick={() => {
+							i18n.changeLanguage(lang.language)
+							setOpen(false)
+						}}
+					>
+						<span>{lang.acronim}</span>
+						<img
+							src={lang.flag}
+							alt={lang.name}
+						/>
+					</li>
+				))}
 			</ul>
 		</div>
 	)
