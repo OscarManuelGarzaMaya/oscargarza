@@ -7,18 +7,25 @@
 
 .aboutMeContentContainer {
 	display: flex;
-	justify-content: space-between;
+	gap: 3rem;
+	align-items: center;
+	flex-wrap: wrap;
 	padding: 2em 0;
 }
 
 .aboutMeContentContainer p {
-	font-family: Montserrat-Regular;
+	font-family: Montserrat-Medium;
 	font-size: 1.5rem;
-	padding: 4em 0;
+	line-height: 1.6;
 	text-align: justify;
-	width: 40em;
+	flex: 1 1 420px;
+	max-width: 60ch;
+	padding: 0;
 }
 
 .aboutMeContentContainer img {
-	padding: 0 3.65em 0 0;
+	flex: 1 1 320px;
+	max-width: 100%;
+	height: auto;
+	/* padding: 0 3.65em 0 0; */
 }
