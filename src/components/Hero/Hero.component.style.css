@@ -12,7 +12,6 @@
 	display: flex;
 	flex-wrap: wrap;
 	gap: 3rem;
-	max-width: 1920px;
 	width: 100%;
 }
 
