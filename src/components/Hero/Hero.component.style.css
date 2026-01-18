@@ -4,40 +4,50 @@
 	display: flex;
 	justify-content: center;
 	background-color: var(--gray-background);
+	padding: 5rem 3rem 0 3rem;
 }
 
 .heroInnerContainer {
+	align-items: center;
 	display: flex;
-	flex: 1;
-	justify-content: space-between;
-	padding: 3vh 3vw 0 3vw;
+	flex-wrap: wrap;
+	gap: 3rem;
+	max-width: 1920px;
+	width: 100%;
 }
 
 .heroDescriptionContainer {
-	font-size: 3rem;
-	padding-top: 2em;
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 420px;
+	justify-content: center;
 }
 
 .title {
-	font-size: 1.9em;
+	font-size: clamp(3rem, 6vw, 6rem);
+	line-height: 1;
 	margin: 0;
 }
 
 .subtitle {
 	color: #2c569e;
-	margin: 0;
-	font-size: 2.3rem;
+	font-size: clamp(1.8rem, 4vw, 3.5rem);
+	line-height: 1;
+	margin: 0.5rem 0;
 }
 
 .description {
 	font-family: Montserrat-Regular;
-	font-size: 1.5rem;
+	font-size: 1.4rem;
+	max-width: 40ch;
+	line-height: 1.5;
+	margin-top: 0;
 }
 
 .buttonsContainer {
 	display: flex;
-	gap: 32px;
-	margin-top: 4.5rem;
+	flex-wrap: wrap;
+	gap: 1.5rem;
 }
 
 .buttonsContainer * {
@@ -77,10 +87,13 @@
 
 .heroImgContainer {
 	display: flex;
-	align-items: end;
+	justify-content: center;
+	align-items: flex-end;
+	flex: 1 1 360px;
 }
 
 .heroImg {
-	height: 732px;
-	width: auto;
+	height: auto;
+	max-height: 600px;
+	max-width: 100%;
 }
