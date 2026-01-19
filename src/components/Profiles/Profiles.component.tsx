@@ -10,8 +10,9 @@ const ProfilesComponent = () => {
 		<div className="profilesContainer">
 			<a
 				href="https://github.com/OscarManuelGarzaMaya"
-				target="_blank"
 				rel="noopener noreferrer"
+				target="_blank"
+				title="Git Hub profile"
 			>
 				<img
 					src={githubLogo}
@@ -20,8 +21,9 @@ const ProfilesComponent = () => {
 			</a>
 			<a
 				href="https://www.linkedin.com/in/oscar-manuel-garza-maya-83145a1a0/"
-				target="_blank"
 				rel="noopener noreferrer"
+				target="_blank"
+				title="LinkedIn profile"
 			>
 				<img
 					src={linkedinLogo}
