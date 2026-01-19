@@ -25,7 +25,6 @@
 
 .aboutMeContentContainer img {
 	flex: 1 1 320px;
-	max-width: 100%;
+	max-width: 50%;
 	height: auto;
-	/* padding: 0 3.65em 0 0; */
 }
