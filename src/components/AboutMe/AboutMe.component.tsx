@@ -2,7 +2,7 @@ import '../../assets/globals.css'
 import './AboutMe.component.style.css'
 
 // Assets
-import aboutMe from '../../assets/images/softwareDev.svg'
+import aboutMe from '../../assets/images/softwareDev.png'
 
 // Libraries
 import { useTranslation } from 'react-i18next'
