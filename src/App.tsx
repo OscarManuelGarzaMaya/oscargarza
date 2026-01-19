@@ -1,3 +1,6 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+import { useEffect } from 'react'
+
 import './App.css'
 import './assets/globals.css'
 
@@ -21,7 +24,13 @@ import en from './locales/en/translation.json'
 import es from './locales/es/translation.json'
 import fr from './locales/fr/translation.json'
 
+// TODO: Update tab name and favicon
 function App() {
+
+	useEffect(() => {
+		document.title = 'Oscar Garza | CV'
+	}, [])
+
 	i18next
 		.use(LanguageDetector)
 		.use(initReactI18next)
