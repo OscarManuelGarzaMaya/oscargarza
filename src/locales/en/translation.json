@@ -56,7 +56,10 @@
 				"name": "Universidad del Noreste",
 				"bachelorsDegree": "Computer Systems and Electronics Engineer",
 				"dateAndLocation": "Tampico, México 2018-2020",
-				"extra": "I represented the University of the Northeast at the State Contest of Creativity and Innovation in Technology, ExpoCiencias Tamaulipas."
+				"extra": {
+					"firstParagraph": "I represented the University of the Northeast at the ",
+					"secondParagraph": "State Contest of Creativity and Innovation in Technology, ExpoCiencias Tamaulipas."
+				}
 			},
 			"ICEST": {
 				"name": "ICEST",

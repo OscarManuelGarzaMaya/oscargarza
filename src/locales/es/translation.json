@@ -1,17 +1,17 @@
 {
 	"hero": {
-		"bachelorsDegree": "Ingeniero en sistemas computacionales",
-		"description": "Creo aplicaciones web y móviles modernas y escalables utilizando tecnologías de vanguardia.",
+		"bachelorsDegree": "Ingeniero en Sistemas Computacionales",
+		"description": "Construyo aplicaciones web y móviles modernas y escalables utilizando tecnologías de vanguardia.",
 		"button": {
-			"download": "Descargar CV",
+			"download": "Descarga mi CV",
 			"connectNow": "Contactar ahora"
 		}
 	},
 	"aboutMe": {
 		"title": "Acerca de mí",
 		"description": {
-			"firstParagraph": "Busco una oportunidad para aplicar mis conocimientos técnicos y mi experiencia profesional en un entorno de trabajo dinámico, al tiempo que sigo aprendiendo y mejorando a través de nuevos retos. Me centro en ofrecer resultados de calidad y contribuir a soluciones fiables, escalables y orientadas al usuario.",
-			"secondParagraph": "Me motivan el crecimiento, la responsabilidad y la innovación, y disfruto trabajando en proyectos que me permiten desarrollarme tanto técnica como profesionalmente. Mi objetivo es aportar valor a un equipo colaborativo mientras amplío mis habilidades y asumo nuevos retos."
+			"firstParagraph": "Busco una oportunidad para aplicar mis conocimientos técnicos y mi experiencia profesional en un entorno de trabajo dinámico, al tiempo que sigo aprendiendo y mejorando a través de nuevos retos. Me centro en ofrecer resultados de calidad y contribuir a soluciones de confianza, escalables y orientadas al usuario.",
+			"secondParagraph": "Me motivan el crecimiento, la responsabilidad y la innovación, y disfruto trabajando en proyectos que me permiten desarrollarme tanto técnicamente como profesionalmente. Mi objetivo es aportar valor a un equipo colaborativo mientras amplío mis habilidades y asumo nuevos retos."
 		}
 	},
 	"professionalExperience": {
@@ -56,7 +56,10 @@
 				"name": "Universidad del Noreste",
 				"bachelorsDegree": "Ingeniería en Sistemas Computacionales y Electrónicos",
 				"dateAndLocation": "Tampico, México 2018-2020",
-				"extra": "Representé a la Universidad del Noreste en el Concurso Estatal de Creatividad e Innovación en Tecnología, ExpoCiencias Tamaulipas."
+				"extra": {
+					"firstParagraph": "Representé a la Universidad del Noreste en el ",
+					"secondParagraph": "Concurso Estatal de Creatividad e Innovación en Tecnología, ExpoCiencias Tamaulipas."
+				}
 			},
 			"ICEST": {
 				"name": "ICEST",
