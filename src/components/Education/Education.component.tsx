@@ -20,7 +20,8 @@ const EducationComponent = () => {
 						{t(['education.collage.UNE.dateAndLocation'])}
 					</p>
 					<p className="educationDescription">
-						{t(['education.collage.UNE.extra'])}
+						{t(['education.collage.UNE.extra.firstParagraph'])}
+						<i>{t(['education.collage.UNE.extra.secondParagraph'])}</i>
 					</p>
 				</div>
 				<div className="verticalDivider" />
