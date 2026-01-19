@@ -15,7 +15,6 @@ const CarouselComponent = ({
 		image: string
 	}[]
 }) => {
-	// TODO: Add animation to carousel section
 	const sliderRef = useRef<HTMLDivElement | null>(null)
 
 	const onLeftClick = () => {
