@@ -9,10 +9,14 @@
 .langTrigger {
 	display: flex;
 	align-items: center;
-	gap: .8rem;
+	gap: 0.8rem;
 	background: transparent;
 	border: none;
 	cursor: pointer;
+}
+
+.flag {
+	background-color: white;
 }
 
 .langLabel {
