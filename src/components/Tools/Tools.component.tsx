@@ -19,7 +19,7 @@ const ToolsComponent = () => {
 	const { t } = useTranslation()
 	const [titles, _] = useState([
 		{
-			title: 'React Native',
+			title: 'React',
 			image: ReactLogo,
 		},
 		{
