@@ -21,6 +21,6 @@ export default defineConfig([
 			globals: globals.browser,
 		},
 		plugins: [react()],
-		base: 'oscargarza',
+		base: '/',
 	},
 ])
