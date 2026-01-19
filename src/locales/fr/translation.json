@@ -56,7 +56,10 @@
 				"name": "Universidad del Noreste",
 				"bachelorsDegree": "Ingénieur en systèmes informatiques et en électronique",
 				"dateAndLocation": "Tampico, México 2018-2020",
-				"extra": "J'ai représenté l'Universidad del Noreste au Concours national de créativité et d'innovation technologique, ExpoCiencias Tamaulipas."
+				"extra": {
+					"firstParagraph": "J'ai représenté l'Universidad del Noreste au ",
+					"secondParagraph": "Concours national de créativité et d'innovation technologique, ExpoCiencias Tamaulipas."
+				}
 			},
 			"ICEST": {
 				"name": "ICEST",
