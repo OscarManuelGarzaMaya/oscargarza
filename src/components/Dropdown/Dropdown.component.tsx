@@ -57,6 +57,7 @@ const DropdownComponent = () => {
 							<img
 								src={activeLang.flag}
 								alt={activeLang.name}
+								className="flag"
 							/>
 						</div>
 						<img
