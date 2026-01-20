@@ -5,7 +5,8 @@
 		"button": {
 			"download": "Download resume",
 			"connectNow": "Connect Now"
-		}
+		},
+		"snackBar": "If your email does not open, verify that you have a client configured"
 	},
 	"aboutMe": {
 		"title": "About Me",
