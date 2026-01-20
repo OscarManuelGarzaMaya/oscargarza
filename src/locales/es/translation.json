@@ -5,7 +5,8 @@
 		"button": {
 			"download": "Descarga mi CV",
 			"connectNow": "Contactar ahora"
-		}
+		},
+		"snackBar": "Si no se abre tu correo, verifica que tengas un cliente configurado"
 	},
 	"aboutMe": {
 		"title": "Acerca de mí",

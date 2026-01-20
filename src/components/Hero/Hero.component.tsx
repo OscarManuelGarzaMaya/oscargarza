@@ -83,9 +83,7 @@ const HeroComponent = () => {
 					id="snackbar"
 					className="show"
 				>
-					<p className="snackbarText">
-						Si no se abre tu correo, verifica que tengas un cliente configurado.
-					</p>
+					<p className="snackbarText">{t(['hero.snackBar'])}</p>
 				</div>
 			)}
 		</section>
