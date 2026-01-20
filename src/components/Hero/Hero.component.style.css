@@ -96,3 +96,74 @@
 	max-height: 600px;
 	max-width: 100%;
 }
+
+.connectNowButton.disabled,
+.connectNowButton.disabled span,
+.connectNowButton.disabled span:hover {
+	cursor: wait;
+	opacity: 0.6;
+}
+
+.connectNowButton.enabled {
+	cursor: pointer;
+	opacity: 1;
+}
+
+#snackbar {
+	position: fixed;
+	left: 50%;
+	bottom: 30px;
+	transform: translateX(-50%);
+
+	background-color: #333;
+	color: #fff;
+
+	padding: 16px 24px;
+	border-radius: 12px;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+	max-width: calc(100vw - 32px);
+	width: fit-content;
+
+	text-align: center;
+
+	visibility: hidden;
+	opacity: 0;
+
+	z-index: 9999;
+}
+
+#snackbar.show {
+	visibility: visible;
+	animation:
+		snackbar-fade-in 0.3s ease forwards,
+		snackbar-fade-out 0.3s ease 4.4s forwards;
+}
+
+@keyframes snackbar-fade-in {
+	from {
+		opacity: 0;
+		transform: translate(-50%, 10px);
+	}
+	to {
+		opacity: 1;
+		transform: translate(-50%, 0);
+	}
+}
+
+@keyframes snackbar-fade-out {
+	from {
+		opacity: 1;
+		transform: translate(-50%, 0);
+	}
+	to {
+		opacity: 0;
+		transform: translate(-50%, 10px);
+	}
+}
+
+.snackbarText {
+	margin: 0;
+	font-family: Montserrat-SemiBold;
+	font-size: 1.2rem;
+}

@@ -1,3 +1,5 @@
+import React, { useState } from 'react'
+
 // Styles
 import './Hero.component.style.css'
 
@@ -12,6 +14,23 @@ import { useTranslation } from 'react-i18next'
 import i18next from 'i18next'
 
 const HeroComponent = () => {
+	const [isContactDisabled, setIsContactDisabled] = useState(false)
+
+	const onContactMeClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+		e.preventDefault()
+
+		if (isContactDisabled) return
+
+		window.location.href =
+			'mailto:osgarzam@gmail.com?subject=Contacto%20desde%20Mi%20portafolio&body=Hola%20[Tu%20Nombre],%0D%0A%0D%0AMe%20gustaría%20ponerme%20en%20contacto%20contigo%20para...%0D%0A%0D%0ASaludos.'
+
+		setIsContactDisabled(true)
+
+		setTimeout(() => {
+			setIsContactDisabled(false)
+		}, 5000)
+	}
+
 	const { t } = useTranslation()
 
 	return (
@@ -43,8 +62,9 @@ const HeroComponent = () => {
 							<span title="Download resume">{t(['hero.button.download'])}</span>
 						</a>
 						<a
-							href="mailto:osgarzam@gmail.com?subject=Contacto%20desde%20Mi%20portafolio&body=Hola%20[Tu%20Nombre],%0D%0A%0D%0AMe%20gustaría%20ponerme%20en%20contacto%20contigo%20para...%0D%0A%0D%0ASaludos."
-							className="connectNowButton"
+							aria-disabled={isContactDisabled}
+							className={`connectNowButton ${isContactDisabled ? 'disabled' : 'enabled'}`}
+							onClick={onContactMeClick}
 						>
 							<span title="Connect Now">{t(['hero.button.connectNow'])}</span>
 						</a>
@@ -58,6 +78,16 @@ const HeroComponent = () => {
 					/>
 				</div>
 			</div>
+			{isContactDisabled && (
+				<div
+					id="snackbar"
+					className="show"
+				>
+					<p className="snackbarText">
+						Si no se abre tu correo, verifica que tengas un cliente configurado.
+					</p>
+				</div>
+			)}
 		</section>
 	)
 }
