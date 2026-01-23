@@ -5,7 +5,12 @@ import './Header.component.style.css'
 import DropdownComponent from '../Dropdown/Dropdown.component'
 import ProfilesComponent from '../Profiles/Profiles.component'
 
+// Custom hooks
+import { useMediaQuery } from '../../hooks/useMediaQuery'
+
 const HeaderComponent = () => {
+	const isDesktop = useMediaQuery('(min-width: 576px)')
+
 	return (
 		<section className="headerSiteContainer sticky">
 			<div className="headerInnerContainer">
@@ -14,7 +19,7 @@ const HeaderComponent = () => {
 				</div>
 				<div className="rightContainer">
 					<DropdownComponent />
-					<ProfilesComponent />
+					{isDesktop && <ProfilesComponent />}
 				</div>
 			</div>
 		</section>

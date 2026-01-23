@@ -26,6 +26,12 @@
 	font-size: 2.5rem;
 }
 
+@media only screen and (max-width: 576px) {
+	.headerName {
+		font-size: 1.5rem;
+	}
+}
+
 .rightContainer {
 	display: flex;
 	align-items: center;
