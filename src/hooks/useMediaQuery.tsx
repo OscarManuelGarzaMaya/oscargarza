@@ -5,10 +5,23 @@ export const useMediaQuery = (query: string): boolean => {
 
 	useEffect(() => {
 		const media = window.matchMedia(query)
+
 		const listener = () => setMatches(media.matches)
 
-		media.addEventListener('change', listener)
-		return () => media.removeEventListener('change', listener)
+		// Compatibilidad total
+		if (media.addEventListener) {
+			media.addEventListener('change', listener)
+		} else {
+			media.addListener(listener)
+		}
+
+		return () => {
+			if (media.removeEventListener) {
+				media.removeEventListener('change', listener)
+			} else {
+				media.removeListener(listener)
+			}
+		}
 	}, [query])
 
 	return matches
