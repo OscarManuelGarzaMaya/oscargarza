@@ -2,3 +2,7 @@
 	--default-max-width: 2170px;
 	--gray-background: #f9f7fc;
 }
+
+.sectionTitle {
+	font-size: 3rem;
+}
