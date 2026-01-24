@@ -2,12 +2,12 @@
 
 .proffesionalExperienceContainer {
 	background-color: var(--gray-background);
-	padding: 2em 3.125em;
+	padding: 2em 3em;
 }
 
 .cardsContainer {
 	display: grid;
-	grid-template-columns: 1;
+	grid-template-columns: 1fr;
 	gap: 2rem;
 	margin-top: 3vh;
 }
