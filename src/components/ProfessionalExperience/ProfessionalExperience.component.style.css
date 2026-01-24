@@ -2,12 +2,18 @@
 
 .proffesionalExperienceContainer {
 	background-color: var(--gray-background);
-	padding: 2em 3.125em;
+	padding: 2em 3em;
 }
 
 .cardsContainer {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-template-columns: 1fr;
 	gap: 2rem;
 	margin-top: 3vh;
+}
+
+@media (min-width: 1400px) {
+	.cardsContainer {
+		grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	}
 }

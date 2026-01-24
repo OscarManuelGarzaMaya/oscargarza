@@ -5,12 +5,11 @@ import './ProfessionalExperience.component.style.css'
 import firstEnterpriseLogo from '../../assets/images/professionalExperiences/firstEnterpriseLogo.svg'
 import secondEnterpriseLogo from '../../assets/images/professionalExperiences/secondEnterpriseLogo.svg'
 import thirdEnterpriseLogo from '../../assets/images/professionalExperiences/thirdEnterpriseLogo.svg'
-import CardsComponent from '../Cards/Cards.component'
+import CardComponent from '../Card/Card.component'
 
 // Librry
 import { useTranslation } from 'react-i18next'
 
-// TODO: Make sure texts are genuinely translated from CV file
 const ProfessionalExperienceComponent = () => {
 	const { t } = useTranslation()
 
@@ -18,10 +17,10 @@ const ProfessionalExperienceComponent = () => {
 		<section className="proffesionalExperienceContainer">
 			<h1 className="sectionTitle">{t(['professionalExperience.title'])}</h1>
 			<div className="cardsContainer">
-				<CardsComponent
-					enterpriseLogo={firstEnterpriseLogo}
-					enterpriseTitle="SOLMETI"
-					positionTitle={t(['professionalExperience.jobs.SOLEMTI.position'])}
+				<CardComponent
+					logo={firstEnterpriseLogo}
+					title="SOLMETI"
+					heading={t(['professionalExperience.jobs.SOLEMTI.position'])}
 					date={t(['professionalExperience.jobs.SOLEMTI.date'])}
 				>
 					<p>
@@ -29,11 +28,11 @@ const ProfessionalExperienceComponent = () => {
 						<b>REACT.</b> <br />
 						{t(['professionalExperience.jobs.SOLEMTI.description.secondParagraph'])}
 					</p>
-				</CardsComponent>
-				<CardsComponent
-					enterpriseLogo={secondEnterpriseLogo}
-					enterpriseTitle="RESSER"
-					positionTitle={t(['professionalExperience.jobs.RESSER.position'])}
+				</CardComponent>
+				<CardComponent
+					logo={secondEnterpriseLogo}
+					title="RESSER"
+					heading={t(['professionalExperience.jobs.RESSER.position'])}
 					date={t(['professionalExperience.jobs.RESSER.date'])}
 				>
 					<p>
@@ -43,11 +42,11 @@ const ProfessionalExperienceComponent = () => {
 						<b>SQL</b>. <br />
 						{t(['professionalExperience.jobs.RESSER.description.thirdParagraph'])}
 					</p>
-				</CardsComponent>
-				<CardsComponent
-					enterpriseLogo={thirdEnterpriseLogo}
-					enterpriseTitle={'IO CONNECT SERVICES'}
-					positionTitle={t([
+				</CardComponent>
+				<CardComponent
+					logo={thirdEnterpriseLogo}
+					title={'IO CONNECT SERVICES'}
+					heading={t([
 						'professionalExperience.jobs.ioConnectServices.position',
 					])}
 					date={t(['professionalExperience.jobs.ioConnectServices.date'])}
@@ -70,7 +69,7 @@ const ProfessionalExperienceComponent = () => {
 							'professionalExperience.jobs.ioConnectServices.description.forthParagraph',
 						])}
 					</p>
-				</CardsComponent>
+				</CardComponent>
 			</div>
 		</section>
 	)

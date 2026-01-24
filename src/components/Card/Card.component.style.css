@@ -5,51 +5,67 @@
 	border-radius: 20px;
 	box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.25);
 	display: flex;
-	flex: 1 1 320px;
 	flex-direction: column;
 	padding: 2rem;
 }
 
-.enterpriseContainer {
+.cardTitleContainer {
+	align-items: center;
 	display: flex;
 	gap: 1em;
 }
 
-.enterpriseContainer img {
+.cardTitleContainer img {
 	height: auto;
-	width: 5.19rem;
+	max-width: 3rem;
+	max-height: 3rem;
 }
 
-.enterpriseContainer h2 {
+.cardTitle {
 	font-family: Montserrat-Bold;
-	font-size: 2.125rem;
+	font-size: 1.5rem;
 	text-transform: uppercase;
 }
 
-.jobDataContainer {
-	margin-top: 1em;
-	font-size: 1.5rem;
+.cardDataContainer {
+	font-size: 1.3rem;
 }
 
-.poistionTitle {
+.cardHeading {
 	font-family: Montserrat-SemiBold;
-	margin: 0;
+	font-size: 1.5rem;
+	margin: 0.5rem 0;
 }
 
-.positionDate {
+.cardSecondaryHeading {
+	color: #2c569e;
+}
+
+.cardDate {
 	color: rgba(0, 0, 0, 0.6);
 	font-family: Montserrat-Medium;
 	margin: 0;
 }
 
-.jobDescription {
+.cardDescription {
 	border-top: 1px solid rgba(0, 0, 0, 0.3);
 	margin-top: 1em;
-	padding-top: 0.5em;
 }
 
-.jobDescription p {
+.cardDescription p {
 	font-family: Montserrat-Regular;
 	font-size: 1.1rem;
 	line-height: 1.5;
+	margin: 0.8rem 0;
+}
+
+.cardNotDescription {
+	border-top: 0;
+}
+
+/* Tablet / IPad */
+@media (min-width: 810px) {
+	.cardTitle {
+		font-size: 2rem;
+	}
 }
