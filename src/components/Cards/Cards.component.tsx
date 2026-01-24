@@ -23,7 +23,7 @@ const CardsComponent = ({
 					src={enterpriseLogo}
 					alt="Enterprise Logo"
 				/>
-				<h2>{enterpriseTitle}</h2>
+				<h2 className="enterpriseTitle">{enterpriseTitle}</h2>
 			</div>
 			<div className="jobDataContainer">
 				<h3 className="poistionTitle">{positionTitle}</h3>

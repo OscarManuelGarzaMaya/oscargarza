@@ -5,34 +5,36 @@
 	border-radius: 20px;
 	box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.25);
 	display: flex;
-	flex: 1 1 320px;
 	flex-direction: column;
 	padding: 2rem;
 }
 
 .enterpriseContainer {
+	align-items: center;
 	display: flex;
 	gap: 1em;
 }
 
 .enterpriseContainer img {
 	height: auto;
-	width: 5.19rem;
+	max-width: 3rem;
+	max-height: 3rem;
 }
 
-.enterpriseContainer h2 {
+.enterpriseTitle {
 	font-family: Montserrat-Bold;
-	font-size: 2.125rem;
+	font-size: 1.5rem;
 	text-transform: uppercase;
 }
 
 .jobDataContainer {
-	margin-top: 1em;
-	font-size: 1.5rem;
+	margin-top: 0.7rem;
+	font-size: 1.3rem;
 }
 
 .poistionTitle {
 	font-family: Montserrat-SemiBold;
+	font-size: 1.5rem;
 	margin: 0;
 }
 
@@ -45,11 +47,17 @@
 .jobDescription {
 	border-top: 1px solid rgba(0, 0, 0, 0.3);
 	margin-top: 1em;
-	padding-top: 0.5em;
 }
 
 .jobDescription p {
 	font-family: Montserrat-Regular;
 	font-size: 1.1rem;
 	line-height: 1.5;
+}
+
+/* Tablet / IPad */
+@media (min-width: 810px) {
+	.enterpriseTitle {
+		font-size: 2rem;
+	}
 }
