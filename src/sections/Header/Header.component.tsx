@@ -2,8 +2,8 @@
 import './Header.component.style.css'
 
 // Components
-import DropdownComponent from '../Dropdown/Dropdown.component'
-import ProfilesComponent from '../Profiles/Profiles.component'
+import DropdownComponent from '../../components/Dropdown/Dropdown.component'
+import ProfilesComponent from '../../components/Profiles/Profiles.component'
 
 // Custom hooks
 import { useMediaQuery } from '../../hooks/useMediaQuery'

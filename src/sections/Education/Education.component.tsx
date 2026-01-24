@@ -8,7 +8,7 @@ import { useMediaQuery } from '../../hooks/useMediaQuery'
 import { useTranslation } from 'react-i18next'
 
 // Components
-import CardComponent from '../Card/Card.component'
+import CardComponent from '../../components/Card/Card.component'
 
 const EducationComponent = () => {
 	const { t } = useTranslation()

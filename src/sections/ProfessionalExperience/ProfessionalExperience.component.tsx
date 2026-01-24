@@ -5,7 +5,7 @@ import './ProfessionalExperience.component.style.css'
 import firstEnterpriseLogo from '../../assets/images/professionalExperiences/firstEnterpriseLogo.svg'
 import secondEnterpriseLogo from '../../assets/images/professionalExperiences/secondEnterpriseLogo.svg'
 import thirdEnterpriseLogo from '../../assets/images/professionalExperiences/thirdEnterpriseLogo.svg'
-import CardComponent from '../Card/Card.component'
+import CardComponent from '../../components/Card/Card.component'
 
 // Librry
 import { useTranslation } from 'react-i18next'
@@ -46,9 +46,7 @@ const ProfessionalExperienceComponent = () => {
 				<CardComponent
 					logo={thirdEnterpriseLogo}
 					title={'IO CONNECT SERVICES'}
-					heading={t([
-						'professionalExperience.jobs.ioConnectServices.position',
-					])}
+					heading={t(['professionalExperience.jobs.ioConnectServices.position'])}
 					date={t(['professionalExperience.jobs.ioConnectServices.date'])}
 				>
 					<p>
