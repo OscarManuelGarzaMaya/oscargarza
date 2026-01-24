@@ -9,7 +9,7 @@ import ProfilesComponent from '../Profiles/Profiles.component'
 import { useMediaQuery } from '../../hooks/useMediaQuery'
 
 const HeaderComponent = () => {
-	const isDesktop = useMediaQuery('(min-width: 576px)')
+	const isDesktop = useMediaQuery('(min-width: 1400px)')
 
 	return (
 		<section className="headerSiteContainer sticky">

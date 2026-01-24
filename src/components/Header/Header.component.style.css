@@ -9,11 +9,11 @@
 }
 
 .headerInnerContainer {
-	padding: 0 3rem;
-	margin: 0 auto;
-	display: flex;
 	align-items: center;
+	display: flex;
 	justify-content: space-between;
+	margin: 0 auto;
+	padding: 0 3rem;
 }
 
 .leftContainer {
@@ -22,13 +22,21 @@
 
 .headerName {
 	font-family: Istok-Web-Bold;
+	font-size: 1.5rem;
 	margin: 1rem 0;
-	font-size: 2.5rem;
 }
 
-@media only screen and (max-width: 576px) {
+/* Tablet / IPad */
+@media (min-width: 810px) {
 	.headerName {
-		font-size: 1.5rem;
+		font-size: 2.5rem;
+	}
+}
+
+/* Desktop */
+@media (min-width: 1400px) {
+	.headerName {
+		font-size: 2.5rem;
 	}
 }
 
