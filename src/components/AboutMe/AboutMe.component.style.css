@@ -7,24 +7,73 @@
 
 .aboutMeContentContainer {
 	display: flex;
-	gap: 3rem;
 	align-items: center;
 	flex-wrap: wrap;
-	padding: 2em 0;
 }
 
 .aboutMeContentContainer p {
 	font-family: Montserrat-Medium;
-	font-size: 1.5rem;
 	line-height: 1.6;
 	text-align: justify;
 	flex: 1 1 420px;
-	max-width: 60ch;
 	padding: 0;
 }
 
 .aboutMeContentContainer img {
 	flex: 1 1 320px;
-	max-width: 50%;
 	height: auto;
+}
+
+@media (min-width: 412px) {
+	.aboutMeContentContainer {
+		gap: 1rem;
+		padding: 1.5em 0;
+		justify-content: center;
+	}
+
+	.aboutMeContentContainer p {
+		font-size: 1rem;
+		max-width: 100%;
+		margin: 0;
+	}
+
+	.aboutMeContentContainer img {
+		max-width: 80%;
+	}
+}
+
+@media (min-width: 810px) {
+	.aboutMeContentContainer {
+		gap: 1rem;
+		padding: 1.5em 0;
+		justify-content: center;
+	}
+
+	.aboutMeContentContainer p {
+		font-size: 1.3rem;
+	}
+
+	.aboutMeContentContainer img {
+		max-width: 80%;
+	}
+}
+
+@media (min-width: 1400px) {
+	.aboutMeContentContainer {
+		gap: 3rem;
+		padding: 2em 0;
+	}
+
+	.aboutMeContentContainer p {
+		font-size: 1.5rem;
+		max-width: 60ch;
+	}
+
+	.aboutMeContentContainer img {
+		max-width: 50%;
+	}
+
+	.aboutMeContentContainer img {
+		max-width: 50%;
+	}
 }
