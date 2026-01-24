@@ -18,7 +18,7 @@ const CardComponent = ({
 }) => {
 	return (
 		<div className="cardContainer">
-			<div className="titleContainer">
+			<div className="cardTitleContainer">
 				{logo !== '' ? (
 					<img
 						src={logo}
@@ -27,13 +27,13 @@ const CardComponent = ({
 				) : (
 					<></>
 				)}
-				<h2 className="title">{title}</h2>
+				<h2 className="cardTitle">{title}</h2>
 			</div>
-			<div className="dataContainer">
-				<h3 className="heading">{heading}</h3>
-				<p className="date">{date}</p>
+			<div className="cardDataContainer">
+				<h3 className="cardHeading">{heading}</h3>
+				<p className="cardDate">{date}</p>
 			</div>
-			<div className="description">{children}</div>
+			<div className="cardDescription">{children}</div>
 		</div>
 	)
 }
