@@ -49,3 +49,10 @@
 	font-size: 1.4rem;
 	margin-top: 1.5rem;
 }
+
+.scholarshipContainer {
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
