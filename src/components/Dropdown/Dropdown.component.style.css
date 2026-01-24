@@ -16,7 +16,7 @@
 }
 
 .flag {
-	background-color: white;
+	background-color: whitesmoke;
 }
 
 .langLabel {
@@ -36,26 +36,26 @@
 
 /* Dropdown menu */
 .languageMenu {
-	position: absolute;
-	top: 100%;
-	left: 0;
-	margin-top: 6px;
-	padding: 4px 4px;
-	width: 100%;
-	list-style: none;
 	background: white;
 	border-radius: 4px;
 	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+	left: 0;
+	list-style: none;
+	margin-top: 6px;
 	opacity: 0;
-	visibility: hidden;
+	padding: 4px 4px;
+	position: absolute;
+	top: 100%;
 	transform: translateY(-5px);
 	transition: all 0.15s ease;
+	visibility: hidden;
+	width: 100%;
 	z-index: 100;
 }
 
 .langLabel img,
 .languageMenu img {
-	width: 2.1rem;
+	width: 2rem;
 	height: auto;
 }
 
