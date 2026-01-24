@@ -6,3 +6,17 @@
 .sectionTitle {
 	font-size: 3rem;
 }
+
+@media (min-width: 412px) {
+	.sectionTitle {
+		font-size: 2rem;
+		text-align: center;
+	}
+}
+
+@media (min-width: 810px) {
+	.sectionTitle {
+		font-size: 3rem;
+		text-align: left;
+	}
+}
