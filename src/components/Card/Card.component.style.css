@@ -28,14 +28,17 @@
 }
 
 .cardDataContainer {
-	margin-top: 0.7rem;
 	font-size: 1.3rem;
 }
 
 .cardHeading {
 	font-family: Montserrat-SemiBold;
 	font-size: 1.5rem;
-	margin: 0;
+	margin: 0.5rem 0;
+}
+
+.cardSecondaryHeading {
+	color: #2c569e;
 }
 
 .cardDate {
@@ -54,6 +57,10 @@
 	font-size: 1.1rem;
 	line-height: 1.5;
 	margin: 0.8rem 0;
+}
+
+.cardNotDescription {
+	border-top: 0;
 }
 
 /* Tablet / IPad */
