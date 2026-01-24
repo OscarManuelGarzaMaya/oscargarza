@@ -10,7 +10,6 @@ import CardsComponent from '../Cards/Cards.component'
 // Librry
 import { useTranslation } from 'react-i18next'
 
-// TODO: Make sure texts are genuinely translated from CV file
 const ProfessionalExperienceComponent = () => {
 	const { t } = useTranslation()
 
