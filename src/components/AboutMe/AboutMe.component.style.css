@@ -30,9 +30,9 @@
 	max-width: 80%;
 }
 
+/* Tablet / IPad */
 @media (min-width: 810px) {
 	.aboutMeContentContainer {
-		background-color: lightcoral;
 		gap: 1rem;
 		padding: 1.5em 0;
 		justify-content: center;
@@ -47,9 +47,9 @@
 	}
 }
 
+/* Desktop */
 @media (min-width: 1400px) {
 	.aboutMeContentContainer {
-		background-color: lightgreen;
 		gap: 3rem;
 		padding: 2em 0;
 	}
