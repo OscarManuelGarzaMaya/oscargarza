@@ -8,7 +8,15 @@
 	text-align: center;
 }
 
+/* Tablet / IPad */
 @media (min-width: 810px) {
+	.sectionTitle {
+		font-size: 3rem;
+	}
+}
+
+/* Desktop */
+@media (min-width: 1400px) {
 	.sectionTitle {
 		font-size: 3rem;
 		text-align: left;
