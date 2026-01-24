@@ -1,35 +1,39 @@
 import type { ReactNode } from 'react'
 
 // Styles
-import './Cards.component.style.css'
+import './Card.component.style.css'
 
 const CardComponent = ({
-	enterpriseLogo,
-	enterpriseTitle,
-	positionTitle,
+	logo = '',
+	title,
+	heading,
 	date,
 	children,
 }: {
-	enterpriseLogo: string
-	enterpriseTitle: string
-	positionTitle: string
+	logo: string
+	title: string
+	heading: string
 	date: string
 	children: ReactNode
 }) => {
 	return (
 		<div className="cardContainer">
-			<div className="enterpriseContainer">
-				<img
-					src={enterpriseLogo}
-					alt="Enterprise Logo"
-				/>
-				<h2 className="enterpriseTitle">{enterpriseTitle}</h2>
+			<div className="titleContainer">
+				{logo !== '' ? (
+					<img
+						src={logo}
+						alt="logo"
+					/>
+				) : (
+					<></>
+				)}
+				<h2 className="title">{title}</h2>
 			</div>
-			<div className="jobDataContainer">
-				<h3 className="poistionTitle">{positionTitle}</h3>
-				<p className="positionDate">{date}</p>
+			<div className="dataContainer">
+				<h3 className="heading">{heading}</h3>
+				<p className="date">{date}</p>
 			</div>
-			<div className="jobDescription">{children}</div>
+			<div className="description">{children}</div>
 		</div>
 	)
 }

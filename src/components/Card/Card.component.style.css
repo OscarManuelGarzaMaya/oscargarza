@@ -9,47 +9,47 @@
 	padding: 2rem;
 }
 
-.enterpriseContainer {
+.titleContainer {
 	align-items: center;
 	display: flex;
 	gap: 1em;
 }
 
-.enterpriseContainer img {
+.titleContainer img {
 	height: auto;
 	max-width: 3rem;
 	max-height: 3rem;
 }
 
-.enterpriseTitle {
+.title {
 	font-family: Montserrat-Bold;
 	font-size: 1.5rem;
 	text-transform: uppercase;
 }
 
-.jobDataContainer {
+.dataContainer {
 	margin-top: 0.7rem;
 	font-size: 1.3rem;
 }
 
-.poistionTitle {
+.heading {
 	font-family: Montserrat-SemiBold;
 	font-size: 1.5rem;
 	margin: 0;
 }
 
-.positionDate {
+.date {
 	color: rgba(0, 0, 0, 0.6);
 	font-family: Montserrat-Medium;
 	margin: 0;
 }
 
-.jobDescription {
+.description {
 	border-top: 1px solid rgba(0, 0, 0, 0.3);
 	margin-top: 1em;
 }
 
-.jobDescription p {
+.description p {
 	font-family: Montserrat-Regular;
 	font-size: 1.1rem;
 	line-height: 1.5;
@@ -57,7 +57,7 @@
 
 /* Tablet / IPad */
 @media (min-width: 810px) {
-	.enterpriseTitle {
+	.title {
 		font-size: 2rem;
 	}
 }
