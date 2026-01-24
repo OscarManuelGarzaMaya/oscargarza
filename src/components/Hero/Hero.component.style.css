@@ -15,6 +15,12 @@
 	width: 100%;
 }
 
+@media (min-width: 412px) {
+	.heroInnerContainer {
+		gap: 1rem;
+	}
+}
+
 .heroDescriptionContainer {
 	display: flex;
 	flex-direction: column;
