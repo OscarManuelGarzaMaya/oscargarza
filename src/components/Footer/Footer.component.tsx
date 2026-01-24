@@ -31,7 +31,7 @@ const FooterComponent = () => {
 					<p className="footerDetail">osgarzam@gmail.com</p>
 				</div>
 			</div>
-			<hr />
+			<hr className="divider" />
 			<div className="footerDescriptionContainer">
 				<p className="footerDescription">{t(['footer.description'])}</p>
 			</div>
