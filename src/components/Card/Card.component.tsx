@@ -10,11 +10,11 @@ const CardComponent = ({
 	date,
 	children,
 }: {
-	logo: string
+	logo?: string
 	title: string
 	heading: string
 	date: string
-	children: ReactNode
+	children?: ReactNode
 }) => {
 	return (
 		<div className="cardContainer">
@@ -30,10 +30,14 @@ const CardComponent = ({
 				<h2 className="cardTitle">{title}</h2>
 			</div>
 			<div className="cardDataContainer">
-				<h3 className="cardHeading">{heading}</h3>
+				<h3 className={`cardHeading ${logo !== '' ? '' : 'cardSecondaryHeading'}`}>
+					{heading}
+				</h3>
 				<p className="cardDate">{date}</p>
 			</div>
-			<div className="cardDescription">{children}</div>
+			<div className={`cardDescription ${children ? '' : 'cardNotDescription'}`}>
+				{children}
+			</div>
 		</div>
 	)
 }
