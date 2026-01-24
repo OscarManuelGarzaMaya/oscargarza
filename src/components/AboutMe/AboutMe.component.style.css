@@ -6,44 +6,33 @@
 }
 
 .aboutMeContentContainer {
-	display: flex;
 	align-items: center;
+	display: flex;
 	flex-wrap: wrap;
+	gap: 1rem;
+	justify-content: center;
 }
 
 .aboutMeContentContainer p {
-	font-family: Montserrat-Medium;
-	line-height: 1.6;
-	text-align: justify;
 	flex: 1 1 420px;
-	padding: 0;
+	font-family: Montserrat-Medium;
+	font-size: 1rem;
+	line-height: 1.6;
+	margin: 0;
+	max-width: 100%;
+	padding: 1rem 0;
+	text-align: justify;
 }
 
 .aboutMeContentContainer img {
 	flex: 1 1 320px;
 	height: auto;
-}
-
-@media (min-width: 412px) {
-	.aboutMeContentContainer {
-		gap: 1rem;
-		padding: 1.5em 0;
-		justify-content: center;
-	}
-
-	.aboutMeContentContainer p {
-		font-size: 1rem;
-		max-width: 100%;
-		margin: 0;
-	}
-
-	.aboutMeContentContainer img {
-		max-width: 80%;
-	}
+	max-width: 80%;
 }
 
 @media (min-width: 810px) {
 	.aboutMeContentContainer {
+		background-color: lightcoral;
 		gap: 1rem;
 		padding: 1.5em 0;
 		justify-content: center;
@@ -60,6 +49,7 @@
 
 @media (min-width: 1400px) {
 	.aboutMeContentContainer {
+		background-color: lightgreen;
 		gap: 3rem;
 		padding: 2em 0;
 	}
