@@ -3,7 +3,7 @@ import type { ReactNode } from 'react'
 // Styles
 import './Cards.component.style.css'
 
-const CardsComponent = ({
+const CardComponent = ({
 	enterpriseLogo,
 	enterpriseTitle,
 	positionTitle,
@@ -34,4 +34,4 @@ const CardsComponent = ({
 	)
 }
 
-export default CardsComponent
+export default CardComponent
