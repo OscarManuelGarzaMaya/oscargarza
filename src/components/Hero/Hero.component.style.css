@@ -181,6 +181,7 @@
 	font-size: 1.2rem;
 }
 
+/* Tablet / IPad */
 @media (min-width: 810px) {
 	.heroInnerContainer {
 		gap: 1rem;
@@ -199,6 +200,7 @@
 	}
 }
 
+/* Desktop */
 @media (min-width: 1400px) {
 	.heroInnerContainer {
 		gap: 3rem;
