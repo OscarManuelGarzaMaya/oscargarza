@@ -5,14 +5,14 @@ import './App.css'
 import './assets/globals.css'
 
 // Components
-import HeaderComponent from './components/Header/Header.component'
-import HeroComponent from './components/Hero/Hero.component'
-import AboutMeComponent from './components/AboutMe/AboutMe.component'
-import ProfessionalExperienceComponent from './components/ProfessionalExperience/ProfessionalExperience.component'
-import CoursesComponent from './components/Courses/Courses.component'
-import EducationComponent from './components/Education/Education.component'
-import ToolsComponent from './components/Tools/Tools.component'
-import FooterComponent from './components/Footer/Footer.component'
+import HeaderComponent from './sections/Header/Header.component'
+import HeroComponent from './sections/Hero/Hero.component'
+import AboutMeComponent from './sections/AboutMe/AboutMe.component'
+import ProfessionalExperienceComponent from './sections/ProfessionalExperience/ProfessionalExperience.component'
+import CoursesComponent from './sections/Courses/Courses.component'
+import EducationComponent from './sections/Education/Education.component'
+import ToolsComponent from './sections/Tools/Tools.component'
+import FooterComponent from './sections/Footer/Footer.component'
 
 // Libraries
 import i18next from 'i18next'
@@ -25,7 +25,6 @@ import es from './locales/es/translation.json'
 import fr from './locales/fr/translation.json'
 
 function App() {
-
 	useEffect(() => {
 		document.title = 'Oscar Garza | CV'
 	}, [])
