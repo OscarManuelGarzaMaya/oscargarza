@@ -11,7 +11,9 @@ import CSSLogo from '../../assets/images/courses/CSSLogo.svg'
 import JSLogo from '../../assets/images/courses/JSLogo.svg'
 import TSLogo from '../../assets/images/courses/TSLogo.svg'
 import mySQLLogo from '../../assets/images/courses/mySQLLogo.svg'
-import CarouselComponent from '../Carousel/Carousel.component'
+
+// Components
+import CarouselComponent from '../../components/Carousel/Carousel.component'
 
 // Libraries
 import { useTranslation } from 'react-i18next'

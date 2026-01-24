@@ -4,7 +4,7 @@ import { useState } from 'react'
 import './Tools.component.style.css'
 
 // Components
-import CarouselComponent from '../Carousel/Carousel.component'
+import CarouselComponent from '../../components/Carousel/Carousel.component'
 
 // Assets
 import ReactLogo from '../../assets/images/courses/React.svg'
