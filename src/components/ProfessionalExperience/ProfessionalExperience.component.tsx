@@ -18,9 +18,9 @@ const ProfessionalExperienceComponent = () => {
 			<h1 className="sectionTitle">{t(['professionalExperience.title'])}</h1>
 			<div className="cardsContainer">
 				<CardComponent
-					enterpriseLogo={firstEnterpriseLogo}
-					enterpriseTitle="SOLMETI"
-					positionTitle={t(['professionalExperience.jobs.SOLEMTI.position'])}
+					logo={firstEnterpriseLogo}
+					title="SOLMETI"
+					heading={t(['professionalExperience.jobs.SOLEMTI.position'])}
 					date={t(['professionalExperience.jobs.SOLEMTI.date'])}
 				>
 					<p>
@@ -30,9 +30,9 @@ const ProfessionalExperienceComponent = () => {
 					</p>
 				</CardComponent>
 				<CardComponent
-					enterpriseLogo={secondEnterpriseLogo}
-					enterpriseTitle="RESSER"
-					positionTitle={t(['professionalExperience.jobs.RESSER.position'])}
+					logo={secondEnterpriseLogo}
+					title="RESSER"
+					heading={t(['professionalExperience.jobs.RESSER.position'])}
 					date={t(['professionalExperience.jobs.RESSER.date'])}
 				>
 					<p>
@@ -44,9 +44,9 @@ const ProfessionalExperienceComponent = () => {
 					</p>
 				</CardComponent>
 				<CardComponent
-					enterpriseLogo={thirdEnterpriseLogo}
-					enterpriseTitle={'IO CONNECT SERVICES'}
-					positionTitle={t([
+					logo={thirdEnterpriseLogo}
+					title={'IO CONNECT SERVICES'}
+					heading={t([
 						'professionalExperience.jobs.ioConnectServices.position',
 					])}
 					date={t(['professionalExperience.jobs.ioConnectServices.date'])}
