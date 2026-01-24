@@ -5,7 +5,7 @@ import './ProfessionalExperience.component.style.css'
 import firstEnterpriseLogo from '../../assets/images/professionalExperiences/firstEnterpriseLogo.svg'
 import secondEnterpriseLogo from '../../assets/images/professionalExperiences/secondEnterpriseLogo.svg'
 import thirdEnterpriseLogo from '../../assets/images/professionalExperiences/thirdEnterpriseLogo.svg'
-import CardsComponent from '../Cards/Cards.component'
+import CardComponent from '../Card/Card.component'
 
 // Librry
 import { useTranslation } from 'react-i18next'
@@ -17,7 +17,7 @@ const ProfessionalExperienceComponent = () => {
 		<section className="proffesionalExperienceContainer">
 			<h1 className="sectionTitle">{t(['professionalExperience.title'])}</h1>
 			<div className="cardsContainer">
-				<CardsComponent
+				<CardComponent
 					enterpriseLogo={firstEnterpriseLogo}
 					enterpriseTitle="SOLMETI"
 					positionTitle={t(['professionalExperience.jobs.SOLEMTI.position'])}
@@ -28,8 +28,8 @@ const ProfessionalExperienceComponent = () => {
 						<b>REACT.</b> <br />
 						{t(['professionalExperience.jobs.SOLEMTI.description.secondParagraph'])}
 					</p>
-				</CardsComponent>
-				<CardsComponent
+				</CardComponent>
+				<CardComponent
 					enterpriseLogo={secondEnterpriseLogo}
 					enterpriseTitle="RESSER"
 					positionTitle={t(['professionalExperience.jobs.RESSER.position'])}
@@ -42,8 +42,8 @@ const ProfessionalExperienceComponent = () => {
 						<b>SQL</b>. <br />
 						{t(['professionalExperience.jobs.RESSER.description.thirdParagraph'])}
 					</p>
-				</CardsComponent>
-				<CardsComponent
+				</CardComponent>
+				<CardComponent
 					enterpriseLogo={thirdEnterpriseLogo}
 					enterpriseTitle={'IO CONNECT SERVICES'}
 					positionTitle={t([
@@ -69,7 +69,7 @@ const ProfessionalExperienceComponent = () => {
 							'professionalExperience.jobs.ioConnectServices.description.forthParagraph',
 						])}
 					</p>
-				</CardsComponent>
+				</CardComponent>
 			</div>
 		</section>
 	)
