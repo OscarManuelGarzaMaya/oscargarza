@@ -23,11 +23,17 @@ import LanguageDetector from 'i18next-browser-languagedetector'
 import en from './locales/en/translation.json'
 import es from './locales/es/translation.json'
 import fr from './locales/fr/translation.json'
+import ProfilesComponent from './components/Profiles/Profiles.component'
+
+// Custom hooks
+import { useMediaQuery } from './hooks/useMediaQuery'
 
 function App() {
 	useEffect(() => {
 		document.title = 'Oscar Garza | CV'
 	}, [])
+
+	const isDesktop = useMediaQuery('(min-width: 1400px)')
 
 	i18next
 		.use(LanguageDetector)
@@ -56,6 +62,14 @@ function App() {
 			<CoursesComponent />
 			<EducationComponent />
 			<ToolsComponent />
+			{!isDesktop ? (
+				<div className="desktopProfilesContainer">
+					<ProfilesComponent />
+				</div>
+			) : (
+				<></>
+			)}
+
 			<FooterComponent />
 		</div>
 	)
