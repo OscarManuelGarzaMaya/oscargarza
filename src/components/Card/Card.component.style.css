@@ -19,6 +19,7 @@
 	height: auto;
 	max-width: 3rem;
 	max-height: 3rem;
+	border-radius: 10px;
 }
 
 .cardTitle {
