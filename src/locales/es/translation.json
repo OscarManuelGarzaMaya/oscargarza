@@ -35,14 +35,35 @@
 					"thirdParagraph": "Propuso e implementó estándares de componentes inteligentes para proyectos a gran escala."
 				}
 			},
+			"iotac": {
+				"position": "Desarrollador front-end",
+				"date": "Abril de 2023 - Junio de 2023",
+				"description": {
+					"firstParagraph": "Desarrollé la aplicación mobil de el producto principal de la empresa en iOS y Android con "
+				}
+			},
 			"ioConnectServices": {
 				"position": "Desarrollador web y de móviles",
-				"date": "Octubre de 2021 - Abril de 2023",
+				"date": "Octubre de 2021 - Junio de 2023",
 				"description": {
 					"firstParagraph": "Di mantenimiento y actualización de sitios web corporativos utilizando ",
 					"secondParagraph": " y ",
 					"thirdParagraph": "Soluciones móviles desarrolladas con ",
 					"forthParagraph": " para una startup bancaria."
+				}
+			},
+			"deloitte": {
+				"position": "Analista",
+				"date": "Marzo de 2021 - Octubre de 2023",
+				"description": {
+					"firstParagraph": "Trabajé como consultor y analista mano a mano con los clientes de la empresa utilizando principalmente "
+				}
+			},
+			"geoteco": {
+				"position": "Ingeniero en Software",
+				"date": "Marzo de 2019 - Diciembre de 2019",
+				"description": {
+					"firstParagraph": "Como pasante desarrollé funcionalidades para la plataforma administrativa de la emrpesa utilizando "
 				}
 			}
 		}

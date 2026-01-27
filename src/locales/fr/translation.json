@@ -35,14 +35,35 @@
 					"thirdParagraph": "proposé et mis en œuvre des normes relatives aux composants intelligents pour les projets à grande échelle."
 				}
 			},
+			"iotac": {
+				"position": "Développeur front-end",
+				"date": "Avril 2023 - Juin 2023",
+				"description": {
+					"firstParagraph": "J'ai développé l'application mobile du produit phare de l'entreprise sur iOS et Android avec "
+				}
+			},
 			"ioConnectServices": {
 				"position": "Développeur d'applications Web et mobiles",
-				"date": "Octobre 2021 - Avril 2023",
+				"date": "Octobre 2021 - Juin 2023",
 				"description": {
 					"firstParagraph": "Maintenance et mise à jour des sites Web d'entreprise à l'aide de ",
 					"secondParagraph": " et ",
 					"thirdParagraph": "Solutions mobiles développées avec ",
 					"forthParagraph": " pour une start-up bancaire."
+				}
+			},
+			"deloitte": {
+				"position": "Analyste",
+				"date": "Mars 2021 - Octobre 2023",
+				"description": {
+					"firstParagraph": "J'ai travaillé en tant que consultant et analyste en étroite collaboration avec les clients de l'entreprise, en utilisant principalement "
+				}
+			},
+			"geoteco": {
+				"position": "Ingénieur logiciel",
+				"date": "Mars 2019 - Décembre 2019",
+				"description": {
+					"firstParagraph": "En tant que stagiaire, j'ai développé des fonctionnalités pour la plateforme administrative de l'entreprise en utilisant "
 				}
 			}
 		}
