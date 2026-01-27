@@ -35,14 +35,35 @@
 					"thirdParagraph": "proposed and implemented Smart Components standards for large-scale projects."
 				}
 			},
+			"iotac": {
+				"position": "Front-end developer",
+				"date": "April 2023 - June 2023",
+				"description": {
+					"firstParagraph": "I developed the mobile application for the company's main product on iOS and Android using "
+				}
+			},
 			"ioConnectServices": {
 				"position": "Web & Mobile App Developer",
-				"date": "Oct 2021 - April 2023",
+				"date": "Oct 2021 - June 2023",
 				"description": {
 					"firstParagraph": "Maintained and updated enterprise websites using ",
 					"secondParagraph": " and ",
 					"thirdParagraph": "Developed mobile solutions with ",
 					"forthParagraph": " for a banking startup."
+				}
+			},
+			"deloitte": {
+				"position": "Analyst",
+				"date": "March 2021 - October 2023",
+				"description": {
+					"firstParagraph": "I worked as a consultant and analyst closely with the company's clients, primarily using "
+				}
+			},
+			"geoteco": {
+				"position": "Software engineer",
+				"date": "Mars 2019 - Décembre 2019",
+				"description": {
+					"firstParagraph": "As an intern, I developed functionalities for the company's administrative platform using "
 				}
 			}
 		}
