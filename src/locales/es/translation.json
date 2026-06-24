@@ -18,6 +18,15 @@
 	"professionalExperience": {
 		"title": "Experiencia profesional",
 		"jobs": {
+			"ezpdf": {
+				"position": "Desarrollador fullstack",
+				"date": "April 2026 - Presente",
+				"description": {
+					"firstParagraph": "Desarrollé y publiqué un lector de PDF para Android con ",
+					"secondParagraph": ", con resumen de documentos con IA a través de ",
+					"thirdParagraph": " sobre un backend serverless en "
+				}
+			},
 			"SOLEMTI": {
 				"position": "Desarrollador web",
 				"date": "Abril de 2025 - Diciembre de 2025",

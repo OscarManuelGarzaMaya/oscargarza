@@ -18,6 +18,15 @@
 	"professionalExperience": {
 		"title": "Professional Experience",
 		"jobs": {
+			"ezpdf": {
+				"position": "Fullstack Developer",
+				"date": "April 2026 - Present",
+				"description": {
+					"firstParagraph": "Built and published a PDF reader for Android using ",
+					"secondParagraph": " with AI-powered document summarization via ",
+					"thirdParagraph": " powered by a serverless backend on "
+				}
+			},
 			"SOLEMTI": {
 				"position": "Web Developer",
 				"date": "April 2025 - December 2025",
