@@ -1,13 +1,13 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
+
 // Styles
-import { useState } from 'react'
 import './Tools.component.style.css'
 
 // Components
 import CarouselComponent from '../../components/Carousel/Carousel.component'
 
 // Assets
-import n8nLogo from '../../assets/images/professionalExperiences/n8n_logo.webp'
+import n8nLogo from '../../assets/images/courses/n8n_logo.webp'
 import GitLogo from '../../assets/images/tools/gitLogo.svg'
 import GitHubLogo from '../../assets/images/tools/githubLogo.svg'
 import CicdLogo from '../../assets/images/tools/cicdLogo.svg'
@@ -16,18 +16,20 @@ import { useTranslation } from 'react-i18next'
 
 const ToolsComponent = () => {
 	const { t } = useTranslation()
-	const [tools, _] = useState([
+    const tools = [
 		{
 			title: 'n8n',
-			date: 'May 2026',
+			date: t(['tools.courses.n8n.date']),
 			image: n8nLogo,
 		},
 		{
 			title: 'Git',
+            date: t(['tools.courses.git.date']),
 			image: GitLogo,
 		},
 		{
 			title: 'GitHub',
+            date: t(['tools.courses.github.date']),
 			image: GitHubLogo,
 		},
 		{
@@ -38,7 +40,7 @@ const ToolsComponent = () => {
 			title: 'Figma',
 			image: FigmaLogo,
 		},
-	])
+	]
 
 	return (
 		<section className="toolsContainer">

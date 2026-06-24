@@ -69,7 +69,11 @@
 		}
 	},
 	"coursesAndTraining": {
-		"title": "Courses & Training"
+		"title": "Courses & Training",
+		"courses": {
+			"n8n": { "date": "May 2026" },
+			"reactNative": { "date": "April 2026" }
+		}
 	},
 	"education": {
 		"title": "Education",
@@ -91,7 +95,12 @@
 		}
 	},
 	"tools": {
-		"title": "Tools & Technologies"
+		"title": "Tools & Technologies",
+		"courses": {
+			"n8n": { "date": "May 2026" },
+			"git": { "date": "March 2025" },
+			"github": { "date": "March 2025" }
+		}
 	},
 	"footer": {
 		"description": "All Rigts Reserver @ 2025. OSCAR GARZA"
