@@ -7,8 +7,7 @@ import './Tools.component.style.css'
 import CarouselComponent from '../../components/Carousel/Carousel.component'
 
 // Assets
-import ReactLogo from '../../assets/images/courses/React.svg'
-import AngularLogo from '../../assets/images/tools/angularLogo.svg'
+import n8nLogo from '../../assets/images/professionalExperiences/n8n_logo.webp'
 import GitLogo from '../../assets/images/tools/gitLogo.svg'
 import GitHubLogo from '../../assets/images/tools/githubLogo.svg'
 import CicdLogo from '../../assets/images/tools/cicdLogo.svg'
@@ -17,14 +16,11 @@ import { useTranslation } from 'react-i18next'
 
 const ToolsComponent = () => {
 	const { t } = useTranslation()
-	const [titles, _] = useState([
+	const [tools, _] = useState([
 		{
-			title: 'React',
-			image: ReactLogo,
-		},
-		{
-			title: 'Angular',
-			image: AngularLogo,
+			title: 'n8n',
+			date: 'May 2026',
+			image: n8nLogo,
 		},
 		{
 			title: 'Git',
@@ -47,7 +43,7 @@ const ToolsComponent = () => {
 	return (
 		<section className="toolsContainer">
 			<h1 className="sectionTitle">{t(['tools.title'])}</h1>
-			<CarouselComponent itemsList={titles} />
+			<CarouselComponent itemsList={tools} />
 		</section>
 	)
 }
