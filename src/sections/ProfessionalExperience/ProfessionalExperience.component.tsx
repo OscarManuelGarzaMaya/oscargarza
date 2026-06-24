@@ -2,6 +2,7 @@
 import './ProfessionalExperience.component.style.css'
 
 // Assets
+import ezPDFLogo from '../../assets/images/professionalExperiences/ezPdf_logo.png'
 import solemtiLogo from '../../assets/images/professionalExperiences/solemti_logo.jpg'
 import reseerLogo from '../../assets/images/professionalExperiences/resser_tecnologias_logo.jpg'
 import iotacLogo from '../../assets/images/professionalExperiences/iotacLogo.jpg'
@@ -22,6 +23,23 @@ const ProfessionalExperienceComponent = () => {
 		<section className="proffesionalExperienceContainer">
 			<h1 className="sectionTitle">{t(['professionalExperience.title'])}</h1>
 			<div className="cardsContainer">
+				<CardComponent
+					title="EZ-PDF"
+					logo={ezPDFLogo}
+					heading={t(['professionalExperience.jobs.ezpdf.position'])}
+					date={t(['professionalExperience.jobs.ezpdf.date'])}
+				>
+					<p>
+						{t(['professionalExperience.jobs.ezpdf.description.firstParagraph'])}
+						<b>React Native, TypeScript, Expo</b>
+						{t(['professionalExperience.jobs.ezpdf.description.secondParagraph'])}
+						<b>
+							<u style={{ cursor: 'default' }}>Anthropic Claude API</u>
+						</b>
+						{t(['professionalExperience.jobs.ezpdf.description.thirdParagraph'])}
+						<b>Supabase Edge Functions.</b>
+					</p>
+				</CardComponent>
 				<CardComponent
 					logo={solemtiLogo}
 					title="SOLMETI"
