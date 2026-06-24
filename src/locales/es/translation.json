@@ -69,7 +69,11 @@
 		}
 	},
 	"coursesAndTraining": {
-		"title": "Cursos y capacitaciónes"
+		"title": "Cursos y capacitaciónes",
+		"courses": {
+			"n8n": { "date": "Mayo 2026" },
+			"reactNative": { "date": "Abril 2026" }
+		}
 	},
 	"education": {
 		"title": "Estudios",
@@ -91,7 +95,12 @@
 		}
 	},
 	"tools": {
-		"title": "Herramientas & tecnologías"
+		"title": "Herramientas & tecnologías",
+		"courses": {
+			"n8n": { "date": "Mayo 2026" },
+			"git": { "date": "Marzo 2025" },
+			"github": { "date": "Marzo 2025" }
+		}
 	},
 	"footer": {
 		"description": "Todos los derechos reservados @ 2025. OSCAR GARZA"
