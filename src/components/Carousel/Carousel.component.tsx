@@ -12,6 +12,7 @@ const CarouselComponent = ({
 }: {
 	itemsList: {
 		title: string
+        date?: string
 		image: string
 	}[]
 }) => {
@@ -72,7 +73,10 @@ const CarouselComponent = ({
 								alt={item.image}
 								src={item.image}
 							/>
-							<p>{item.title}</p>
+							<div>
+								<p>{item.title}</p>
+								{item.date && <p className="courseDate">{item.date}</p>}
+							</div>
 						</div>
 					)
 				})}
