@@ -42,7 +42,7 @@ const ProfessionalExperienceComponent = () => {
 				</CardComponent>
 				<CardComponent
 					logo={solemtiLogo}
-					title="SOLMETI"
+					title="SOLEMTI"
 					heading={t(['professionalExperience.jobs.SOLEMTI.position'])}
 					date={t(['professionalExperience.jobs.SOLEMTI.date'])}
 				>
