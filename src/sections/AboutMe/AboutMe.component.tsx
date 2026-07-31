@@ -18,6 +18,9 @@ const AboutMeComponent = () => {
 					<br />
 					<br />
 					{t(['aboutMe.description.secondParagraph'])}
+                    <br />
+					<br />
+					{t(['aboutMe.description.thirdParagraph'])}
 				</p>
 				<img
 					src={aboutMe}

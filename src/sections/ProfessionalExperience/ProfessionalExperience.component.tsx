@@ -48,8 +48,7 @@ const ProfessionalExperienceComponent = () => {
 				>
 					<p>
 						{t(['professionalExperience.jobs.SOLEMTI.description.firstParagraph'])}
-						<b>REACT.</b> <br />
-						{t(['professionalExperience.jobs.SOLEMTI.description.secondParagraph'])}
+						<b>Rect y Stripe .</b> <br />
 					</p>
 				</CardComponent>
 				<CardComponent
@@ -58,13 +57,23 @@ const ProfessionalExperienceComponent = () => {
 					heading={t(['professionalExperience.jobs.RESSER.position'])}
 					date={t(['professionalExperience.jobs.RESSER.date'])}
 				>
-					<p>
-						{t(['professionalExperience.jobs.RESSER.description.firstParagraph'])}
-						<b>React, C#</b>
-						{t(['professionalExperience.jobs.RESSER.description.secondParagraph'])}
-						<b>SQL</b>. <br />
-						{t(['professionalExperience.jobs.RESSER.description.thirdParagraph'])}
-					</p>
+					<ul>
+						<li>
+							<p>
+								{t(['professionalExperience.jobs.RESSER.description.firstParagraph'])}
+							</p>
+						</li>
+						<li>
+							<p>
+								{t(['professionalExperience.jobs.RESSER.description.secondParagraph'])}
+							</p>
+						</li>
+						<li>
+							<p>
+								{t(['professionalExperience.jobs.RESSER.description.thirdParagraph'])}
+							</p>
+						</li>
+					</ul>
 				</CardComponent>
 				<CardComponent
 					logo={iotacLogo}
@@ -72,34 +81,41 @@ const ProfessionalExperienceComponent = () => {
 					heading={t(['professionalExperience.jobs.iotac.position'])}
 					date={t(['professionalExperience.jobs.iotac.date'])}
 				>
-					<p>
-						{t(['professionalExperience.jobs.iotac.description.firstParagraph'])}
-						<b>React Native</b>
-					</p>
+					<ul>
+						<li>
+							<p>
+								{t(['professionalExperience.jobs.iotac.description.firstParagraph'])}
+							</p>
+						</li>
+						<li>
+							<p>
+								{t(['professionalExperience.jobs.iotac.description.secondParagraph'])}
+							</p>
+						</li>
+					</ul>
 				</CardComponent>
 				<CardComponent
 					logo={thirdEnterpriseLogo}
-					title={'IO CONNECT SERVICES'}
+					title={'IO Connect Services'}
 					heading={t(['professionalExperience.jobs.ioConnectServices.position'])}
 					date={t(['professionalExperience.jobs.ioConnectServices.date'])}
 				>
-					<p>
-						{t([
-							'professionalExperience.jobs.ioConnectServices.description.firstParagraph',
-						])}
-						<b>Angular</b>
-						{t([
-							'professionalExperience.jobs.ioConnectServices.description.secondParagraph',
-						])}
-						<b>PHP. </b>
-						{t([
-							'professionalExperience.jobs.ioConnectServices.description.thirdParagraph',
-						])}
-						<b>React Native</b>
-						{t([
-							'professionalExperience.jobs.ioConnectServices.description.forthParagraph',
-						])}
-					</p>
+					<ul>
+						<li>
+							<p>
+								{t([
+									'professionalExperience.jobs.ioConnectServices.description.firstParagraph',
+								])}
+							</p>
+						</li>
+						<li>
+							<p>
+								{t([
+									'professionalExperience.jobs.ioConnectServices.description.secondParagraph',
+								])}
+							</p>
+						</li>
+					</ul>
 				</CardComponent>
 				<CardComponent
 					logo={deloitteLogo}
@@ -109,7 +125,6 @@ const ProfessionalExperienceComponent = () => {
 				>
 					<p>
 						{t(['professionalExperience.jobs.deloitte.description.firstParagraph'])}
-						<b>Java</b>
 					</p>
 				</CardComponent>
 				<CardComponent
@@ -120,7 +135,6 @@ const ProfessionalExperienceComponent = () => {
 				>
 					<p>
 						{t(['professionalExperience.jobs.geoteco.description.firstParagraph'])}
-						<b>PHP</b>
 					</p>
 				</CardComponent>
 			</div>
