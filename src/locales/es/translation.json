@@ -1,7 +1,7 @@
 {
 	"hero": {
-		"bachelorsDegree": "Ingeniero en Sistemas Computacionales",
-		"description": "Construyo aplicaciones web y móviles modernas y escalables utilizando tecnologías de vanguardia.",
+		"bachelorsDegree": "Desarrollador Full-Stack & Product Engineer",
+		"description": "Desarrollador de este sitio web, Ez-PDF app y tu próximo proyecto",
 		"button": {
 			"download": "Descarga mi CV",
 			"connectNow": "Contactar ahora"
@@ -11,8 +11,9 @@
 	"aboutMe": {
 		"title": "Acerca de mí",
 		"description": {
-			"firstParagraph": "Busco una oportunidad para aplicar mis conocimientos técnicos y mi experiencia profesional en un entorno de trabajo dinámico, al tiempo que sigo aprendiendo y mejorando a través de nuevos retos. Me centro en ofrecer resultados de calidad y contribuir a soluciones de confianza, escalables y orientadas al usuario.",
-			"secondParagraph": "Me motivan el crecimiento, la responsabilidad y la innovación, y disfruto trabajando en proyectos que me permiten desarrollarme tanto técnicamente como profesionalmente. Mi objetivo es aportar valor a un equipo colaborativo mientras amplío mis habilidades y asumo nuevos retos."
+			"firstParagraph": "He desarrollado sitios web con React y aplicaciones móviles con React Native, que son visitados en diferentes lugares del mundo, como el que estás visitando en este momento o mi propia app Ez-PDF.",
+			"secondParagraph": "Con los 5 años de experiencia que tengo como Developer, decidí implementar IA en una aplicación hecha con React Native para facilitarte la tarea de hacer resúmenes de archivos PDF.",
+            "thirdParagraph":"Estoy en búsqueda de mi próximo reto que será de talla canadiense desarrollando las aplicaciones con las buenas prácticas que todo proyecto merece como clean code, CI/CD o SOLID."
 		}
 	},
 	"professionalExperience": {
@@ -31,7 +32,7 @@
 				"position": "Desarrollador web",
 				"date": "Abril de 2025 - Diciembre de 2025",
 				"description": {
-					"firstParagraph": "Desarrolló soluciones personalizadas del lado del cliente utilizando ",
+					"firstParagraph": "Actualicé el formulario para el módulo de pagos de una tienda departamental con más de 11 millones de tarjetahabientes a nivel nacional, usando ",
 					"secondParagraph": "Implementación de estructuras mono-repo para mejorar la escalabilidad y el mantenimiento."
 				}
 			},
@@ -39,40 +40,39 @@
 				"position": "Desarrollador web (Full-Stack)",
 				"date": "Marzo de 2021 - Octubre de 2021",
 				"description": {
-					"firstParagraph": "Desarrolló sistemas internos utilizando ",
-					"secondParagraph": " y ",
-					"thirdParagraph": "Propuso e implementó estándares de componentes inteligentes para proyectos a gran escala."
+					"firstParagraph": "Llevé el diseño y desarrollo del módulo Stolen Vehicle Recovery (SVR) para 20 usuarios que colaboraban con las autoridades en la recuperación de vehículos robados mediante polling de ubicación GPS cada 5 segundos.",
+					"secondParagraph": "Formé parte del equipo que reescribió la nueva versión de la herramienta interna con React para 180 usuarios.",
+					"thirdParagraph": "Propuse dividir por lógica, vista y estilos con el sistema Barrel Export para reducir los conflictos en el merge de versiones con Git."
 				}
 			},
 			"iotac": {
 				"position": "Desarrollador front-end",
 				"date": "Abril de 2023 - Junio de 2023",
 				"description": {
-					"firstParagraph": "Desarrollé la aplicación mobil de el producto principal de la empresa en iOS y Android con "
+					"firstParagraph": "Llevé el desarrollo greenfield de la app del servicio principal de la empresa, mostrando información bajo demanda del nivel de gas del tanque del usuario.",
+					"secondParagraph": "Di mentoría a otro miembro del equipo sobre el desarrollo y organización del proyecto con React Native."
 				}
 			},
 			"ioConnectServices": {
 				"position": "Desarrollador web y de móviles",
 				"date": "Octubre de 2021 - Junio de 2023",
 				"description": {
-					"firstParagraph": "Di mantenimiento y actualización de sitios web corporativos utilizando ",
-					"secondParagraph": " y ",
-					"thirdParagraph": "Soluciones móviles desarrolladas con ",
-					"forthParagraph": " para una startup bancaria."
+					"firstParagraph": "Desarrollé el Home Screen de la app YoCripto que mostraba saldo, tarjetas y últimos movimientos.",
+					"secondParagraph": "Implementé el flujo de registro de cuentas para nuevos usuarios integrando firma digital dibujada, reconocimiento facial y escaneo de identificación oficial (INE/licencia de conducir)."
 				}
 			},
 			"deloitte": {
-				"position": "Analista",
+				"position": "Practicante",
 				"date": "Marzo de 2021 - Octubre de 2023",
 				"description": {
-					"firstParagraph": "Trabajé como consultor y analista mano a mano con los clientes de la empresa utilizando principalmente "
+					"firstParagraph": "Capacitación técnica en desarrollo con Salesforce."
 				}
 			},
 			"geoteco": {
 				"position": "Ingeniero en Software",
 				"date": "Marzo de 2019 - Diciembre de 2019",
 				"description": {
-					"firstParagraph": "Como pasante desarrollé funcionalidades para la plataforma administrativa de la emrpesa utilizando "
+					"firstParagraph": "Mantenimiento del sitio web institucional con PHP, agregando funcionalidad básica bajo supervisión del equipo."
 				}
 			}
 		}
