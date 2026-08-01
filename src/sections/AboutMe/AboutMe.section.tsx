@@ -1,5 +1,5 @@
 import '../../assets/globals.css'
-import './AboutMe.component.style.css'
+import './AboutMe.section.style.css'
 
 // Assets
 import aboutMe from '../../assets/images/softwareDev.png'
@@ -7,7 +7,7 @@ import aboutMe from '../../assets/images/softwareDev.png'
 // Libraries
 import { useTranslation } from 'react-i18next'
 
-const AboutMeComponent = () => {
+const AboutMeSection = () => {
 	const { t } = useTranslation()
 	return (
 		<section className="AboutMeContainer">
@@ -31,4 +31,4 @@ const AboutMeComponent = () => {
 	)
 }
 
-export default AboutMeComponent
+export default AboutMeSection

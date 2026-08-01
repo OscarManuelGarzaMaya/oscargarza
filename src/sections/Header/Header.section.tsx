@@ -1,5 +1,5 @@
 // Styles
-import './Header.component.style.css'
+import './Header.section.style.css'
 
 // Components
 import DropdownComponent from '../../components/Dropdown/Dropdown.component'
@@ -8,7 +8,7 @@ import ProfilesComponent from '../../components/Profiles/Profiles.component'
 // Custom hooks
 import { useMediaQuery } from '../../hooks/useMediaQuery'
 
-const HeaderComponent = () => {
+const HeaderSection = () => {
 	const isDesktop = useMediaQuery('(min-width: 1400px)')
 
 	return (
@@ -26,4 +26,4 @@ const HeaderComponent = () => {
 	)
 }
 
-export default HeaderComponent
+export default HeaderSection

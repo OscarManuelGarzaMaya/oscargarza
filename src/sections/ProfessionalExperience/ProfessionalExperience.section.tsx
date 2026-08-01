@@ -1,5 +1,5 @@
 // Styles
-import './ProfessionalExperience.component.style.css'
+import './ProfessionalExperience.section.style.css'
 
 // Assets
 import ezPDFLogo from '../../assets/images/professionalExperiences/ezPdf_logo.png'
@@ -16,7 +16,7 @@ import CardComponent from '../../components/Card/Card.component'
 // Librry
 import { useTranslation } from 'react-i18next'
 
-const ProfessionalExperienceComponent = () => {
+const ProfessionalExperienceSection = () => {
 	const { t } = useTranslation()
 
 	return (
@@ -142,4 +142,4 @@ const ProfessionalExperienceComponent = () => {
 	)
 }
 
-export default ProfessionalExperienceComponent
+export default ProfessionalExperienceSection
