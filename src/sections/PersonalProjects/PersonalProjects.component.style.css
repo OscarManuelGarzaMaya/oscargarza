@@ -1,0 +1,9 @@
+@import '../../assets/globals.css';
+
+.personalProjectsContainer{
+    padding: 2em 3em;
+}
+
+.projectsContainer{
+    margin-top: 3vh;
+}
