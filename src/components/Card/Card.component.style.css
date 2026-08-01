@@ -9,25 +9,6 @@
 	padding: 2rem;
 }
 
-.cardTitleContainer {
-	align-items: center;
-	display: flex;
-	gap: 1em;
-}
-
-.cardTitleContainer img {
-	height: auto;
-	max-width: 3rem;
-	max-height: 3rem;
-	border-radius: 10px;
-}
-
-.cardTitle {
-	font-family: Montserrat-Bold;
-	font-size: 1.5rem;
-	text-transform: uppercase;
-}
-
 .cardDataContainer {
 	font-size: 1.3rem;
 }

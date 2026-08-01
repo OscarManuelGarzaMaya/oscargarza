@@ -2,6 +2,7 @@ import type { ReactNode } from 'react'
 
 // Styles
 import './Card.component.style.css'
+import CardHeaderComponent from '../CardHeader/CardHeader.component'
 
 const CardComponent = ({
 	logo = '',
@@ -18,17 +19,10 @@ const CardComponent = ({
 }) => {
 	return (
 		<div className="cardContainer">
-			<div className="cardTitleContainer">
-				{logo !== '' ? (
-					<img
-						src={logo}
-						alt="logo"
-					/>
-				) : (
-					<></>
-				)}
-				<h2 className="cardTitle">{title}</h2>
-			</div>
+			<CardHeaderComponent
+				title={title}
+				logo={logo}
+			/>
 			<div className="cardDataContainer">
 				<h3 className={`cardHeading ${logo !== '' ? '' : 'cardSecondaryHeading'}`}>
 					{heading}
