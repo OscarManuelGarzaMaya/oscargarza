@@ -1,5 +1,5 @@
 // Styles
-import './Education.component.style.css'
+import './Education.section.style.css'
 
 // Custom hooks
 import { useMediaQuery } from '../../hooks/useMediaQuery'
@@ -10,7 +10,7 @@ import { useTranslation } from 'react-i18next'
 // Components
 import CardComponent from '../../components/Card/Card.component'
 
-const EducationComponent = () => {
+const EducationSection = () => {
 	const { t } = useTranslation()
 	const isDesktop = useMediaQuery('(min-width: 1400px)')
 
@@ -66,4 +66,4 @@ const EducationComponent = () => {
 	)
 }
 
-export default EducationComponent
+export default EducationSection

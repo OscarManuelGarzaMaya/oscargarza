@@ -1,11 +1,11 @@
 // Styles
 import CardComponent from '../../components/Card/Card.component'
-import './PersonalProjects.component.style.css'
+import './PersonalProjects.section.style.css'
 
 // Assets
 import ezPDFLogo from '../../assets/images/professionalExperiences/ezPdf_logo.png'
 
-const PersonalProjectsComponent = () => {
+const PersonalProjectsSection = () => {
 	return (
 		<section className="personalProjectsContainer">
 			<h1 className="sectionTitle">{'Proyectos personales'}</h1>
@@ -27,4 +27,4 @@ const PersonalProjectsComponent = () => {
 	)
 }
 
-export default PersonalProjectsComponent
+export default PersonalProjectsSection

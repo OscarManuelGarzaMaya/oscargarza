@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
 // Styles
-import './Courses.component.style.css'
+import './Courses.section.style.css'
 
 // Assets
 import n8nLogo from '../../assets/images/courses/n8n_logo.webp'
@@ -18,7 +18,7 @@ import CarouselComponent from '../../components/Carousel/Carousel.component'
 // Libraries
 import { useTranslation } from 'react-i18next'
 
-const CoursesComponent = () => {
+const CoursesSection = () => {
 	const { t } = useTranslation()
 	const courses = [
 		{
@@ -61,4 +61,4 @@ const CoursesComponent = () => {
 	)
 }
 
-export default CoursesComponent
+export default CoursesSection

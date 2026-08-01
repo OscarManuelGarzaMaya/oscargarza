@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
 // Styles
-import './Tools.component.style.css'
+import './Tools.section.style.css'
 
 // Components
 import CarouselComponent from '../../components/Carousel/Carousel.component'

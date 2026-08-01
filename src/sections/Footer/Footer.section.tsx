@@ -1,5 +1,5 @@
 // Styles
-import './Footer.component.style.css'
+import './Footer.section.style.css'
 
 // Assets
 import phoneIcon from '../../assets/images/footer/phoneIcon.svg'
@@ -8,7 +8,7 @@ import emailIcon from '../../assets/images/footer/emailIcon.svg'
 // Libraries
 import { useTranslation } from 'react-i18next'
 
-const FooterComponent = () => {
+const FooterSection = () => {
 	const { t } = useTranslation()
 
 	return (
@@ -39,4 +39,4 @@ const FooterComponent = () => {
 	)
 }
 
-export default FooterComponent
+export default FooterSection

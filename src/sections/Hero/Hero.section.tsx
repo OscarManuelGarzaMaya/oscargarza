@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 // Styles
-import './Hero.component.style.css'
+import './Hero.section.style.css'
 
 // Assets
 import heroImage from '../../assets/images/HeroImage.svg'
@@ -13,7 +13,7 @@ import frenchCV from '/files/CV-Oscar-Manuel-Garza-Maya-Fr.pdf'
 import { useTranslation } from 'react-i18next'
 import i18next from 'i18next'
 
-const HeroComponent = () => {
+const HeroSection = () => {
 	const [isContactDisabled, setIsContactDisabled] = useState(false)
 
 	const onContactMeClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
@@ -90,4 +90,4 @@ const HeroComponent = () => {
 	)
 }
 
-export default HeroComponent
+export default HeroSection
