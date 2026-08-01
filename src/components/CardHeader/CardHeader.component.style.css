@@ -1,0 +1,20 @@
+@import '../../assets/globals.css';
+
+.cardHeaderContainer{
+    align-items: center;
+	display: flex;
+    gap: 1em;
+}
+
+.cardHeaderContainer img {
+	height: auto;
+	max-width: 3rem;
+	max-height: 3rem;
+	border-radius: 10px;
+}
+
+.cardHeader {
+    font-family: Montserrat-Bold;
+	font-size: 1.5rem;
+    text-transform: uppercase;
+}
