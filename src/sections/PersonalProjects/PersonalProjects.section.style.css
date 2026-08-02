@@ -6,4 +6,12 @@
 
 .projectsContainer{
     margin-top: 3vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    gap: 2rem;
+    background-color: red;
+}
+
+.projectsContainer .cardContainer:nth-child(even) .cardHeaderContainer {
+	flex-direction: row-reverse;
 }

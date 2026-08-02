@@ -22,6 +22,42 @@ const PersonalProjectsSection = () => {
 						</li>
 					</ul>
 				</CardComponent>
+				<CardComponent
+					title="EZ-PDF"
+					logo={ezPDFLogo}
+					heading={"test"}
+					date={"test"}
+				>
+					<ul>
+						<li>
+							<p>{}</p>
+						</li>
+					</ul>
+				</CardComponent>
+				<CardComponent
+					title="EZ-PDF"
+					logo={ezPDFLogo}
+					heading={"test"}
+					date={"test"}
+				>
+					<ul>
+						<li>
+							<p>{}</p>
+						</li>
+					</ul>
+				</CardComponent>
+				<CardComponent
+					title="EZ-PDF"
+					logo={ezPDFLogo}
+					heading={"test"}
+					date={"test"}
+				>
+					<ul>
+						<li>
+							<p>{}</p>
+						</li>
+					</ul>
+				</CardComponent>
 			</div>
 		</section>
 	)
