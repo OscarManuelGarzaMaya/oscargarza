@@ -2,8 +2,11 @@
 
 .cardHeaderContainer{
     align-items: center;
-	display: flex;
     gap: 1em;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .cardHeaderContainer img {
@@ -13,8 +16,34 @@
 	border-radius: 10px;
 }
 
+.cardTitleContainer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 .cardHeader {
     font-family: Montserrat-Bold;
 	font-size: 1.5rem;
     text-transform: uppercase;
+}
+
+.cardDataContainer {
+	font-size: 1.3rem;
+}
+
+.cardHeading {
+	font-family: Montserrat-SemiBold;
+	font-size: 1.5rem;
+	margin: 0.5rem 0;
+}
+
+.cardSecondaryHeading {
+	color: #2c569e;
+}
+
+.cardDate {
+	color: rgba(0, 0, 0, 0.6);
+	font-family: Montserrat-Medium;
+	margin: 0;
 }
