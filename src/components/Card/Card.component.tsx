@@ -22,13 +22,9 @@ const CardComponent = ({
 			<CardHeaderComponent
 				title={title}
 				logo={logo}
+				heading={heading}
+				date={date}
 			/>
-			<div className="cardDataContainer">
-				<h3 className={`cardHeading ${logo !== '' ? '' : 'cardSecondaryHeading'}`}>
-					{heading}
-				</h3>
-				<p className="cardDate">{date}</p>
-			</div>
 			<div className={`cardDescription ${children ? '' : 'cardNotDescription'}`}>
 				{children}
 			</div>
