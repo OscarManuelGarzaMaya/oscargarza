@@ -4,14 +4,24 @@
     padding: 2em 3em;
 }
 
-.projectsContainer{
-    margin-top: 3vh;
-    padding-left: 3vh;
-    padding-right: 3vh;
-    gap: 2rem;
-    background-color: red;
+.personalProjectsContainer a {
+    text-decoration: none;
+    color: lightsalmon;
 }
 
-.projectsContainer .cardContainer:nth-child(even) .cardHeaderContainer {
+.personalProjectsContainer a:hover {
+    text-decoration: underline;
+    color: lightsteelblue;
+}
+
+.projectsContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+    gap: 2rem;
+}
+
+.projectsContainer .projectCardContainer:nth-child(even) .cardTitleContainer,
+.projectsContainer .projectCardContainer:nth-child(odd) .projectCardContentContainer {
 	flex-direction: row-reverse;
 }
