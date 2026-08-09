@@ -15,22 +15,24 @@ const PersonalProjectsSection = () => {
 			<h1 className="sectionTitle">{'Proyectos personales'}</h1>
 			<div className="projectsContainer">
 				<ProjectCardComponent
-					qr={qrOscarGarza}
+					// qr={qrOscarGarza}
 					logo={oscargarzaLogo}
 					title={'oscargarza.com'}
 					date={'Enero 2026'}
 				>
 					<div>
 						<p>
-							Este sitio web tiene un objetivo: Que conozcas mi perfil profesional en
-							el rubro de la técnología. La desarrollé teniendo como prioridad los
-							siguientes 3 puntos:
+							Este sitio web tiene un objetivo: <b>Darte a conocer mi perfil profesional
+							en el rubro de la técnología</b>.
 						</p>
-						<ol>
-							<li>Su rápido despliegue.</li>
-							<li>Bajo costo de desarrollo y mantenimiento.</li>
-							<li>Accesibilidad para audiencias de distintos idiomas.</li>
-						</ol>
+						<p>La desarrollé teniendo como prioridad los siguientes 3 puntos:</p>
+						<div className='objectivesListContainer'>
+							<ol className="objectivesList">
+								<li>Rápido despliegue de actualizaciones.</li>
+								<li>Bajo costo de desarrollo y mantenimiento.</li>
+								<li>Accesibilidad para audiencias de distintos idiomas.</li>
+							</ol>
+						</div>
 						<p>
 							Con esto en mente realicé el diseño de la infraestructura con{' '}
 							<a

@@ -1,6 +1,6 @@
 @import '../../assets/globals.css';
 
-.personalProjectsContainer{
+.personalProjectsContainer {
     padding: 2em 3em;
 }
 
@@ -14,7 +14,7 @@
     color: lightsteelblue;
 }
 
-.projectsContainer{
+.projectsContainer {
     display: flex;
     flex-direction: column;
     margin-top: 3vh;
@@ -23,5 +23,14 @@
 
 .projectsContainer .projectCardContainer:nth-child(even) .cardTitleContainer,
 .projectsContainer .projectCardContainer:nth-child(odd) .projectCardContentContainer {
-	flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.objectivesList {
+    background-color: var(--blue);
+    color: #e0e0e0;
+    list-style-position: inside;
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
 }
