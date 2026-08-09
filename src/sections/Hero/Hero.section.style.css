@@ -31,7 +31,7 @@
 }
 
 .subtitle {
-	color: #2c569e;
+	color: var(--blue);
 	font-family: Montserrat-SemiBold;
 	font-size: 1.8rem;
 	line-height: 1;
@@ -64,7 +64,7 @@
 
 .downloadButton {
 	align-items: center;
-	background-color: #2c569e;
+	background-color: var(--blue);
 	border-radius: 12px;
 	border-width: 0;
 	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -86,7 +86,7 @@
 	border-radius: 12px;
 	border-width: 0;
 	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-	color: #2c569e;
+	color: var(--blue);
 	display: flex;
 	flex: 1;
 	justify-content: center;
