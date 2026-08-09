@@ -4,15 +4,16 @@ import { useEffect } from 'react'
 import './App.css'
 import './assets/globals.css'
 
-// Components
-import HeaderComponent from './sections/Header/Header.component'
-import HeroComponent from './sections/Hero/Hero.component'
-import AboutMeComponent from './sections/AboutMe/AboutMe.component'
-import ProfessionalExperienceComponent from './sections/ProfessionalExperience/ProfessionalExperience.component'
-import CoursesComponent from './sections/Courses/Courses.component'
-import EducationComponent from './sections/Education/Education.component'
-import ToolsComponent from './sections/Tools/Tools.component'
-import FooterComponent from './sections/Footer/Footer.component'
+// Sections
+import HeaderSection from './sections/Header/Header.section'
+import HeroSection from './sections/Hero/Hero.section'
+import AboutMeSection from './sections/AboutMe/AboutMe.section'
+import ProfessionalExperienceSection from './sections/ProfessionalExperience/ProfessionalExperience.section'
+import PersonalProjectsSection from './sections/PersonalProjects/PersonalProjects.section'
+import CoursesSection from './sections/Courses/Courses.section'
+import EducationSection from './sections/Education/Education.section'
+import ToolsComponent from './sections/Tools/Tools.section'
+import FooterSection from './sections/Footer/Footer.section'
 
 // Libraries
 import i18next from 'i18next'
@@ -55,12 +56,13 @@ function App() {
 
 	return (
 		<div className="App">
-			<HeaderComponent />
-			<HeroComponent />
-			<AboutMeComponent />
-			<ProfessionalExperienceComponent />
-			<CoursesComponent />
-			<EducationComponent />
+			<HeaderSection />
+			<HeroSection />
+			<AboutMeSection />
+			<ProfessionalExperienceSection />
+			<CoursesSection />
+            <PersonalProjectsSection />
+			<EducationSection />
 			<ToolsComponent />
 			{!isDesktop ? (
 				<div className="desktopProfilesContainer">
@@ -70,7 +72,7 @@ function App() {
 				<></>
 			)}
 
-			<FooterComponent />
+			<FooterSection />
 		</div>
 	)
 }
