@@ -39,7 +39,7 @@
 }
 
 .cardSecondaryHeading {
-	color: #2c569e;
+	color: var(--blue);
 }
 
 .cardDate {

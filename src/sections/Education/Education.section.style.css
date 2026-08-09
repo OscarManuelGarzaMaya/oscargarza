@@ -30,7 +30,7 @@
 }
 
 .careerTitle {
-	color: #2c569e;
+	color: var(--blue);
 	font-family: Montserrat-SemiBold;
 	font-size: 1.5rem;
 	margin: 0;

@@ -90,6 +90,6 @@
 }
 
 .langDivider {
-	border-top: 1px solid #2c569e;
+	border-top: 1px solid var(--blue);
 	opacity: 30%;
 }
