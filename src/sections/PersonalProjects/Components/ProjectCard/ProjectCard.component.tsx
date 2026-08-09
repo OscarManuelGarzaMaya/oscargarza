@@ -14,7 +14,7 @@ const ProjectCardComponent = ({
 }: {
 	title: string
 	logo: string
-	qr: string
+	qr?: string
     date: string
 	children: ReactNode
 }) => {
@@ -26,13 +26,19 @@ const ProjectCardComponent = ({
 				date={date}
 			/>
 			<div className="projectCardContentContainer">
-				<div className='qrContainer'>
-					<h1>{title}</h1>
-					<img
-						src={qr}
-						alt={'Qr-' + title}
-						className="qrImage"
-					/>
+				<div className="qrContainer">
+					{qr ? (
+						<>
+							<h1>{title}</h1>
+							<img
+								src={qr}
+								alt={'Qr-' + title}
+								className="qrImage"
+							/>
+						</>
+					) : (
+						<></>
+					)}
 				</div>
 				{children}
 			</div>
