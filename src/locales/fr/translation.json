@@ -10,10 +10,11 @@
 	},
 	"aboutMe": {
 		"title": "À propos de moi",
-		"description": {
-			"firstParagraph": "Je recherche une opportunité qui me permettra de mettre à profit mes connaissances techniques et mon expérience professionnelle dans un environnement de travail dynamique, tout en continuant à apprendre et à m'améliorer grâce à de nouveaux défis. Je m'efforce d'obtenir des résultats de qualité et de contribuer à des solutions fiables, évolutives et orientées vers l'utilisateur.",
-			"secondParagraph": "Je suis motivé par la croissance, la responsabilité et l'innovation, et j'aime travailler sur des projets qui me permettent de me développer tant sur le plan technique que professionnel. Mon objectif est d'apporter une valeur ajoutée à une équipe collaborative tout en élargissant mes compétences et en relevant de nouveaux défis."
-		}
+		"regionWord": {
+			"MX": "de Guadalajara",
+			"CA": "canadiens"
+		},
+		"description": "J'ai développé des sites web avec <b>React</b> et des applications mobiles avec <b>React Native</b>, visités depuis différents endroits du monde, comme celui que vous visitez en ce moment ou ma propre application <b>Ez-PDF</b>.<br /><br />Avec les 5 années d'expérience que j'ai en tant que Developer, j'ai décidé d'implémenter l'<b>IA</b> dans une application développée avec <b>React Native</b> pour vous faciliter la tâche de résumer des fichiers PDF. <br /> <br/>Je suis à la recherche de mon prochain défi, qui sera à la hauteur des standards {{region}}, en développant les applications avec les bonnes pratiques que tout projet mérite comme <b>clean code, CI/CD ou SOLID</b>."
 	},
 	"professionalExperience": {
 		"title": "Expérience professionnelle",

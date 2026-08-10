@@ -1,19 +1,19 @@
 import { useEffect, useState } from 'react'
 
 const useVisitorRegion = () => {
-    const [region, setRegion] = useState<'tapatía' | 'canadiense'>('tapatía')
+    const [countryCode, setCountryCode] = useState<'MX' | 'CA'>('MX')
 
     useEffect(()=>{
         fetch('https://ipwho.is/')
 									.then((res) => res.json())
 									.then((data) => {
-										if (data?.country_code === 'CA') {
-											setRegion('canadiense')
+										if (data?.country_code != 'MX') {
+											setCountryCode('CA')
 										}
 									})
 									.catch(() => {})
                                 },[])
-    return region
+    return countryCode
 }
 
 export default useVisitorRegion

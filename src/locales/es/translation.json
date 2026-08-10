@@ -10,6 +10,10 @@
 	},
 	"aboutMe": {
 		"title": "Acerca de mí",
+		"regionWord": {
+			"MX": "tapatía",
+			"CA": "canadiense"
+		},
 		"description": "He desarrollado sitios web con <b>React</b> y aplicaciones móviles con <b>React Native</b>, que son visitados en diferentes lugares del mundo, como el que estás visitando en este momento o mi propia app <b>Ez-PDF</b>.<br /><br />Con los 5 años de experiencia que tengo como Developer, decidí implementar <b>IA</b> en una aplicación hecha con <b>React Native</b> para facilitarte la tarea de hacer resúmenes de archivos PDF. <br /> <br/>Estoy en búsqueda de mi próximo reto que será de talla {{region}} desarrollando las aplicaciones con las buenas prácticas que todo proyecto merece como <b>clean code, CI/CD o SOLID</b>."
 	},
 	"professionalExperience": {
@@ -18,11 +22,7 @@
 			"ezpdf": {
 				"position": "Desarrollador fullstack",
 				"date": "April 2026 - Presente",
-				"description": {
-					"firstParagraph": "Desarrollé y publiqué una heramienta para leer archivos PDF para Android con {{techologies}}, con resumen de documentos con IA a través de ",
-					"secondParagraph": ", con resumen de documentos con IA a través de ",
-					"thirdParagraph": " sobre un backend serverless en "
-				}
+				"description": "I have built websites with <b>React</b> and mobile apps with <b>React Native</b>, visited from different places around the world, like the one you're visiting right now or my own app <b>Ez-PDF</b>.<br /><br />With the 5 years of experience I have as a Developer, I decided to implement <b>AI</b> in an application built with <b>React Native</b> to make it easier for you to summarize PDF files. <br /> <br/>I'm looking for my next challenge, one that will be of {{region}} caliber, building applications with the best practices every project deserves, like <b>clean code, CI/CD, or SOLID</b>."
 			},
 			"SOLEMTI": {
 				"position": "Desarrollador web",

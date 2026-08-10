@@ -10,10 +10,11 @@
 	},
 	"aboutMe": {
 		"title": "About Me",
-		"description": {
-			"firstParagraph": "I am seeking an opportunity to apply my technical knowledge and professional experience in a dynamic work environment, while continuously learning and improving through new challenges. I am focused on delivering quality results and contributing to solutions that are reliable, scalable, and user-oriented.",
-			"secondParagraph": "I am motivated by growth, responsibility, and innovation, and I enjoy working on projects that allow me to develop both technically and professionally. My goal is to contribute value to a collaborative team while expanding my skills and taking on new challenges."
-		}
+		"regionWord": {
+			"MX": "Guadalajara",
+			"CA": "Canadian"
+		},
+		"description": "I have built websites with <b>React</b> and mobile apps with <b>React Native</b>, visited from different places around the world, like the one you're visiting right now or my own app <b>Ez-PDF</b>.<br /><br />With the 5 years of experience I have as a Developer, I decided to implement <b>AI</b> in an application built with <b>React Native</b> to make it easier for you to summarize PDF files. <br /> <br/>I'm looking for my next challenge, one that will be of {{region}} caliber, building applications with the best practices every project deserves, like <b>clean code, CI/CD, or SOLID</b>."
 	},
 	"professionalExperience": {
 		"title": "Professional Experience",
