@@ -1,10 +1,10 @@
 import type { ReactNode } from 'react'
 
 // Styles
-import './Card.component.style.css'
-import CardHeaderComponent from '../CardHeader/CardHeader.component'
+import './ExperienceCard.component.style.css'
+import CardHeaderComponent from '../../../../components/CardHeader/CardHeader.component'
 
-const CardComponent = ({
+const ExperienceCardComponent = ({
 	logo = '',
 	title,
 	heading,
@@ -32,4 +32,4 @@ const CardComponent = ({
 	)
 }
 
-export default CardComponent
+export default ExperienceCardComponent
