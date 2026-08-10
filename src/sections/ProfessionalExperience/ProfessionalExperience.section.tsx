@@ -11,10 +11,10 @@ import geotecoLogo from '../../assets/images/professionalExperiences/geoteco_log
 import thirdEnterpriseLogo from '../../assets/images/professionalExperiences/thirdEnterpriseLogo.svg'
 
 // Components
-import CardComponent from '../../components/Card/Card.component'
+import ExperienceCardComponent from './components/ExperienceCardComponent/ExperienceCard.component'
 
 // Librry
-import { useTranslation } from 'react-i18next'
+import { useTranslation, Trans } from 'react-i18next'
 
 const ProfessionalExperienceSection = () => {
 	const { t } = useTranslation()
@@ -23,7 +23,7 @@ const ProfessionalExperienceSection = () => {
 		<section className="proffesionalExperienceContainer">
 			<h1 className="sectionTitle">{t(['professionalExperience.title'])}</h1>
 			<div className="cardsContainer">
-				<CardComponent
+				<ExperienceCardComponent
 					title="EZ-PDF"
 					logo={ezPDFLogo}
 					heading={t(['professionalExperience.jobs.ezpdf.position'])}
@@ -39,104 +39,75 @@ const ProfessionalExperienceSection = () => {
 						{t(['professionalExperience.jobs.ezpdf.description.thirdParagraph'])}
 						<b>Supabase Edge Functions.</b>
 					</p>
-				</CardComponent>
-				<CardComponent
+				</ExperienceCardComponent>
+				<ExperienceCardComponent
 					logo={solemtiLogo}
 					title="SOLEMTI"
 					heading={t(['professionalExperience.jobs.SOLEMTI.position'])}
 					date={t(['professionalExperience.jobs.SOLEMTI.date'])}
 				>
 					<p>
-						{t(['professionalExperience.jobs.SOLEMTI.description.firstParagraph'])}
-						<b>Rect y Stripe.</b>
+						<Trans
+							i18nKey={'professionalExperience.jobs.SOLEMTI.description'}
+							components={{ b: <b /> }}
+						/>
 					</p>
-				</CardComponent>
-				<CardComponent
+				</ExperienceCardComponent>
+				<ExperienceCardComponent
 					logo={reseerLogo}
 					title="RESSER"
 					heading={t(['professionalExperience.jobs.RESSER.position'])}
 					date={t(['professionalExperience.jobs.RESSER.date'])}
 				>
-					<ul>
-						<li>
-							<p>
-								{t(['professionalExperience.jobs.RESSER.description.firstParagraph'])}
-							</p>
-						</li>
-						<li>
-							<p>
-								{t(['professionalExperience.jobs.RESSER.description.secondParagraph'])}
-							</p>
-						</li>
-						<li>
-							<p>
-								{t(['professionalExperience.jobs.RESSER.description.thirdParagraph'])}
-							</p>
-						</li>
-					</ul>
-				</CardComponent>
-				<CardComponent
+					<Trans
+						i18nKey={'professionalExperience.jobs.RESSER.description'}
+						components={{ ul: <ul />, li: <li />, p: <p /> }}
+					/>
+				</ExperienceCardComponent>
+				<ExperienceCardComponent
 					logo={iotacLogo}
 					title={'IOTAC'}
 					heading={t(['professionalExperience.jobs.iotac.position'])}
 					date={t(['professionalExperience.jobs.iotac.date'])}
 				>
-					<ul>
-						<li>
-							<p>
-								{t(['professionalExperience.jobs.iotac.description.firstParagraph'])}
-							</p>
-						</li>
-						<li>
-							<p>
-								{t(['professionalExperience.jobs.iotac.description.secondParagraph'])}
-							</p>
-						</li>
-					</ul>
-				</CardComponent>
-				<CardComponent
+					<Trans
+						i18nKey={'professionalExperience.jobs.iotac.description'}
+						components={{ ul: <ul />, li: <li />, p: <p /> }}
+					/>
+				</ExperienceCardComponent>
+				<ExperienceCardComponent
 					logo={thirdEnterpriseLogo}
 					title={'IO Connect Services'}
 					heading={t(['professionalExperience.jobs.ioConnectServices.position'])}
 					date={t(['professionalExperience.jobs.ioConnectServices.date'])}
 				>
-					<ul>
-						<li>
-							<p>
-								{t([
-									'professionalExperience.jobs.ioConnectServices.description.firstParagraph',
-								])}
-							</p>
-						</li>
-						<li>
-							<p>
-								{t([
-									'professionalExperience.jobs.ioConnectServices.description.secondParagraph',
-								])}
-							</p>
-						</li>
-					</ul>
-				</CardComponent>
-				<CardComponent
+					<Trans
+						i18nKey={'professionalExperience.jobs.ioConnectServices.description'}
+						components={{ ul: <ul />, li: <li />, p: <p />, b: <b /> }}
+					/>
+				</ExperienceCardComponent>
+				<ExperienceCardComponent
 					logo={deloitteLogo}
 					title="DELOITTE"
 					heading={t(['professionalExperience.jobs.deloitte.position'])}
 					date={t(['professionalExperience.jobs.deloitte.date'])}
 				>
-					<p>
-						{t(['professionalExperience.jobs.deloitte.description.firstParagraph'])}
-					</p>
-				</CardComponent>
-				<CardComponent
+                    <Trans
+						i18nKey={'professionalExperience.jobs.deloitte.description'}
+						components={{ p: <p />, b: <b /> }}
+					/>
+				</ExperienceCardComponent>
+				<ExperienceCardComponent
 					logo={geotecoLogo}
 					title="GEOTECO"
 					heading={t(['professionalExperience.jobs.geoteco.position'])}
 					date={t(['professionalExperience.jobs.geoteco.date'])}
 				>
-					<p>
-						{t(['professionalExperience.jobs.geoteco.description.firstParagraph'])}
-					</p>
-				</CardComponent>
+                    <Trans
+						i18nKey={'professionalExperience.jobs.geoteco.description'}
+						components={{ p: <p />, b: <b /> }}
+					/>
+				</ExperienceCardComponent>
 			</div>
 		</section>
 	)

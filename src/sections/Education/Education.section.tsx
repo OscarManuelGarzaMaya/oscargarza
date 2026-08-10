@@ -8,7 +8,7 @@ import { useMediaQuery } from '../../hooks/useMediaQuery'
 import { useTranslation } from 'react-i18next'
 
 // Components
-import CardComponent from '../../components/Card/Card.component'
+import ExperienceCardComponent from '../ProfessionalExperience/components/ExperienceCardComponent/ExperienceCard.component'
 
 const EducationSection = () => {
 	const { t } = useTranslation()
@@ -45,7 +45,7 @@ const EducationSection = () => {
 				</div>
 			) : (
 				<div className="scholarshipContainer">
-					<CardComponent
+					<ExperienceCardComponent
 						title={t(['education.collage.UNE.name'])}
 						heading={t(['education.collage.UNE.bachelorsDegree'])}
 						date={t(['education.collage.UNE.dateAndLocation'])}
@@ -54,8 +54,8 @@ const EducationSection = () => {
 							{t(['education.collage.UNE.extra.firstParagraph'])}
 							<i>{t(['education.collage.UNE.extra.secondParagraph'])}</i>
 						</p>
-					</CardComponent>
-					<CardComponent
+					</ExperienceCardComponent>
+					<ExperienceCardComponent
 						title={t(['education.collage.ICEST.name'])}
 						heading={t(['education.collage.ICEST.bachelorsDegree'])}
 						date={t(['education.collage.ICEST.dateAndLocation'])}
