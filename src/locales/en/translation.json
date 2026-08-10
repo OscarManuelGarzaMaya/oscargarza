@@ -31,50 +31,32 @@
 			"SOLEMTI": {
 				"position": "Web Developer",
 				"date": "April 2025 - December 2025",
-				"description": {
-					"firstParagraph": "Developed custom client-side solutions using ",
-					"secondParagraph": "Implemented mono-repo structures to improve scalability and maintenance."
-				}
+				"description": "I updated the payment module form for a department store with more than <b>11 million cardholders</b> nationwide, using <b>React and Stripe.</b>"
 			},
 			"RESSER": {
 				"position": "Web Developer (Full-Stack)",
 				"date": "August 2023 - August 2023",
-				"description": {
-					"firstParagraph": "Developed internal systems using ",
-					"secondParagraph": " and ",
-					"thirdParagraph": "proposed and implemented Smart Components standards for large-scale projects."
-				}
+				"description": "<ul><li><p>Led the design and development of the Stolen Vehicle Recovery (SVR) module for 20 users who collaborated with authorities in recovering stolen vehicles via GPS location polling every 5 seconds.</p></li><li><p>Was part of the team that rewrote the new version of the internal tool with React for 180 users.</p></li><li><p>Proposed splitting logic, view, and styles using the Barrel Export pattern to reduce merge conflicts in Git.</p></li></ul>"
 			},
 			"iotac": {
 				"position": "Front-end developer",
 				"date": "April 2023 - June 2023",
-				"description": {
-					"firstParagraph": "I developed the mobile application for the company's main product on iOS and Android using "
-				}
+				"description": "<ul><li><p>Led the greenfield development of the company's main service app, showing on-demand information about the user's tank gas level.</p></li><li><p>Mentored another team member on the development and organization of the project with React Native.</p></li></ul>"
 			},
 			"ioConnectServices": {
 				"position": "Web & Mobile App Developer",
 				"date": "Oct 2021 - June 2023",
-				"description": {
-					"firstParagraph": "Maintained and updated enterprise websites using ",
-					"secondParagraph": " and ",
-					"thirdParagraph": "Developed mobile solutions with ",
-					"forthParagraph": " for a banking startup."
-				}
+				"description": "<ul><li><p>Developed the <b>Home Screen</b> for the <b>YoCripto</b> app, displaying balance, cards, and recent transactions.</p></li><li><p>Implemented the account <b>registration flow</b> for new users, integrating <b>drawn digital signature, facial recognition, and official ID scanning</b> (INE / driver's license).</p></li></ul>"
 			},
 			"deloitte": {
 				"position": "Analyst",
 				"date": "March 2021 - October 2021",
-				"description": {
-					"firstParagraph": "I worked as a consultant and analyst closely with the company's clients, primarily using "
-				}
+				"description": "<p>Technical training in development with <b>Salesforce.</b></p>"
 			},
 			"geoteco": {
 				"position": "Software engineer",
 				"date": "Mars 2019 - Décembre 2019",
-				"description": {
-					"firstParagraph": "As an intern, I developed functionalities for the company's administrative platform using "
-				}
+				"description": "<p>Maintenance of the institutional website with <b>PHP</b>, adding basic functionality under team supervision.</p>"
 			}
 		}
 	},
