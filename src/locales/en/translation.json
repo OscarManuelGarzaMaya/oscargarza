@@ -67,6 +67,13 @@
 			"reactNative": { "date": "April 2026" }
 		}
 	},
+	"personalProjects": {
+		"oscargarza": {
+			"title": "Personal projects",
+			"date": "January 2026",
+			"description": "<div><p>This website has one goal: <b>to showcase my professional profile in the tech field</b>.</p><p>I built it with the following 3 priorities in mind:</p><ol><li>Fast deployment of updates.</li><li>Low development and maintenance cost.</li><li>Accessibility for audiences across different languages.</li></ol><p>With this in mind, I designed the infrastructure with <reactLink><b>React ↗</b></reactLink> for development, <pagesLink><b>GitHub Pages ↗</b></pagesLink> for hosting, the <cliLink><b>CLI gh-pages ↗</b></cliLink> for deployment, and <cloudflareLink><b>Cloudflare ↗</b></cloudflareLink> for the custom domain's DNS. Additionally, I integrated the <i18nLink><b>i18next ↗</b></i18nLink> library to achieve translation into English, Spanish, and French.</p></div>"
+		}
+	},
 	"education": {
 		"title": "Education",
 		"collage": {

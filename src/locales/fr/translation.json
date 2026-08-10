@@ -67,6 +67,13 @@
 			"reactNative": { "date": "Avril 2026" }
 		}
 	},
+	"personalProjects": {
+		"oscargarza": {
+			"title": "Projets personnels",
+			"date": "Janvier 2026",
+			"description": "<div><p>Ce site web a un objectif : <b>vous faire connaître mon profil professionnel dans le domaine de la technologie</b>.</p><p>Je l'ai développé en priorisant les 3 points suivants :</p><ol><li>Déploiement rapide des mises à jour.</li><li>Faible coût de développement et de maintenance.</li><li>Accessibilité pour des audiences de différentes langues.</li></ol><p>C'est dans cet esprit que j'ai conçu l'infrastructure avec <reactLink><b>React ↗</b></reactLink> pour le développement, <pagesLink><b>GitHub Pages ↗</b></pagesLink> pour l'hébergement, le <cliLink><b>CLI gh-pages ↗</b></cliLink> pour le déploiement, et <cloudflareLink><b>Cloudflare ↗</b></cloudflareLink> pour le DNS du domaine personnalisé. À cela s'ajoute l'intégration de la librairie <i18nLink><b>i18next ↗</b></i18nLink> pour permettre la traduction en anglais, espagnol et français.</p></div>"
+		}
+	},
 	"education": {
 		"title": "Études",
 		"collage": {
