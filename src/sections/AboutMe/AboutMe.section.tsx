@@ -12,7 +12,8 @@ import { useTranslation, Trans } from 'react-i18next'
 
 const AboutMeSection = () => {
 	const { t } = useTranslation()
-    const region = useVisitorRegion() 
+    const countryCode = useVisitorRegion()
+    const region = t(['aboutMe.regionWord.' + countryCode])
 
 	return (
             <section className="AboutMeContainer">
