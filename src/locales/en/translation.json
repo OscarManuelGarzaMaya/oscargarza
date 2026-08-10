@@ -49,12 +49,12 @@
 				"description": "<ul><li><p>Developed the <b>Home Screen</b> for the <b>YoCripto</b> app, displaying balance, cards, and recent transactions.</p></li><li><p>Implemented the account <b>registration flow</b> for new users, integrating <b>drawn digital signature, facial recognition, and official ID scanning</b> (INE / driver's license).</p></li></ul>"
 			},
 			"deloitte": {
-				"position": "Analyst",
+				"position": "Intern",
 				"date": "March 2021 - October 2021",
 				"description": "<p>Technical training in development with <b>Salesforce.</b></p>"
 			},
 			"geoteco": {
-				"position": "Software engineer",
+				"position": "Intern",
 				"date": "Mars 2019 - Décembre 2019",
 				"description": "<p>Maintenance of the institutional website with <b>PHP</b>, adding basic functionality under team supervision.</p>"
 			}
