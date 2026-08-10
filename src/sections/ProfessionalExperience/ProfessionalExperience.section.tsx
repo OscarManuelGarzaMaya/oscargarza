@@ -48,7 +48,7 @@ const ProfessionalExperienceSection = () => {
 				>
 					<p>
 						{t(['professionalExperience.jobs.SOLEMTI.description.firstParagraph'])}
-						<b>Rect y Stripe .</b> <br />
+						<b>Rect y Stripe.</b>
 					</p>
 				</CardComponent>
 				<CardComponent
