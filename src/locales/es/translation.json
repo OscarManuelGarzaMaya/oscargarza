@@ -13,7 +13,7 @@
 		"description": {
 			"firstParagraph": "He desarrollado sitios web con React y aplicaciones móviles con React Native, que son visitados en diferentes lugares del mundo, como el que estás visitando en este momento o mi propia app Ez-PDF.",
 			"secondParagraph": "Con los 5 años de experiencia que tengo como Developer, decidí implementar IA en una aplicación hecha con React Native para facilitarte la tarea de hacer resúmenes de archivos PDF.",
-            "thirdParagraph":"Estoy en búsqueda de mi próximo reto que será de talla canadiense desarrollando las aplicaciones con las buenas prácticas que todo proyecto merece como clean code, CI/CD o SOLID."
+            "thirdParagraph":"Estoy en búsqueda de mi próximo reto que será de talla {{region}} desarrollando las aplicaciones con las buenas prácticas que todo proyecto merece como clean code, CI/CD o SOLID."
 		}
 	},
 	"professionalExperience": {
