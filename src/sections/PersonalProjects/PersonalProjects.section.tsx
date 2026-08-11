@@ -13,7 +13,7 @@ const PersonalProjectsSection = () => {
 
 	return (
 		<section className="personalProjectsContainer">
-			<h1 className="sectionTitle">{t(['personalProjects.title'])}</h1>
+			<h1 className="sectionTitle">{t(['personalProjects.oscargarza.title'])}</h1>
 			<div className="projectsContainer">
 				<ProjectCardComponent
 					logo={oscargarzaLogo}
