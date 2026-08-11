@@ -5,7 +5,7 @@ import './Education.section.style.css'
 import { useMediaQuery } from '../../hooks/useMediaQuery'
 
 // Libraries
-import { useTranslation } from 'react-i18next'
+import { Trans, useTranslation } from 'react-i18next'
 
 // Components
 import ExperienceCardComponent from '../ProfessionalExperience/components/ExperienceCardComponent/ExperienceCard.component'
@@ -28,8 +28,10 @@ const EducationSection = () => {
 							{t(['education.collage.UNE.dateAndLocation'])}
 						</p>
 						<p className="educationDescription">
-							{t(['education.collage.UNE.extra.firstParagraph'])}
-							<i>{t(['education.collage.UNE.extra.secondParagraph'])}</i>
+							<Trans
+								i18nKey={'education.collage.UNE.extra'}
+								components={{ i: <i /> }}
+							/>
 						</p>
 					</div>
 					<div className="verticalDivider" />
