@@ -77,10 +77,7 @@
 				"name": "Universidad del Noreste",
 				"bachelorsDegree": "Ingeniería en Sistemas Computacionales y Electrónicos",
 				"dateAndLocation": "Tampico, México 2018-2020",
-				"extra": {
-					"firstParagraph": "Representé a la Universidad del Noreste en el ",
-					"secondParagraph": "Concurso Estatal de Creatividad e Innovación en Tecnología, ExpoCiencias Tamaulipas."
-				}
+				"extra": "Representé a la Universidad del Noreste en el <i>Concurso Estatal de Creatividad e Innovación en Tecnología, ExpoCiencias Tamaulipas.</i>"
 			},
 			"ICEST": {
 				"name": "ICEST",

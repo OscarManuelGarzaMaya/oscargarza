@@ -79,17 +79,14 @@
 		"collage": {
 			"UNE": {
 				"name": "Universidad del Noreste",
-				"bachelorsDegree": "Ingénieur en systèmes informatiques et en électronique",
-				"dateAndLocation": "Tampico, México 2018-2020",
-				"extra": {
-					"firstParagraph": "J'ai représenté l'Universidad del Noreste au ",
-					"secondParagraph": "Concours national de créativité et d'innovation technologique, ExpoCiencias Tamaulipas."
-				}
+				"bachelorsDegree": "Ingénierie des systèmes informatiques et électroniques",
+				"dateAndLocation": "Tampico, Mexique 2018-2020",
+				"extra": "J'ai représenté l'Universidad del Noreste au <i>Concours d'État de Créativité et d'Innovation Technologique, ExpoCiencias Tamaulipas.</i>"
 			},
 			"ICEST": {
 				"name": "ICEST",
-				"bachelorsDegree": "lycée",
-				"dateAndLocation": "Tampico, México 2018"
+				"bachelorsDegree": "Baccalauréat",
+				"dateAndLocation": "Tampico, Mexique 2018"
 			}
 		}
 	},
