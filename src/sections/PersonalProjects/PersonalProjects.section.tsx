@@ -5,10 +5,11 @@ import './PersonalProjects.section.style.css'
 import ProjectCardComponent from './Components/ProjectCard/ProjectCard.component'
 
 // Assets
-import oscargarzaLogo from '../../../public/favicon.ico'
 import { Trans, useTranslation } from 'react-i18next'
 
 const PersonalProjectsSection = () => {
+    // This invocation is an extreme exception. Vite (the compiler) asks for this ico to be defined like this since the icon comes from /public folder
+    const oscargarzaLogo = '/favicon.ico'
 	const { t } = useTranslation()
 
 	return (
