@@ -9,13 +9,13 @@ const ProjectCardComponent = ({
 	title,
 	logo,
 	qr = '',
-    date,
+	date,
 	children,
 }: {
 	title: string
 	logo: string
 	qr?: string
-    date: string
+	date: string
 	children: ReactNode
 }) => {
 	return (

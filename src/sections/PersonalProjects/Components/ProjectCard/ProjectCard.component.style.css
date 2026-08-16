@@ -1,26 +1,54 @@
 @import '../../../../assets/globals.css';
 
-.projectCardContainer{
+.projectCardContainer {
     background-color: white;
-	border-radius: 20px;
-	box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.25);
-	padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.25);
+    padding: 2rem;
     font-family: Montserrat-Regular;
-	font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 
-.projectCardContentContainer{
+.projectCardContentContainer {
     display: flex;
     align-items: center;
 }
 
-.qrContainer{
+.qrContainer {
     text-align: center;
 }
 
-.qrImage{
+.qrImage {
     border: 1px dashed black;
     border-radius: 10px;
     padding: 1vh;
     margin-inline: 3vh;
+}
+
+/* Desktop */
+@media (min-width: 1400px) {
+    .projectCardContainer {
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.25);
+        padding: 2rem;
+        font-family: Montserrat-Regular;
+        font-size: 1.2rem;
+    }
+
+    .projectCardContentContainer {
+        display: flex;
+        align-items: center;
+    }
+
+    .qrContainer {
+        text-align: center;
+    }
+
+    .qrImage {
+        border: 1px dashed black;
+        border-radius: 10px;
+        padding: 1vh;
+        margin-inline: 3vh;
+    }
 }
