@@ -53,8 +53,10 @@ const EducationSection = () => {
 						date={t(['education.collage.UNE.dateAndLocation'])}
 					>
 						<p className="educationDescription">
-							{t(['education.collage.UNE.extra.firstParagraph'])}
-							<i>{t(['education.collage.UNE.extra.secondParagraph'])}</i>
+							<Trans
+								i18nKey={'education.collage.UNE.extra'}
+								components={{ i: <i /> }}
+							/>
 						</p>
 					</ExperienceCardComponent>
 					<ExperienceCardComponent
