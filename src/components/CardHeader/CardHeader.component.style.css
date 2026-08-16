@@ -1,6 +1,6 @@
 @import '../../assets/globals.css';
 
-.cardHeaderContainer{
+.cardHeaderContainer {
     align-items: center;
     gap: 1em;
     justify-content: center;
@@ -10,10 +10,10 @@
 }
 
 .cardHeaderContainer img {
-	height: auto;
-	max-width: 3rem;
-	max-height: 3rem;
-	border-radius: 10px;
+    height: auto;
+    max-width: 3rem;
+    max-height: 3rem;
+    border-radius: 10px;
 }
 
 .cardTitleContainer {
@@ -24,26 +24,42 @@
 
 .cardHeader {
     font-family: Montserrat-Bold;
-	font-size: 1.5rem;
+    font-size: 1rem;
     text-transform: uppercase;
 }
 
 .cardDataContainer {
-	font-size: 1.3rem;
+    font-size: 1.3rem;
 }
 
 .cardHeading {
-	font-family: Montserrat-SemiBold;
-	font-size: 1.5rem;
-	margin: 0.5rem 0;
+    font-family: Montserrat-SemiBold;
+    font-size: 1rem;
+    margin: 0.5rem 0;
 }
 
 .cardSecondaryHeading {
-	color: var(--blue);
+    color: var(--blue);
 }
 
 .cardDate {
-	color: rgba(0, 0, 0, 0.6);
-	font-family: Montserrat-Medium;
-	margin: 0;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Montserrat-Medium;
+    margin: 0;
+}
+
+@media (min-width: 800px) {
+    .cardHeader {
+        font-family: Montserrat-Bold;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+    }
+}
+
+@media (min-width: 1400px) {
+    .cardHeader {
+        font-family: Montserrat-Bold;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
 }

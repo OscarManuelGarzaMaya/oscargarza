@@ -11,8 +11,8 @@
 }
 
 .cardContainer:hover {
-    box-shadow: 10px 4px 40px rgba(0, 0, 0, 0.6);
-    scale: 120%;
+    box-shadow: 10px 4px 40px rgba(0, 0, 0, 0.4);
+    scale: 105%;
     transition: 200ms ease-in-out 50ms;
 }
 
@@ -42,6 +42,7 @@
     }
 }
 
+/* Desktop */
 @media (min-width: 1400px) {
     .cardsContainer .cardContainer:nth-child(3n+1):hover {
         translate: 32px 0;
