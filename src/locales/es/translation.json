@@ -35,7 +35,7 @@
 				"description": "<ul><li><p>Llevé el diseño y desarrollo del módulo Stolen Vehicle Recovery (SVR) para 20 usuarios que colaboraban con las autoridades en la recuperación de vehículos robados mediante polling de ubicación GPS cada 5 segundos.</p></li><li><p>Formé parte del equipo que reescribió la nueva versión de la herramienta interna con React para 180 usuarios.</p></li><li><p>Propuse dividir por lógica, vista y estilos con el sistema Barrel Export para reducir los conflictos en el merge de versiones con Git.</p></li></ul>"
 			},
 			"iotac": {
-				"position": "Desarrollador front-end",
+				"position": "Desarrollador móvil",
 				"date": "Abril de 2023 - Junio de 2023",
 				"description": "<ul><li><p>Llevé el desarrollo greenfield de la app del servicio principal de la empresa, mostrando información bajo demanda del nivel de gas del tanque del usuario.</p></li><li><p>Di mentoría a otro miembro del equipo sobre el desarrollo y organización del proyecto con React Native.</p></li></ul>"
 			},
