@@ -1,6 +1,6 @@
 {
 	"hero": {
-		"bachelorsDegree": "Software Engineer",
+		"bachelorsDegree": "Full-Stack developer & Product Engineer",
 		"description": "I build modern, scalable web and mobile applications using Cutting-Edge technologies.",
 		"button": {
 			"download": "Download resume",
@@ -19,15 +19,6 @@
 	"professionalExperience": {
 		"title": "Professional Experience",
 		"jobs": {
-			"ezpdf": {
-				"position": "Fullstack Developer",
-				"date": "April 2026 - Present",
-				"description": {
-					"firstParagraph": "Built and published a PDF reader for Android using ",
-					"secondParagraph": " with AI-powered document summarization via ",
-					"thirdParagraph": " powered by a serverless backend on "
-				}
-			},
 			"SOLEMTI": {
 				"position": "Web Developer",
 				"date": "April 2025 - December 2025",
@@ -35,7 +26,7 @@
 			},
 			"RESSER": {
 				"position": "Web Developer (Full-Stack)",
-				"date": "August 2023 - August 2023",
+				"date": "August 2023 - August 2024",
 				"description": "<ul><li><p>Led the design and development of the Stolen Vehicle Recovery (SVR) module for 20 users who collaborated with authorities in recovering stolen vehicles via GPS location polling every 5 seconds.</p></li><li><p>Was part of the team that rewrote the new version of the internal tool with React for 180 users.</p></li><li><p>Proposed splitting logic, view, and styles using the Barrel Export pattern to reduce merge conflicts in Git.</p></li></ul>"
 			},
 			"iotac": {
