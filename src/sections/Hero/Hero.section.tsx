@@ -14,7 +14,16 @@ import { useTranslation } from 'react-i18next'
 import i18next from 'i18next'
 
 const HeroSection = () => {
-	const [isContactDisabled, setIsContactDisabled] = useState(false)
+    const [isContactDisabled, setIsContactDisabled] = useState(false)
+    const { t } = useTranslation()
+
+	const cvFiles = {
+		en: englishCV,
+		es: spanishCV,
+		fr: frenchCV,
+	}
+	const currentCVFile =
+		cvFiles[i18next.language as keyof typeof cvFiles] ?? englishCV
 
 	const onContactMeClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
 		e.preventDefault()
@@ -31,7 +40,16 @@ const HeroSection = () => {
 		}, 5000)
 	}
 
-	const { t } = useTranslation()
+
+	/**
+     * Will download update the file for the downloaded CV file
+     * @param filePath 
+     * @returns 
+     */
+	const updatedCVFileName = (filePath: string): string => {
+		const fileName = filePath.split('/').pop() ?? ''
+		return fileName.replace(/-(Eng|Esp|Fr)(?=\.pdf$)/, '')
+	}
 
 	return (
 		<section className="heroContainer">
@@ -49,14 +67,8 @@ const HeroSection = () => {
 					</div>
 					<div className="buttonsContainer">
 						<a
-							href={
-								i18next.language === 'en'
-									? englishCV
-									: i18next.language === 'es'
-										? spanishCV
-										: frenchCV
-							}
-							download
+							href={currentCVFile}
+							download={updatedCVFileName(currentCVFile)}
 							className="downloadButton"
 						>
 							<span title="Download resume">{t(['hero.button.download'])}</span>
